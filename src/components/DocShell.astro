@@ -20,17 +20,15 @@ const pdf = u(site.pdf);
       <aside class="toc" aria-label="On this page">
         <p class="lb">On this page</p>
         <ol role="list">{toc.map((t) => <li class:list={{ sub: t.sub }}><a href={`#${t.id}`}>{t.label}</a></li>)}</ol>
-        {pdfPages && <a class="toc-pdf" href={`${pdf}#page=${pdfPages[0]}`}>PDF {pdfPages[0] === pdfPages[1] ? `page ${pdfPages[0]}` : `pages ${pdfPages[0]}–${pdfPages[1]}`}</a>}
       </aside>
     )}
     <article class="doc-body">
       <slot />
-      {toc.length < 2 && pdfPages && <p><a class="link-arrow" href={`${pdf}#page=${pdfPages[0]}`}>PDF {pdfPages[0] === pdfPages[1] ? `page ${pdfPages[0]}` : `pages ${pdfPages[0]}–${pdfPages[1]}`}</a></p>}
     </article>
   </div>
   <nav class="pager" aria-label="Previous and next">
-    <a class="pg-prev" href={u(prevHref)} rel="prev"><span>← {prevKicker}</span><b>{prevLabel}</b></a>
-    {next ? <a class="pg-next" href={u(next.href)} rel="next"><span>{next.kicker} →</span><b>{next.label}</b></a> : <span />}
+    <a class="pg-prev" href={u(prevHref)} rel="prev"><span>← {prevKicker || 'Previous'}</span><b>{prevLabel}</b></a>
+    {next ? <a class="pg-next" href={u(next.href)} rel="next"><span>{next.kicker || 'Next'} →</span><b>{next.label}</b></a> : <span />}
   </nav>
 </div>
 

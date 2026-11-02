@@ -20,7 +20,7 @@
     { "label": "Conclusion", "href": "conclusion/" }
   ],
   "footerNav": [
-    { "label": "00 Introduction", "href": "introduction/" },
+    { "label": "Introduction", "href": "introduction/" },
     { "label": "01 Executive summary", "href": "executive-summary/" },
     { "label": "02 Methodology", "href": "methodology/" },
     { "label": "03 Literature review", "href": "literature-review/" },

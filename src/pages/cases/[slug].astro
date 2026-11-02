@@ -99,7 +99,6 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
         <ol role="list">
           {toc.map((t) => <li class:list={{ sub: t.sub }}><a href={`#${t.id}`}>{t.label}</a></li>)}
         </ol>
-        <a class="toc-pdf" href={pdfAt}>PDF pages {c.pdfPages[0]}–{c.pdfPages[1]}</a>
       </aside>
 
       <article class="doc-body">

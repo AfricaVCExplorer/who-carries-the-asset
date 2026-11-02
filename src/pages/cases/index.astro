@@ -44,7 +44,6 @@ const toc = [...regions.map((r) => ({ id: r.id, label: `${r.number} · ${r.title
             </li>
           ))}
         </ol>
-        <p><a class="link-arrow" href={`${u(site.pdf)}#page=${r.pdfPage}`}>PDF page {r.pdfPage}</a></p>
       </section>
     ))}
     <section aria-labelledby="explore" class="region">

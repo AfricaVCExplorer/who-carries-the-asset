@@ -216,8 +216,29 @@ def convert(slug, boards, pdfp):
     return data
 
 
+# Website-only edits: drop references to PDF page numbers, and present the
+# Introduction without a section number.
+TEXT_EDITS = [
+    (' Steps 2 and 3 follow on pages 48–49.', ''),
+    ('Dot colours follow the route key on page 11.', 'Dot colours follow the route key in Section 02.'),
+    ('(see the key on page 11)', '(see the key in Section 02)'),
+    (' Pattern one is on page 41.', ''),
+    (' (page 45)', ''),
+]
+
+
+def apply_edits(o):
+    if isinstance(o, dict): return {k: apply_edits(v) for k, v in o.items()}
+    if isinstance(o, list): return [apply_edits(v) for v in o]
+    if isinstance(o, str):
+        for a, b in TEXT_EDITS: o = o.replace(a, b)
+    return o
+
+
 for slug, boards, pdfp in SECTIONS:
-    d = convert(slug, boards, pdfp)
+    d = apply_edits(convert(slug, boards, pdfp))
+    if slug == 'introduction':
+        d['number'] = None; d['pill'] = None
     json.dump(d, open(OUT + slug + '.json', 'w'), ensure_ascii=False, indent=2)
     print(slug, d.get('number'), d.get('title'), '|', ' '.join(b['type'] + (str(b.get('number', '')) if b['type'] == 'figure' else '') for b in d['blocks']))
 
