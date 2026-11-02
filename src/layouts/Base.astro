@@ -171,6 +171,19 @@ const pdf = u(site.pdf);
       });
     });
 
+    // Figures drawn at the PDF's width: shrink slightly to fit on laptops; on phones scroll sideways, with a hint
+    const fit = () => document.querySelectorAll<HTMLElement>('.pdf-scroll').forEach((s) => {
+      const inner = s.firstElementChild as HTMLElement | null;
+      const h = s.parentElement?.querySelector<HTMLElement>('.pdf-hint');
+      if (!inner) return;
+      inner.style.zoom = '';
+      const need = inner.scrollWidth, have = s.clientWidth;
+      const r = have / need;
+      if (r < 1 && r >= 0.72) inner.style.zoom = String(Math.floor(r * 1000) / 1000);
+      if (h) h.hidden = !(r < 0.72);
+    });
+    fit(); addEventListener('resize', fit, { passive: true }); addEventListener('load', fit);
+
     // Subtle reveal on scroll (skipped when reduced motion is set)
     const els = document.querySelectorAll('.reveal');
     if (matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {

@@ -507,6 +507,23 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; color: v
 .lessons .n { width: 26px; height: 26px; border-radius: 50%; background: var(--ink); color: var(--paper); font: 700 .8125rem/26px var(--sans); text-align: center; margin-top: 2px; }
 .lessons li p { margin: 0; font-size: 1.0625rem; }
 
+/* PDF figures, dimension tables, callouts */
+.pdf-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; background: var(--paper); }
+.pdf-scroll:focus-visible { outline: 3px solid var(--violet); outline-offset: 3px; }
+.pdf-inner { position: relative; width: 682px; margin: 0 auto; font: 400 16px/normal var(--serif); color: var(--ink); text-align: left; }
+.pdf-inner p { margin: 0; }
+.pdf-inner .lb, .pdf-inner .ft { margin: 0; letter-spacing: normal; text-transform: none; color: inherit; font: inherit; } /* page rules in pdf-figs.css restore the PDF look */
+.pdf-hint { margin: 6px 0 0; font: 600 .75rem/1.3 var(--sans); color: var(--muted); }
+.dims { border-top: 2px solid var(--ink); margin: 8px 0 24px; }
+.dim { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 20px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.dim h3 { margin: 0; font-size: 1rem; line-height: 1.35; scroll-margin-top: calc(var(--header-h) + 20px); }
+.dim p { margin: 0; }
+@media (max-width: 560px) { .dim { grid-template-columns: 1fr; gap: 6px; } }
+.lead-p strong { font-family: var(--sans); font-weight: 800; scroll-margin-top: calc(var(--header-h) + 20px); }
+.callout { margin: 24px 0; padding: 14px 18px; border: 1.5px dashed #B23A2C; border-radius: var(--radius); background: #FEF0EE; color: #5A1A12; }
+.callout .lb { color: #8E2C20; margin-bottom: 6px; }
+.callout p { margin: 0; font: 500 .9375rem/1.5 var(--sans); }
+
 /* Previous / next */
 .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 0 0 clamp(48px, 6vw, 80px); }
 .pager a { display: block; padding: 20px 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); text-decoration: none; color: var(--ink); transition: border-color .15s, transform .15s; }
@@ -569,7 +586,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; color: v
   .finding p, .rq .subq, .sec-head .intro, .ack, .caveat {
     text-align: justify; text-justify: inter-word; hyphens: manual; -webkit-hyphens: manual;
   }
-  .pq p, .doc-body .pq p { text-align: left; }
+  .pq p, .doc-body .pq p, .doc-body .pq blockquote p { text-align: left !important; }
 }
 
 /* 8. Motion ---------------------------------------------------------------- */
