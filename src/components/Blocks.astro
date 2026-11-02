@@ -17,7 +17,7 @@ const { blocks } = Astro.props;
           <li style={it.accent ? `--acc:${it.accent}` : undefined} class:list={{ 'has-acc': it.accent }}>
             <span class="n" aria-hidden="true">{it.n}</span>
             <div>
-              {it.title && <h3 set:html={it.titleOut} />}
+              {it.title && (b.hTag === 'h2' ? <h2 class="item-h" set:html={it.titleOut} /> : <h3 set:html={it.titleOut} />)}
               <p set:html={it.out} />
             </div>
           </li>

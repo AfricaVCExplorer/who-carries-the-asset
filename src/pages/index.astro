@@ -122,14 +122,24 @@ const pdf = u(site.pdf);
   <section class="section on-dark" aria-labelledby="fw-title">
     <div class="wrap">
       <div class="sec-head reveal">
-        <span class="lb"><span class="num" style="color:#fff">07</span>The framework</span>
-        <h2 id="fw-title">Six questions before choosing capital<a class="anchor" href="#fw-title" aria-label="Link to this section">#</a></h2>
+        <span class="lb"><span class="num" style="color:#fff">07</span>The African Founder Capital-Strategy Framework</span>
+        <h2 id="fw-title">Step 1: Ask six diagnostic questions<a class="anchor" href="#fw-title" aria-label="Link to this section">#</a></h2>
         <p class="intro" set:html={fwLead} />
       </div>
       <ol class="fw-qs reveal" role="list">
         {home.framework.questions.map((q) => <li>{q}</li>)}
       </ol>
       <a class="btn btn-white" href={u('framework/')}>Work through the framework</a>
+    </div>
+  </section>
+
+  <!-- Closing statement (back cover) -->
+  <section class="section closing" aria-label="Closing statement">
+    <div class="wrap">
+      <figure class="pq reveal closing-q">
+        <blockquote><p>{home.closing}</p></blockquote>
+        <footer>From the report’s back cover</footer>
+      </figure>
     </div>
   </section>
 

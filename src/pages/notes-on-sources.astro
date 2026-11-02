@@ -20,7 +20,7 @@ const items = n.items.map((it) => ({ ...it, out: g.html(it.text) }));
   <DocShell toc={[]} pdfPages={[53, 53]} here="notes-on-sources/">
     <ol class="sec-items notes" role="list">
       {items.map((it, i) => (
-        <li><span class="n" aria-hidden="true">{i + 1}</span><div><h2 class="note-h">{it.lead.replace(/\.$/, '')}</h2><p set:html={it.out} /></div></li>
+        <li><span class="n" aria-hidden="true">{i + 1}</span><div><h2 class="note-h">{it.lead}</h2><p set:html={it.out} /></div></li>
       ))}
     </ol>
     <div class="note-side">

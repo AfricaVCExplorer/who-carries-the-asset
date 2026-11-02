@@ -1,6 +1,9 @@
 // Prepare converted blocks for rendering: glossary tooltips in reading order.
 export function prepare(blocks, g) {
+  let headingSeen = false;
   return blocks.map((b) => {
+    if (b.type === 'h') headingSeen = true;
+    if (b.type === 'items' && !headingSeen) b = { ...b, hTag: 'h2' };
     if (b.type === 'p') return { ...b, out: b.html ?? g.html(b.text) };
     if (b.type === 'list') return { ...b, out: b.items.map((t) => g.html(t)) };
     if (b.type === 'items') return {

@@ -1,14 +1,62 @@
 [
-  { "href": "introduction/", "kicker": "Section 00", "label": "Introduction" },
-  { "href": "executive-summary/", "kicker": "Section 01", "label": "Executive summary" },
-  { "href": "methodology/", "kicker": "Section 02", "label": "Methodology" },
-  { "href": "literature-review/", "kicker": "Section 03", "label": "Literature review" },
-  { "href": "cases/", "kicker": "Sections 04–05", "label": "Case studies" },
-  { "href": "synthesis/", "kicker": "Section 06", "label": "Cross-case synthesis" },
-  { "href": "framework/", "kicker": "Section 07", "label": "The African Founder Framework" },
-  { "href": "implications/", "kicker": "Section 08", "label": "Implications for investors" },
-  { "href": "conclusion/", "kicker": "Section 09", "label": "Conclusion" },
-  { "href": "notes-on-sources/", "kicker": "Back matter", "label": "Notes on sources" },
-  { "href": "references/", "kicker": "Back matter", "label": "References" },
-  { "href": "glossary/", "kicker": "Back matter", "label": "Glossary" }
+  {
+    "href": "introduction/",
+    "kicker": "Section 00",
+    "label": "Introduction"
+  },
+  {
+    "href": "executive-summary/",
+    "kicker": "Section 01",
+    "label": "Executive summary"
+  },
+  {
+    "href": "methodology/",
+    "kicker": "Section 02",
+    "label": "Methodology"
+  },
+  {
+    "href": "literature-review/",
+    "kicker": "Section 03",
+    "label": "Literature review"
+  },
+  {
+    "href": "cases/",
+    "kicker": "Sections 04–05",
+    "label": "Case studies"
+  },
+  {
+    "href": "synthesis/",
+    "kicker": "Section 06",
+    "label": "Cross-case synthesis"
+  },
+  {
+    "href": "framework/",
+    "kicker": "Section 07",
+    "label": "The African Founder Capital-Strategy Framework"
+  },
+  {
+    "href": "implications/",
+    "kicker": "Section 08",
+    "label": "Implications for investors"
+  },
+  {
+    "href": "conclusion/",
+    "kicker": "Section 09",
+    "label": "Conclusion"
+  },
+  {
+    "href": "notes-on-sources/",
+    "kicker": "Back matter",
+    "label": "Notes on sources"
+  },
+  {
+    "href": "references/",
+    "kicker": "Back matter",
+    "label": "References"
+  },
+  {
+    "href": "glossary/",
+    "kicker": "Back matter",
+    "label": "Glossary"
+  }
 ]

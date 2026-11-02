@@ -60,10 +60,10 @@ const pdfAt = `${u(site.pdf)}#page=33`;
 
         <div class="mq">
           {quotes.map((q) => (
-            <aside class:list={['mq-box', { fw: q.framework }]}>
+            <div role="note" class:list={['mq-box', { fw: q.framework }]}>
               <span class="lb">{q.label}</span>
               <p set:html={q.html} />
-            </aside>
+            </div>
           ))}
         </div>
         <p><a class="link-arrow" href={pdfAt}>PDF page 33</a></p>

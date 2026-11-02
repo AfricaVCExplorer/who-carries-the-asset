@@ -210,6 +210,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; color: v
 /* Pull quote: big coral quote mark, ink rules */
 .pq { position: relative; margin: 0; padding: 18px 0 20px 76px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
 .pq::before { content: '“'; position: absolute; left: 0; top: 6px; font: 800 104px/1 var(--sans); color: var(--coral); }
+.closing-q { max-width: 900px; margin: 0 auto; }
 .pq p { margin: 0; font: italic 400 clamp(1.3rem, 1.1rem + .9vw, 1.7rem)/1.38 var(--serif); }
 .pq footer { margin-top: 10px; font: 600 .8125rem/1.4 var(--sans); color: var(--muted); }
 
@@ -558,7 +559,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; color: v
 .sec-items li { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 16px; padding: 18px 0; border-bottom: 1px solid var(--line); }
 .sec-items li.has-acc { border-left: 5px solid var(--acc); padding-left: 16px; }
 .sec-items .n { font: 800 3rem/.85 var(--sans); color: transparent; -webkit-text-stroke: 1.6px var(--violet); }
-.sec-items h3 { margin: 2px 0 8px; font-size: 1.1875rem; }
+.sec-items h3, .sec-items .item-h { margin: 2px 0 8px; font-size: 1.1875rem; }
 .sec-items p { margin: 0; }
 .sec-items-wrap .cap { margin-top: 10px; }
 .pdf-flow { margin: 24px 0; font: 400 16px/1.5 var(--serif); overflow-x: auto; }

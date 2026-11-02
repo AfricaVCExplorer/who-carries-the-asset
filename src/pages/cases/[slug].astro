@@ -148,7 +148,7 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
                 {b.items.map((it: any) => <div class="dim"><h3 id={it.id}>{it.title}</h3><p set:html={it.html} /></div>)}
               </div>
             );
-            if (b.type === 'callout') return <aside class="callout"><span class="lb">{b.label}</span><p set:html={b.html} /></aside>;
+            if (b.type === 'callout') return <div class="callout" role="note"><span class="lb">{b.label}</span><p set:html={b.html} /></div>;
             if (b.type === 'raw') return <RawFigure number={b.number} title={b.title} html={b.html} board={b.board} captionHtml={b.captionHtml} alt={b.alt} />;
             if (b.type === 'bars') return <BarsFigure id={`fig${b.number}`} number={b.number} title={b.title} max={b.max} bars={b.bars} note={b.note} captionHtml={b.captionHtml} />;
             if (b.type === 'cards') return <CardsFigure id={`fig${b.number}`} number={b.number} title={b.title} items={b.items} captionHtml={b.captionHtml} />;

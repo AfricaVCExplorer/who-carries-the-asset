@@ -119,7 +119,8 @@ def opener(bd, board):
     h1 = first.find('h1') if first else None
     if not h1:
         return None, None
-    for s in h1.find_all('span'): s.extract()
+    for s in h1.find_all('span'):
+        if not s.get_text(strip=True): s.extract()  # the decorative bar, not text
     pill = first.find('span')
     big = [d for d in first.find_all('div') if re.fullmatch(r'\d\d', txt(d))]
     art = first.find('svg')
