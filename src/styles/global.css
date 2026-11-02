@@ -573,6 +573,16 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; color: v
 .plain-hero h1 { margin: 0; font-size: clamp(2.5rem, 1.8rem + 3vw, 4rem); letter-spacing: -.03em; }
 .plain-hero .intro { max-width: 64ch; margin: 16px 0 0; font: 500 1rem/1.55 var(--sans); color: var(--ink-soft); }
 
+/* Justified narrative text (as in the PDF). Long words never break at the line end. */
+@media (min-width: 600px) {
+  .doc-body p:not(.lb):not(.cap):not(.pdf-hint):not(.fig-note):not(.st-of),
+  .doc-body li p, .doc-body .tl-b, .doc-body dd,
+  .finding p, .rq .subq, .sec-head .intro, .ack, .caveat {
+    text-align: justify; text-justify: inter-word; hyphens: manual; -webkit-hyphens: manual;
+  }
+  .pq p, .doc-body .pq p { text-align: left; }
+}
+
 /* 8. Motion ---------------------------------------------------------------- */
 .js .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
 .js .reveal.in { opacity: 1; transform: none; }
