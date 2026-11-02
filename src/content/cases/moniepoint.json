@@ -1,0 +1,165 @@
+{
+  "slug": "moniepoint",
+  "order": 5,
+  "number": "5",
+  "section": "05",
+  "sectionTitle": "Case studies: West Africa",
+  "pdfPages": [
+    28,
+    29
+  ],
+  "blocks": [
+    {
+      "type": "dims",
+      "items": [
+        {
+          "id": "funding-timing",
+          "title": "Funding timing",
+          "text": "Moniepoint was revenue-funded for about four years before its 2019 Series A, and raised its largest rounds (2022 and 2024–2025) after reporting rapid growth and, by 2024, profitability. Whether the four-year gap reflects a deliberate refusal of earlier capital or limited investor interest in an enterprise-software business is not documented."
+        },
+        {
+          "id": "instrument-choice",
+          "title": "Instrument choice",
+          "text": "Revenue, then equity across four rounds. The sources reviewed document no debt facilities, and how POS terminal distribution is financed is not disclosed. As a licensed microfinance bank, Moniepoint can fund merchant lending and float from customer deposits, a source unavailable to the non-bank cases in this study; its deposit and loan-book figures are not public."
+        },
+        {
+          "id": "investor-selection",
+          "title": "Investor selection",
+          "text": "The investor base moved from Nigerian and Africa-focused growth investors (Quantum, Novastar) to a global fintech specialist (QED), Africa-focused private equity and DFIs (DPI, BII, IFC, Proparco, Swedfund) and strategic investors (Google, Visa). DFIs and Visa joined at scale rather than early, which is consistent with Moniepoint choosing, or attracting, capital that adds regulatory credibility and payment-network relationships as it becomes a bank."
+        },
+        {
+          "id": "dilution-management",
+          "title": "Dilution management",
+          "text": "Founder ownership is not public. Revenue funding until 2019 and later rounds raised from a position of growth are consistent with lower dilution than a company that raised early, but this is an inference, not a measured outcome."
+        },
+        {
+          "id": "follow-on-funding-and-debt-equity-decisions",
+          "title": "Follow-on funding and debt/equity decisions",
+          "text": "Round sizes have grown from $5.5M in 2019 to a $200M Series C, with returning investors (Lightrock, Novastar, BII, Verod, Google) in later rounds, a strong follow-on signal. Moniepoint is the clearest example in the set of a third route between equity and wholesale debt: a banking licence, which turns customer deposits into a funding source but brings capital requirements and regulatory supervision."
+        },
+        {
+          "id": "decline-or-delay",
+          "title": "Decline or delay",
+          "text": "No declined offers are documented; the four-year revenue-funded period is the only evidence of delay."
+        }
+      ]
+    },
+    {
+      "type": "raw",
+      "number": 19,
+      "title": "Round sizes (US$M, to scale): the Series C reached $200M with its 2025 extension",
+      "html": "<svg aria-label=\"Round sizes: $5.5M Series A in 2019; about $50M in August 2022; $110M Series C in October 2024; plus $90M in 2025, taking the Series C to $200M.\" height=\"108\" role=\"img\" viewbox=\"0 0 682 150\" width=\"682\">\n<defs><pattern height=\"6\" id=\"P24-f24v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#ECE6FD\" height=\"6\" width=\"6\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.6\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern><pattern height=\"6\" id=\"P24-f24w\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.6\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M10 128 L560 128\" stroke=\"#16132B\" stroke-width=\"2\"></path>\n<rect fill=\"#E2D8FF\" height=\"3\" stroke=\"#16132B\" stroke-width=\"1.4\" width=\"60\" x=\"40\" y=\"125\"></rect>\n<rect fill=\"#E2D8FF\" height=\"28\" stroke=\"#16132B\" stroke-width=\"1.6\" width=\"60\" x=\"170\" y=\"100\"></rect>\n<rect fill=\"#E2D8FF\" height=\"62\" stroke=\"#16132B\" stroke-width=\"1.6\" width=\"60\" x=\"300\" y=\"66\"></rect>\n<rect fill=\"#E2D8FF\" height=\"62\" stroke=\"#16132B\" stroke-width=\"1.6\" width=\"60\" x=\"430\" y=\"66\"></rect>\n<rect fill=\"#E2D8FF\" height=\"50\" stroke=\"#16132B\" stroke-dasharray=\"5 3\" stroke-width=\"1.6\" width=\"60\" x=\"430\" y=\"16\"></rect>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" text-anchor=\"middle\">\n<text font-size=\"12\" font-weight=\"800\" x=\"70\" y=\"116\">$5.5M</text>\n<text font-size=\"12\" font-weight=\"800\" x=\"200\" y=\"92\">~$50M</text>\n<text font-size=\"12\" font-weight=\"800\" x=\"330\" y=\"58\">$110M</text>\n<text font-size=\"11\" font-weight=\"700\" x=\"460\" y=\"102\">$110M</text>\n<text font-size=\"11\" font-weight=\"700\" x=\"460\" y=\"46\">+$90M</text>\n<text font-size=\"12\" font-weight=\"800\" x=\"460\" y=\"10\">$200M</text>\n<text font-size=\"10\" font-weight=\"600\" x=\"70\" y=\"144\">2019 · Series A</text>\n<text font-size=\"10\" font-weight=\"600\" x=\"200\" y=\"144\">Aug 2022</text>\n<text font-size=\"10\" font-weight=\"600\" x=\"330\" y=\"144\">Oct 2024 · Series C</text>\n<text font-size=\"10\" font-weight=\"600\" x=\"460\" y=\"144\">2025 · extended</text>\n</g>\n<text fill=\"#5B21E6\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"13.6\" font-style=\"italic\" font-weight=\"600\" x=\"520\" y=\"60\">total equity</text>\n<text fill=\"#5B21E6\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"13.6\" font-style=\"italic\" font-weight=\"600\" x=\"520\" y=\"78\">above $280M</text>\n</svg>",
+      "board": "P24",
+      "caption": "Bars to one scale. Sources: FT Partners (Aug 2022); Pulse 2.0 (Oct 2024); Condia (Oct 2025).",
+      "alt": "Round sizes: $5.5M Series A in 2019; about $50M in August 2022; $110M Series C in October 2024; plus $90M in 2025, taking the Series C to $200M."
+    }
+  ],
+  "why": [
+    "Tosin Eniolorunda and Felix Ike built Moniepoint over a decade: first as TeamApt, a software provider to Nigerian banks funded from revenue (renamed Moniepoint in January 2023; TechCabal, January 2023); then as an agency banking and business payments network; and later as a licensed microfinance bank serving businesses and individuals. The company took no recorded institutional equity until 2019, four years after founding, and reached a valuation above $1B in 2024 while described as operating profitably. It meets the success criteria on scale, repeated follow-on funding and early international expansion: a UK remittance app launched in 2025 and a 78% stake in a Kenyan microfinance bank, announced in April 2026 (FinTech Futures, April 2026)."
+  ],
+  "lessons": [
+    "Revenue funding before venture capital can limit dilution and enforce unit-economic discipline, where the founders start with a revenue-generating product.",
+    "Float and lending need a funding source matched to them: deposits for a licensed bank, debt for a non-bank lender. Equity is best reserved for technology and expansion.",
+    "DFI and growth private equity partners can add regulatory credibility as a fintech becomes a regulated bank, though their governance and reporting requirements add cost."
+  ],
+  "name": "Moniepoint",
+  "pill": "Case 5 · Nigeria",
+  "country": "Nigeria",
+  "founders": "Tosin Eniolorunda & Felix Ike · founded June 2015, Lagos, as TeamApt",
+  "heroStats": [
+    {
+      "value": ">$280M",
+      "label": "disclosed equity",
+      "source": "FT Partners, Aug 2022; Pulse 2.0, Oct 2024; Condia, Oct 2025"
+    },
+    {
+      "value": "$1B+",
+      "label": "valuation since Oct 2024",
+      "source": "Pulse 2.0, October 2024"
+    },
+    {
+      "value": "~10M",
+      "label": "active customers",
+      "source": ""
+    },
+    {
+      "value": ">$250B",
+      "label": "payments a year",
+      "source": ""
+    }
+  ],
+  "art": "<svg aria-hidden=\"true\" class=\"case-art\" focusable=\"false\" viewbox=\"0 0 220 220\">\n<defs><pattern height=\"6\" id=\"P23art-c5v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M50 40 L150 34 L160 196 L58 202 Z\" fill=\"#FFFFFF\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n<rect fill=\"#E2D8FF\" height=\"44\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.6\" width=\"74\" x=\"68\" y=\"54\"></rect>\n<g fill=\"#FAF7F0\" stroke=\"#16132B\" stroke-width=\"1.5\"><rect height=\"14\" rx=\"2\" width=\"18\" x=\"70\" y=\"114\"></rect><rect height=\"14\" rx=\"2\" width=\"18\" x=\"96\" y=\"113\"></rect><rect height=\"14\" rx=\"2\" width=\"18\" x=\"122\" y=\"112\"></rect><rect height=\"14\" rx=\"2\" width=\"18\" x=\"71\" y=\"136\"></rect><rect height=\"14\" rx=\"2\" width=\"18\" x=\"97\" y=\"135\"></rect><rect height=\"14\" rx=\"2\" width=\"18\" x=\"123\" y=\"134\"></rect><rect height=\"14\" rx=\"2\" width=\"18\" x=\"72\" y=\"158\"></rect><rect height=\"14\" rx=\"2\" width=\"18\" x=\"98\" y=\"157\"></rect><rect fill=\"#F2766B\" height=\"14\" rx=\"2\" width=\"18\" x=\"124\" y=\"156\"></rect></g>\n<path d=\"M90 34 L92 10 L132 8 L134 32\" fill=\"#FFFFFF\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M100 18 L124 17\" stroke=\"#16132B\" stroke-width=\"1.2\"></path>\n</svg>",
+  "statusIcon": "<svg aria-hidden=\"true\" height=\"12\" style=\"vertical-align:-1px;margin-right:4px\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#0E8577\" r=\"5.5\"></circle><path d=\"M3.2 6.2 L5.2 8 L8.8 4.2\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"1.6\"></path></svg>",
+  "facts": {
+    "business": "Business payments, agency banking and banking services through a licensed microfinance bank",
+    "investors": "Quantum; Novastar, Lightrock, BII; QED; DPI, Google, Verod; Visa, LeapFrog, IFC, Proparco, Swedfund",
+    "route": "deposits",
+    "routeText": "Deposits under a banking licence; equity for the platform",
+    "status": "Described as operating profitably (Pulse 2.0, Oct 2024)"
+  },
+  "whyTitle": "Why this founder",
+  "journey": {
+    "title": "Funding journey",
+    "entries": [
+      {
+        "date": "2015–2018",
+        "instruments": [
+          "Revenue"
+        ],
+        "cls": [
+          "rv"
+        ],
+        "text": "Revenue-funded, building banking software and integrations for Nigerian banks. No institutional equity is recorded before 2019."
+      },
+      {
+        "date": "2019",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "$5.5M Series A led by Quantum Capital Partners (TechCrunch, February 2019), ahead of the expansion into merchant and agency payments.",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "2021–2022",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Investment from Novastar Ventures, Lightrock and British International Investment (BII), followed in August 2022 by a round of about $50M led by QED Investors, with those investors participating (FT Partners, August 2022).",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "October 2024",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "$110M Series C led by Development Partners International’s African Development Partners III fund, with Google’s Africa Investment Fund and Verod Capital joining and Lightrock returning; Moniepoint is valued above $1B (Pulse 2.0, October 2024).",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "2025",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Series C extended by $90M to $200M, again led by DPI, with Visa, LeapFrog, IFC, Proparco, Swedfund and Alder Tree joining. Launches MonieWorld, a UK remittance app (Condia, October 2025). A 78% stake in Kenya’s Sumac Microfinance Bank follows, announced in April 2026 (FinTech Futures, April 2026).",
+        "key": "#5B21E6"
+      }
+    ],
+    "figure": {
+      "number": 18,
+      "caption": "Moniepoint’s funding journey: revenue, then equity across four rounds. Sources: TechCrunch (Feb 2019); FT Partners (Aug 2022); Pulse 2.0 (Oct 2024); Condia (Oct 2025); FinTech Futures (Apr 2026)."
+    }
+  },
+  "analysisLabel": "Analysis across framework dimensions"
+}

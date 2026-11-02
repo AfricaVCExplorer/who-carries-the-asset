@@ -1,0 +1,16 @@
+---
+// A figure carried over from the PDF as its original markup, drawn at the PDF's
+// 682px column width. On narrow screens the drawing scrolls sideways rather than
+// shrinking below a readable size.
+interface Props { number: number; title?: string | null; html: string; board: string; captionHtml: string; alt?: string | null }
+const { number, title, html, board, captionHtml, alt } = Astro.props;
+const id = `fig${number}`;
+---
+<figure class="figure pdf-fig reveal" aria-labelledby={title ? `${id}-t` : `${id}-c`}>
+  {title && <p class="ft" id={`${id}-t`}>{title}</p>}
+  <div class="pdf-scroll" role="region" tabindex="0" aria-label={`Figure ${number}${alt ? '' : ' (scrolls sideways on small screens)'}`}>
+    <div class:list={['pdf-inner', `pf-${board}`]} set:html={html} />
+  </div>
+  <p class="pdf-hint" aria-hidden="true">Scroll sideways to see the full figure</p>
+  <figcaption class="cap" id={`${id}-c`}><b>Figure {number}</b><span set:html={captionHtml} /></figcaption>
+</figure>

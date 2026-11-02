@@ -1,0 +1,170 @@
+{
+  "slug": "feegor",
+  "order": 7,
+  "number": "7",
+  "section": "05",
+  "sectionTitle": "Case studies: West Africa",
+  "pdfPages": [
+    34,
+    36
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "lead": "Logistics model and capital need.",
+      "id": "logistics-model-and-capital-need",
+      "text": "Feegor does not buy, store or sell goods. Sellers handle delivery through third-party logistics (3PL) partners, who join the platform as a third user group receiving bulk delivery requests and performance data. Sellers are paid only once goods arrive in good condition, and bear the cost of returns. Ginigeme argues that fulfilment, usually e-commerce’s largest cost, is near-negligible for Feegor, and that holding no inventory shields it from inflation. The capital consequence is direct: asset-heavy B2B players funded warehouses, trucks and stock with venture equity, and when funding tightened in 2023, Alerzo shut 14 warehouses and cut 400 staff (Nairametrics, March 2023; Rest of World, May 2023). Feegor’s capital need stops at the platform, so friends-and-family money and a ₦50M prize could carry it to market, at the cost of less control over delivery quality, which it manages through escrow and partner data."
+    },
+    {
+      "type": "raw",
+      "number": 25,
+      "title": "A three-sided marketplace that owns no stock, trucks or loan book",
+      "html": "<div style=\"position:relative;width:682px;height:360px\">\n<svg aria-hidden=\"true\" height=\"360\" style=\"position:absolute;left:0;top:0\" viewbox=\"0 0 682 360\" width=\"682\">\n<defs>\n<marker id=\"P30-f30a\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.5\"></path></marker>\n<marker id=\"P30-f30t\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#0E8577\" stroke-width=\"1.6\"></path></marker>\n<pattern height=\"7\" id=\"P30-f30v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#ECE6FD\" height=\"7\" width=\"7\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n</defs>\n<rect fill=\"#E2D8FF\" height=\"104\" rx=\"5\" stroke=\"#16132B\" stroke-width=\"2\" width=\"220\" x=\"231\" y=\"120\"></rect>\n<path d=\"M190 70 C 230 80, 250 100, 262 118\" fill=\"none\" marker-end=\"url(#P30-f30a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M420 118 C 432 100, 452 80, 490 70\" fill=\"none\" marker-end=\"url(#P30-f30a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M341 224 L 341 262\" fill=\"none\" marker-end=\"url(#P30-f30t)\" stroke=\"#0E8577\" stroke-dasharray=\"5 4\" stroke-width=\"1.8\"></path>\n<path d=\"M190 40 C 300 0, 380 0, 490 40\" fill=\"none\" marker-end=\"url(#P30-f30t)\" stroke=\"#0E8577\" stroke-dasharray=\"5 4\" stroke-width=\"1.8\"></path>\n<path d=\"M490 300 C 470 300, 450 280, 446 230\" fill=\"none\" marker-end=\"url(#P30-f30t)\" stroke=\"#0E8577\" stroke-dasharray=\"5 4\" stroke-width=\"1.8\"></path>\n</svg>\n<div class=\"bx\" style=\"left:0;top:22px;width:190px;height:100px\"><b>Sellers</b>manufacturers and major suppliers; handle delivery through 3PL partners and bear the cost of returns</div>\n<div class=\"bx\" style=\"left:490px;top:28px;width:192px;height:86px\"><b>Buyers</b>retail SMEs sourcing wholesale; 1,000+ transacting within three months of launch</div>\n<div class=\"bx\" style=\"left:247px;top:134px;width:188px;height:76px;text-align:center;padding-top:14px\"><b>Feegor platform</b>sourcing tools, SaaS, escrow</div>\n<div class=\"bx\" style=\"left:216px;top:266px;width:250px;height:86px;background:#DDF1EE;border-color:#0E8577\"><b>3PL partners</b>join as a third user group, receiving bulk delivery requests and performance data</div>\n<div class=\"bx\" style=\"left:490px;top:252px;width:192px;height:100px;background:#DDF1EE;border-color:#0E8577\"><b>Fintech partners</b>provide BNPL and hold the receivables and default risk, off Feegor’s balance sheet</div>\n<div class=\"al\" style=\"left:250px;top:8px;width:200px;text-align:center\">escrow released only on delivery in good condition</div>\n<div class=\"al\" style=\"left:12px;top:150px;width:200px\">goods move seller → 3PL → buyer; Feegor never holds them</div>\n</div>",
+      "board": "P30",
+      "caption": "Feegor’s three sides plus its credit partners. Escrow and partner data are how it manages delivery quality without owning delivery. Sources: Feegor (n.d.), “Feegor for Logistics Companies” and FAQs; Disrupt Africa (Feb 2024).",
+      "alt": null
+    },
+    {
+      "type": "p",
+      "lead": "Funding timing.",
+      "id": "funding-timing",
+      "text": "The founders raised from friends and family in 2023 and approached VCs in early 2024, a weak market, as the COO acknowledged at the time (Disrupt Africa, February 2024). A $500,000 pre-seed is small next to asset-heavy peers’ raises but fits a platform-only cost base. Whether the round closed is not public."
+    },
+    {
+      "type": "p",
+      "lead": "Instrument choice and debt vs. equity.",
+      "id": "instrument-choice-and-debt-vs-equity",
+      "text": "Friends-and-family equity plus non-dilutive prize money. Feegor reports no corporate debt and keeps credit off its balance sheet: BNPL comes from fintech partners, who hold the receivables and default risk. Omnibiz shows one path at scale in B2B commerce, combining $5M of equity with $10M of debt in its 2022 pre-Series A (TechCrunch, August 2022). If Feegor lends in its own name, the framework in Section 7 points to debt for the book once repayment data supports it, although a partner model may remain cheaper."
+    },
+    {
+      "type": "p",
+      "lead": "Investor selection.",
+      "id": "investor-selection",
+      "text": "The first cheques came from people who knew the founders, then from a bank-sponsored competition (Techparley Africa, January 2025). The Wema relationship may be worth more than the ₦50M (roughly $30,000 at late-2024 rates), as a bank is a natural partner for payments, escrow and SME credit. No institutional VC has been publicly named."
+    },
+    {
+      "type": "p",
+      "lead": "Treasury and FX.",
+      "id": "treasury-and-fx",
+      "text": "Revenue from commissions, subscriptions and in-app adverts is in naira, as are costs. No inventory means no stock losses from devaluation, though naira weakness still cuts the dollar value of GMV and of any future valuation. No decision to decline or delay capital is documented."
+    },
+    {
+      "type": "raw",
+      "number": 26,
+      "title": "Nigerian B2B commerce peers named in the case",
+      "html": "<div style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px\">\n<div class=\"pc\" style=\"border-color:#A3123A;background:#F6DDE4\"><div class=\"lb\" style=\"color:#A3123A;margin-bottom:4px\">Asset-heavy</div><div class=\"n\">Alerzo</div><div class=\"b\">Funded warehouses, trucks and stock; when funding tightened in 2023, shut 14 warehouses and cut 400 staff.</div></div>\n<div class=\"pc\" style=\"border-color:#D4503F;background:#FDE6E3\"><div class=\"lb\" style=\"color:#8E2C20;margin-bottom:4px\">Debt at scale</div><div class=\"n\">Omnibiz</div><div class=\"b\">Combined $5M of equity with $10M of debt in its 2022 <span style=\"white-space:nowrap\">pre-Series</span> A.</div></div>\n<div class=\"pc\"><div class=\"lb\" style=\"color:#4A4660;margin-bottom:4px\">Asset-light, still hit</div><div class=\"n\">Sabi</div><div class=\"b\">An <span style=\"white-space:nowrap\">asset-light</span> B2B commerce platform; cut 20% of staff and pivoted in 2025 after raising $38M.</div></div>\n</div>",
+      "board": "P31",
+      "caption": "The comparisons the case draws on. Sources: Rest of World (May 2023); TechCrunch (Aug 2022; June 2025).",
+      "alt": null
+    }
+  ],
+  "why": [
+    "Ugonna Ginigeme has built marketplaces since studying engineering at the University of Ibadan. His first company, Vasiti, connected student entrepreneurs with customers and was bootstrapped for years until COVID-19 exposed its limits; in 2021 the team repositioned it as retail value-chain infrastructure. Their data highlighted one problem: Nigerian retailers buy through layers of wholesalers, each adding cost, because they cannot easily reach manufacturers. Feegor, launched in 2023 with co-founders including COO Lucy Mbuthia, addresses that problem (Technext, November 2023; The Founder, February 2024). Vasiti is background to the case; the analysis below covers Feegor only. Feegor does not yet meet the success threshold but is included for its logistics design: where well-funded B2B e-commerce players built warehouses and fleets, and several later retrenched (Rest of World, May 2023), Feegor owns none, making it a logistics contrast to Sendy’s fulfilment and supply lines."
+  ],
+  "lessons": [
+    "Partner for logistics before you own it. Feegor reached thousands of businesses without a warehouse or vehicle, keeping its capital need within reach of friends-and-family and prize funding.",
+    "If you do not own the trucks, own the trust mechanism: escrow released on delivery and seller-borne returns give Feegor leverage over fulfilment quality.",
+    "Asset-light is a capital strategy, not a survival guarantee: Sabi, an asset-light B2B commerce platform, cut 20% of staff and pivoted in 2025 after raising $38M (TechCrunch, June 2025), so investors should track repeat orders and take rate."
+  ],
+  "name": "Feegor",
+  "pill": "Case 7 · Nigeria",
+  "country": "Nigeria",
+  "founders": "Ugonna Ginigeme · founded 2023, Lagos (launch September 2023)",
+  "heroStats": [
+    {
+      "value": "~2,500",
+      "label": "businesses (Feb 2024)",
+      "source": ""
+    },
+    {
+      "value": "6,000",
+      "label": "SKUs",
+      "source": ""
+    },
+    {
+      "value": "3,000+",
+      "label": "B2B transactions",
+      "source": ""
+    },
+    {
+      "value": "₦50M",
+      "label": "Hackaholics prize",
+      "source": "Techparley Africa, January 2025"
+    }
+  ],
+  "art": "<svg aria-hidden=\"true\" class=\"case-art\" focusable=\"false\" viewbox=\"0 0 210 200\">\n<defs><pattern height=\"6\" id=\"P29art-c7t\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\"></rect><line stroke=\"#0E8577\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M30 90 L90 70 L150 90 L90 110 Z\" fill=\"#FFFFFF\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n<path d=\"M30 90 L30 150 L90 172 L90 110 Z\" fill=\"#D3EFEA\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n<path d=\"M90 110 L90 172 L150 150 L150 90 Z\" fill=\"#FFFFFF\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n<path d=\"M60 80 L120 100 L120 120\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.6\"></path>\n<path d=\"M156 60 C 172 40, 190 40, 200 56\" fill=\"none\" stroke=\"#16132B\" stroke-dasharray=\"4 4\" stroke-width=\"1.8\"></path>\n<path d=\"M192 50 L201 58 L190 62\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<text fill=\"#16132B\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"12.0\" font-style=\"italic\" font-weight=\"600\" x=\"58\" y=\"30\">someone else’s truck</text>\n</svg>",
+  "statusIcon": "<svg aria-hidden=\"true\" height=\"12\" style=\"vertical-align:-1px;margin-right:4px\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#FFFFFF\" r=\"5.2\" stroke=\"#16132B\" stroke-width=\"1.3\"></circle><path d=\"M6 3 L6 6.2 L8.2 7.4\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.3\"></path></svg>",
+  "facts": {
+    "business": "Wholesale sourcing marketplace and SaaS linking SMEs to manufacturers and major suppliers",
+    "investors": "Friends and family (2023); Wema Bank’s Hackaholics 5.0 prize; no institutional VC publicly named",
+    "route": "partner",
+    "routeText": "Leave the asset with partners: 3PLs deliver, fintech partners provide BNPL",
+    "status": "Pre-seed stage; $500,000 pre-seed sought Feb 2024, no close reported"
+  },
+  "whyTitle": "Why this founder",
+  "journey": {
+    "title": "Funding journey",
+    "entries": [
+      {
+        "date": "Before 2021Vasiti, background",
+        "instruments": [
+          "Revenue"
+        ],
+        "cls": [
+          "rv"
+        ],
+        "text": "Ginigeme founds and bootstraps Vasiti, a marketplace for student entrepreneurs, which onboards thousands of businesses and customers."
+      },
+      {
+        "date": "2021–2022Vasiti, background",
+        "instruments": [],
+        "cls": [],
+        "text": "COVID-19 exposes Vasiti’s limits. The team repositions it as retail value-chain infrastructure and settles on B2B sourcing as the core problem."
+      },
+      {
+        "date": "2023",
+        "instruments": [
+          "Friends & family"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Friends-and-family round funds the team, product and launch. Commercial operations begin in September; within three months more than 1,000 businesses are transacting across 10+ states.",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "February 2024",
+        "instruments": [
+          "Pre-seed sought"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Raising a $500,000 pre-seed round; the COO reports early VC commitments in what she calls a difficult fundraising year. Around 2,500 businesses and 6,000 SKUs on the platform."
+      },
+      {
+        "date": "Late 2024",
+        "instruments": [
+          "Prize"
+        ],
+        "cls": [
+          "gr"
+        ],
+        "text": "Wins the ₦50M grand prize at Wema Bank’s Hackaholics 5.0 from roughly 3,500 applicants, on the strength of its marketplace, sourcing tools and BNPL model.",
+        "key": "#8C8898"
+      },
+      {
+        "date": "2025–2026",
+        "instruments": [],
+        "cls": [],
+        "text": "The founder credits the prize money and mentorship with letting the platform scale to thousands of SMEs."
+      }
+    ],
+    "figure": {
+      "number": 24,
+      "caption": "Feegor’s funding journey. Sources: Technext (Nov 2023); Disrupt Africa (Feb 2024); Techparley Africa (Jan 2025)."
+    }
+  },
+  "analysisLabel": "Analysis across framework dimensions",
+  "quote": "If you do not own the trucks, own the trust mechanism."
+}

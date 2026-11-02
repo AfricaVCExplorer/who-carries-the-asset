@@ -1,0 +1,188 @@
+{
+  "slug": "mnt-halan",
+  "order": 2,
+  "number": "2",
+  "section": "04",
+  "sectionTitle": "Case studies: East & North Africa",
+  "pdfPages": [
+    18,
+    20
+  ],
+  "blocks": [
+    {
+      "type": "h",
+      "id": "instrument-choice",
+      "title": "Instrument choice",
+      "sub": "local-currency debt for a local-currency book"
+    },
+    {
+      "type": "p",
+      "text": "MNT-Halan lends in Egyptian pounds. Funding that book with dollar capital would create a currency mismatch at the scale of its lending, given the pound’s repeated devaluations. Securitisation reduces the mismatch: loans are packaged into rated bonds sold to Egyptian banks and investors, so liabilities are in the same currency as the assets. It also limits dilution: the CEO put the loan book at $650M in November 2023 (Crowdfund Insider, November 2023), funded largely without new equity for each pound lent. Dollar equity funds technology, acquisitions such as Tam Finans in Turkey, and new-market licences. The model depends on conditions specific to Egypt: a domestic securitisation market with willing bank buyers, a regulator that permits non-bank lenders to securitise, and a loan book with enough history to be rated. A founder in a market without these conditions cannot simply copy it."
+    },
+    {
+      "type": "raw",
+      "number": 11,
+      "title": "Matching the currency of the liability to the currency of the asset",
+      "html": "<svg aria-label=\"T-account for MNT-Halan. Platform costs (technology, acquisitions such as Tam Finans, new-market licences) are funded by dollar equity. The EGP loan book, roughly $650M by late 2023, is funded by EGP securitised bonds sold to Egyptian banks and investors. Funding EGP loans with dollar equity would create currency risk.\" height=\"262\" role=\"img\" viewbox=\"0 0 682 262\" width=\"682\">\n<defs>\n<pattern height=\"7\" id=\"P16-f16v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#ECE6FD\" height=\"7\" width=\"7\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<pattern height=\"7\" id=\"P16-f16o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#FDE6E3\" height=\"7\" width=\"7\"></rect><line stroke=\"#D4503F\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<marker id=\"P16-f16a\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.5\"></path></marker>\n<marker id=\"P16-f16r\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#A3123A\" stroke-width=\"1.5\"></path></marker>\n</defs>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\">\n<text font-size=\"10\" font-weight=\"700\" letter-spacing=\"2\" text-anchor=\"middle\" x=\"150\" y=\"14\">WHAT THE MONEY PAYS FOR</text>\n<text font-size=\"10\" font-weight=\"700\" letter-spacing=\"2\" text-anchor=\"middle\" x=\"532\" y=\"14\">WHO FUNDS IT</text>\n</g>\n<path d=\"M4 28 C 120 25, 260 31, 341 28 S 560 25, 678 29\" fill=\"none\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"4\"></path>\n<path d=\"M341 27 C 343 100, 339 180, 342 246\" fill=\"none\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"4\"></path>\n<rect fill=\"#E2D8FF\" height=\"80\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"10\" y=\"42\"></rect>\n<rect fill=\"#FDDDD7\" height=\"100\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"10\" y=\"136\"></rect>\n<rect fill=\"#E2D8FF\" height=\"80\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"392\" y=\"42\"></rect>\n<rect fill=\"#FDDDD7\" height=\"100\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"392\" y=\"136\"></rect>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\">\n<rect fill=\"#FFFFFF\" height=\"60\" opacity=\".93\" width=\"260\" x=\"20\" y=\"52\"></rect>\n<text font-size=\"14\" font-weight=\"800\" x=\"30\" y=\"74\">Platform · in dollars</text>\n<text font-size=\"11.5\" font-weight=\"500\" x=\"30\" y=\"93\">technology, acquisitions such as Tam Finans,</text>\n<text font-size=\"11.5\" font-weight=\"500\" x=\"30\" y=\"107\">new-market licences</text>\n<rect fill=\"#FFFFFF\" height=\"56\" opacity=\".93\" width=\"260\" x=\"20\" y=\"146\"></rect>\n<text font-size=\"14\" font-weight=\"800\" x=\"30\" y=\"168\">Loan book · in EGP</text>\n<text font-size=\"11.5\" font-weight=\"500\" x=\"30\" y=\"188\">$650M, Nov 2023 (CEO)</text>\n<rect fill=\"#FFFFFF\" height=\"44\" opacity=\".93\" width=\"260\" x=\"402\" y=\"52\"></rect>\n<text font-size=\"14\" font-weight=\"800\" x=\"412\" y=\"74\">Dollar equity</text>\n<text font-size=\"11.5\" font-weight=\"500\" x=\"412\" y=\"89\">DPI, Apis, Chimera, IFC</text>\n<rect fill=\"#FFFFFF\" height=\"56\" opacity=\".93\" width=\"260\" x=\"402\" y=\"146\"></rect>\n<text font-size=\"14\" font-weight=\"800\" x=\"412\" y=\"168\">EGP securitised bonds</text>\n<text font-size=\"11.5\" font-weight=\"500\" x=\"412\" y=\"188\">rated; sold to Egyptian banks and investors</text>\n</g>\n<path d=\"M290 82 L 388 82\" fill=\"none\" marker-end=\"url(#P16-f16a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M290 176 L 388 176\" fill=\"none\" marker-end=\"url(#P16-f16a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<text fill=\"#A3123A\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"13.6\" font-style=\"italic\" font-weight=\"600\" text-anchor=\"middle\" x=\"341\" y=\"256\">funding pound loans with dollar capital would create a currency mismatch</text>\n<text fill=\"#5B21E6\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"12.8\" font-style=\"italic\" font-weight=\"600\" x=\"300\" y=\"70\">USD</text>\n<text fill=\"#5B21E6\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"12.8\" font-style=\"italic\" font-weight=\"600\" x=\"300\" y=\"166\">EGP</text>\n</svg>",
+      "board": "P16",
+      "caption": "Securitisation lets MNT-Halan fund EGP loans with EGP debt; dollar equity is kept for the platform. It depends on a domestic securitisation market, a permissive regulator and a rated loan history. Sources: Wamda (Feb 2023); WeeTracker (Oct 2025).",
+      "alt": "T-account for MNT-Halan. Platform costs (technology, acquisitions such as Tam Finans, new-market licences) are funded by dollar equity. The EGP loan book, roughly $650M by late 2023, is funded by EGP securitised bonds sold to Egyptian banks and investors. Funding EGP loans with dollar equity would create currency risk."
+    },
+    {
+      "type": "h",
+      "id": "funding-timing",
+      "title": "Funding timing",
+      "sub": "raising into a devaluation"
+    },
+    {
+      "type": "p",
+      "text": "The 2023 round closed as the pound fell and many foreign investors were leaving Egypt. One plausible explanation for MNT-Halan’s ability to raise is that equity was not funding the loan book, and the book had a performance record investors could diligence; appetite for a rare scaled Egyptian lender probably also mattered. The 2026 listing follows a similar pattern: launched amid low foreign participation on the EGX, with domestic anchors secured first."
+    },
+    {
+      "type": "h",
+      "id": "investor-selection",
+      "title": "Investor selection",
+      "sub": "from foreign capital to domestic anchors"
+    },
+    {
+      "type": "p",
+      "text": "The investor base has evolved in sequence: Africa-focused private equity (DPI, Apis) and a Gulf investor (Chimera) for early growth, IFC in 2024, then domestic institutions ahead of listing: Al Ahly Capital, the National Bank of Egypt’s investment arm and the first commercial bank to take equity in the business, and CIB as cornerstone investor. Local banks already fund MNT-Halan through securitisation; as shareholders, they align the investors who know the loan book with the market where its shares will trade. Whether this sequence was planned from the outset or emerged as foreign capital became scarcer is not documented."
+    },
+    {
+      "type": "h",
+      "id": "follow-on-funding-and-liquidity",
+      "title": "Follow-on funding and liquidity"
+    },
+    {
+      "type": "p",
+      "text": "Because the EGX offering is fully secondary, the parent, MNT Investments B.V., sells existing shares and receives the proceeds, giving its shareholders a route to liquidity. The parent will then subscribe for up to EGP 4B of new shares in the Egyptian arm at the offer price, and half or more of its proceeds are reported to return to the listed company (Enterprise AM, 1 and 6 October 2026). The listing therefore both returns and recycles capital, and listing in Cairo keeps the equity in the same currency as the loan book and its funders. The offering priced at EGP 24.50 a share, raising EGP 7.84B (about $150M) and valuing the listed Egyptian arm at about $770M, a narrower perimeter than the group’s $1.4B private valuation; shares rose on debut (Tech In Africa, October 2026; Zawya, October 2026)."
+    },
+    {
+      "type": "raw",
+      "number": 12,
+      "title": "How the October 2026 EGX offering both returns and recycles capital",
+      "html": "<div style=\"position:relative;width:682px;height:236px\">\n<svg aria-hidden=\"true\" height=\"236\" style=\"position:absolute;left:0;top:0\" viewbox=\"0 0 682 236\" width=\"682\">\n<defs>\n<marker id=\"P17-f17a\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.5\"></path></marker>\n<pattern height=\"7\" id=\"P17-f17v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#ECE6FD\" height=\"7\" width=\"7\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n</defs>\n<rect fill=\"#E2D8FF\" height=\"96\" rx=\"4\" stroke=\"#16132B\" stroke-width=\"2\" width=\"182\" x=\"250\" y=\"70\"></rect>\n<path d=\"M200 46 C 230 46, 240 70, 262 82\" fill=\"none\" marker-end=\"url(#P17-f17a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M432 92 C 460 80, 470 50, 484 46\" fill=\"none\" marker-end=\"url(#P17-f17a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M200 190 C 230 190, 240 166, 262 156\" fill=\"none\" marker-end=\"url(#P17-f17a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M484 190 C 460 190, 450 166, 426 158\" fill=\"none\" marker-end=\"url(#P17-f17a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n</svg>\n<div class=\"bx\" style=\"left:262px;top:86px;width:158px;height:64px;background:#FFFFFF;text-align:center;padding-top:12px\"><b><span style=\"white-space:nowrap\">MNT-Halan</span> Egypt</b>listing on the EGX</div>\n<div class=\"bx\" style=\"left:0;top:10px;width:200px;height:74px;background:#FFFFFF\"><b>MNT Investments B.V.</b>the parent sells a fully secondary 20% stake</div>\n<div class=\"bx\" style=\"left:484px;top:10px;width:198px;height:74px;background:#FFFFFF\"><b>Institutional and retail investors</b>buy the 20% stake on the EGX</div>\n<div class=\"bx\" style=\"left:0;top:152px;width:200px;height:76px;background:#FDE6E3\"><b>Then, the parent</b>subscribes for up to EGP 4B of new shares at the offer price</div>\n<div class=\"bx\" style=\"left:484px;top:152px;width:198px;height:76px;background:#FDE6E3\"><b>CIB, cornerstone investor</b>up to EGP 2B (about $37M)</div>\n<div class=\"hd\" style=\"position:absolute;left:214px;top:184px;width:256px;text-align:center;font:italic 600 12.8px/1.20 'Source Serif 4',Georgia,serif;color:#5B21E6\">returns capital (top) and recycles it (bottom): half or more of the proceeds go back in</div>\n</div>",
+      "board": "P17",
+      "caption": "Offering structure as reported; shares began trading on 20 October 2026. Sources: Enterprise AM (1 and 6 Oct 2026); Launch Base Africa (Oct 2026); Tech In Africa (Oct 2026).",
+      "alt": null
+    },
+    {
+      "type": "h",
+      "id": "dilution-management-and-decline-or-delay-decisio",
+      "title": "Dilution management and decline or delay decisions"
+    },
+    {
+      "type": "p",
+      "text": "Ownership figures are not public, but as with M-KOPA, lending at this scale is funded largely through securitisation rather than equity. No refusal of capital is documented; MNT-Halan raised while many peers could not, which is consistent with a structure that kept it financeable through the funding downturn."
+    }
+  ],
+  "why": [
+    "Mounir Nakhla raised capital through currency crises and built a repeat securitisation programme in Egypt’s domestic debt market to fund his loan book. MNT-Halan also offers a liquidity event, the October 2026 Egyptian Exchange (EGX) listing of a fully secondary 20% stake in its Egyptian arm, and spans both study sectors: Halan began as a ride-hailing and delivery app in Cairo whose fleet became a lending channel after merging with Nakhla’s microfinance business, MNT Investments."
+  ],
+  "lessons": [
+    "Match the currency of the liability to that of the asset where a local debt market allows it: securitisation lets MNT-Halan fund EGP loans with EGP debt.",
+    "A local debt market is a strategic asset: a repeat securitisation programme gave MNT-Halan funding that was less exposed to venture cycles, though it depends on bank appetite and regulatory approval.",
+    "A domestic listing can provide liquidity for a company whose funders and assets are already local."
+  ],
+  "name": "MNT-Halan",
+  "pill": "Case 2 · Egypt",
+  "country": "Egypt",
+  "founders": "Mounir Nakhla · MNT roots 2010, Halan 2018, merged 2021",
+  "heroStats": [
+    {
+      "value": "$400M+",
+      "label": "securitised in 2023",
+      "source": "Daba Finance, November 2023"
+    },
+    {
+      "value": "8M+",
+      "label": "customers",
+      "source": ""
+    },
+    {
+      "value": "$15.5B+",
+      "label": "disbursed",
+      "source": ""
+    },
+    {
+      "value": "$1.4B",
+      "label": "valuation, June 2026",
+      "source": "Wamda, June 2026"
+    }
+  ],
+  "art": "<svg aria-hidden=\"true\" class=\"case-art\" focusable=\"false\" viewbox=\"0 0 220 230\">\n<defs><pattern height=\"6\" id=\"P15art-c2o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\"></rect><line stroke=\"#D4503F\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M40 20 L150 16 L156 170 L46 176 Z\" fill=\"#FFFFFF\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n<text fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"13\" font-weight=\"800\" letter-spacing=\"2\" text-anchor=\"middle\" x=\"98\" y=\"56\">BOND</text>\n<path d=\"M62 72 L134 70 M62 88 L128 87 M62 104 L136 102 M62 120 L112 119\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"1.4\"></path>\n<circle cx=\"120\" cy=\"148\" fill=\"#FDDDD7\" r=\"14\" stroke=\"#16132B\" stroke-width=\"1.6\"></circle>\n<ellipse cx=\"150\" cy=\"208\" fill=\"#F2766B\" rx=\"40\" ry=\"10\" stroke=\"#16132B\" stroke-width=\"1.8\"></ellipse>\n<path d=\"M110 208 L110 194 M190 208 L190 194\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<ellipse cx=\"150\" cy=\"194\" fill=\"#F2766B\" rx=\"40\" ry=\"10\" stroke=\"#16132B\" stroke-width=\"1.8\"></ellipse>\n<path d=\"M110 194 L110 180 M190 194 L190 180\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<ellipse cx=\"150\" cy=\"180\" fill=\"#FDE6E3\" rx=\"40\" ry=\"10\" stroke=\"#16132B\" stroke-width=\"1.8\"></ellipse>\n<text fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"12\" font-weight=\"800\" text-anchor=\"middle\" x=\"150\" y=\"185\">EGP</text>\n</svg>",
+  "statusIcon": "<svg aria-hidden=\"true\" height=\"12\" style=\"vertical-align:-1px;margin-right:4px\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#FFFFFF\" r=\"5.2\" stroke=\"#16132B\" stroke-width=\"1.3\"></circle><path d=\"M6 3 L6 6.2 L8.2 7.4\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.3\"></path></svg>",
+  "facts": {
+    "business": "Fintech with logistics roots: digital lending, payments, e-commerce and delivery",
+    "investors": "DPI, Apis, Chimera, IFC, Al Ahly Capital (equity); CIB (securitisation, IPO cornerstone)",
+    "route": "debt",
+    "routeText": "Own the asset, fund it with local-currency securitisation",
+    "status": "Egyptian arm listed on the EGX, 20 October 2026"
+  },
+  "whyTitle": "Why this founder",
+  "journey": {
+    "title": "Funding journey",
+    "entries": [
+      {
+        "date": "2010–2020",
+        "instruments": [],
+        "cls": [],
+        "text": "MNT Investments, microfinance lending built over a decade under Nakhla; Halan launches in 2018 as a ride-hailing and delivery app in Cairo."
+      },
+      {
+        "date": "2021",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Share swap merges MNT Investments and Halan. $120M raised from Development Partners International, Apis Growth Fund II & Lorax Capital Partners, among others.",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "2023",
+        "instruments": [
+          "Equity",
+          "Securitisation"
+        ],
+        "cls": [
+          "eq",
+          "dt"
+        ],
+        "text": "$400M raised at a valuation of about $1B: about $260M of equity, including about $200M from Abu Dhabi-based Chimera Investments for a stake of roughly 20%, and $140M of securitised bonds across two issuances (Wamda, February 2023). More than $400M securitised over the year in five tranches (Daba Finance, November 2023).",
+        "key": "#F2766B"
+      },
+      {
+        "date": "2024",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "$157.7M growth round, including $40M from IFC. Acquires Tam Finans in Turkey; Halan Microfinance Bank receives a licence in Pakistan.",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "2025–2026",
+        "instruments": [
+          "Securitisation",
+          "Equity"
+        ],
+        "cls": [
+          "dt",
+          "eq"
+        ],
+        "text": "Securitisations continue (EGP 3.4B, ~$71.4M, in October 2025) (WeeTracker, October 2025). June 2026: first close of a round led by Al Ahly Capital, the investment arm of the National Bank of Egypt, at a $1.4B valuation (Wamda, June 2026). October 2026: a fully secondary 20% stake in the Egyptian arm is sold on the EGX at EGP 24.50 a share, raising EGP 7.84B (about $150M), with CIB as a cornerstone investor; the retail tranche is 43.6 times and the institutional tranche 11.2 times oversubscribed, and trading opens on 20 October (Enterprise AM, October 2026; Tech In Africa, October 2026).",
+        "key": "#F2766B"
+      }
+    ],
+    "figure": {
+      "number": 10,
+      "caption": "MNT-Halan’s funding journey, coloured by instrument. Sources: Wamda (Feb 2023; June 2026); WeeTracker (Oct 2025); Daba Finance (Nov 2023); Enterprise AM (Oct 2026); Launch Base Africa (Oct 2026); Tech In Africa (Oct 2026)."
+    }
+  },
+  "analysisLabel": "Analysis across framework dimensions",
+  "quote": "MNT-Halan raised while many peers could not, which is consistent with a structure that kept it financeable through the funding downturn."
+}

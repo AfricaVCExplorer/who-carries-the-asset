@@ -1,0 +1,112 @@
+{
+  "slug": "earthbond",
+  "order": 8,
+  "number": "8",
+  "section": "05",
+  "sectionTitle": "Case studies: West Africa",
+  "pdfPages": [
+    37,
+    38
+  ],
+  "blocks": [
+    {
+      "type": "dims",
+      "items": [
+        {
+          "id": "funding-timing",
+          "title": "Funding timing",
+          "text": "Earthbond’s raises coincided with Nigeria’s 2023–2024 fuel price rises, which made solar more competitive against diesel generation. It secured funding from Catalyst Fund and Madica after demonstrating proof of concept with SMEs. The sequence is consistent with milestone-based fundraising, though Earthbond’s runway before these investments is unknown."
+        },
+        {
+          "id": "instrument-choice",
+          "title": "Instrument choice",
+          "text": "Earthbond’s disclosed financing is a grant and two small early-stage cheques; the instruments behind the Catalyst Fund and Madica investments (for example, SAFEs or priced equity) are not disclosed. It carries no disclosed debt at firm level; blended finance applies only downstream, through its lending partners."
+        },
+        {
+          "id": "investor-selection",
+          "title": "Investor selection",
+          "text": "Earthbond’s early backers span three types: an accelerator fund (Catalyst Fund), a fintech pre-seed programme (Madica) and a development-agency grant (develoPPP). The mix limits the equity sold, although founder ownership is not disclosed, and leaves no clear lead for a priced round."
+        },
+        {
+          "id": "dilution-management",
+          "title": "Dilution management",
+          "text": "Founder dilution is undisclosed. The grant is non-dilutive; whether the two investments have converted into equity is not public."
+        },
+        {
+          "id": "follow-on-funding-and-debt-equity-decisions",
+          "title": "Follow-on funding and debt/equity decisions",
+          "text": "Earthbond has no disclosed priced follow-on, but drew capital from three sources within nine months (March–December 2024), a sign of early institutional interest, though weaker than a lead investor increasing its commitment. It carries no disclosed corporate debt, relying on an embedded-finance model instead. No decision to decline or delay capital is documented."
+        }
+      ]
+    },
+    {
+      "type": "raw",
+      "number": 28,
+      "title": "Where Earthbond’s capital sits, and where the loans sit",
+      "html": "<svg aria-label=\"T-account. Earthbond’s platform (audits, prequalification, installer and lender matching) is funded by unpriced pre-equity and a grant. SME solar loans sit on four partner microfinance banks’ balance sheets, which carry the credit risk.\" height=\"160\" role=\"img\" viewbox=\"0 0 682 160\" width=\"682\">\n<defs>\n<pattern height=\"7\" id=\"P33-f33v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#ECE6FD\" height=\"7\" width=\"7\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<pattern height=\"7\" id=\"P33-f33t\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#DDF1EE\" height=\"7\" width=\"7\"></rect><line stroke=\"#0E8577\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<marker id=\"P33-f33a\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.5\"></path></marker>\n</defs>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\"><text font-size=\"10\" font-weight=\"700\" letter-spacing=\"2\" text-anchor=\"middle\" x=\"150\" y=\"12\">WHAT THE MONEY PAYS FOR</text><text font-size=\"10\" font-weight=\"700\" letter-spacing=\"2\" text-anchor=\"middle\" x=\"532\" y=\"12\">WHO FUNDS IT</text></g>\n<path d=\"M4 24 C 120 21, 260 27, 341 24 S 560 21, 678 25\" fill=\"none\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"4\"></path>\n<path d=\"M341 23 C 343 70, 339 120, 342 156\" fill=\"none\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"4\"></path>\n<rect fill=\"#E2D8FF\" height=\"54\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"10\" y=\"36\"></rect>\n<rect fill=\"#FFFFFF\" height=\"54\" rx=\"3\" stroke=\"#16132B\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" width=\"280\" x=\"10\" y=\"98\"></rect>\n<rect fill=\"#E2D8FF\" height=\"54\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"392\" y=\"36\"></rect>\n<rect fill=\"#D3EFEA\" height=\"54\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"392\" y=\"98\"></rect>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\">\n<rect fill=\"#FFFFFF\" height=\"40\" opacity=\".93\" width=\"264\" x=\"18\" y=\"43\"></rect>\n<text font-size=\"13\" font-weight=\"800\" x=\"26\" y=\"60\">Platform</text>\n<text font-size=\"11\" font-weight=\"500\" x=\"26\" y=\"76\">audits, prequalification, matching</text>\n<text font-size=\"13\" font-weight=\"800\" x=\"26\" y=\"122\">SME solar loans</text>\n<text font-size=\"11\" font-weight=\"500\" x=\"26\" y=\"138\">not on Earthbond’s balance sheet</text>\n<rect fill=\"#FFFFFF\" height=\"40\" opacity=\".93\" width=\"264\" x=\"400\" y=\"43\"></rect>\n<text font-size=\"13\" font-weight=\"800\" x=\"408\" y=\"60\">Two early-stage cheques + a grant</text>\n<text font-size=\"11\" font-weight=\"500\" x=\"408\" y=\"76\">Catalyst Fund, Madica, develoPPP</text>\n<rect fill=\"#FFFFFF\" height=\"40\" opacity=\".93\" width=\"264\" x=\"400\" y=\"105\"></rect>\n<text font-size=\"13\" font-weight=\"800\" x=\"408\" y=\"122\">Four partner microfinance banks</text>\n<text font-size=\"11\" font-weight=\"500\" x=\"408\" y=\"138\">lend and carry the credit risk</text>\n</g>\n<path d=\"M290 63 L 388 63\" fill=\"none\" marker-end=\"url(#P33-f33a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M290 125 L 388 125\" fill=\"none\" marker-end=\"url(#P33-f33a)\" stroke=\"#16132B\" stroke-dasharray=\"5 4\" stroke-width=\"1.8\"></path>\n</svg>",
+      "board": "P33",
+      "caption": "Embedded finance keeps the asset, and its risk, on the partner’s balance sheet, at the cost of margin and control. Sources: Empower Africa (May 2025); TechCabal (Oct 2024).",
+      "alt": "T-account. Earthbond’s platform (audits, prequalification, installer and lender matching) is funded by unpriced pre-equity and a grant. SME solar loans sit on four partner microfinance banks’ balance sheets, which carry the credit risk."
+    }
+  ],
+  "why": [
+    "Chidalu Onyenso grew up in New Jersey but stayed connected to Nigeria through annual family visits. After Princeton, she built product and market experience at IBM, Fundera and a Nairobi-based startup, then attended Harvard Business School, where she used nights and a summer grant to build Earthbond. She set out to tackle SME financing in Africa but found unreliable power to be the binding constraint, and founded Earthbond in 2022 as a solar marketplace connecting businesses to power audits, installers and credit providers. It has raised more than $400,000 in grants and venture capital, while partner microfinance banks lend and carry the credit risk."
+  ],
+  "lessons": [
+    "Layering accelerator, fintech pre-seed and development-agency grant capital can fund a pre-seed company while limiting the equity sold (Earthbond’s founder ownership is not disclosed), but is sustainable only if one of these backers, or a new investor, leads the next priced round.",
+    "Keeping asset-financing risk on a banking partner’s balance sheet lets a pre-seed company reach the market without a loan book, but it cedes margin and control over credit decisions to the partner, and growth depends on the partner’s appetite to lend."
+  ],
+  "name": "Earthbond",
+  "pill": "Case 8 · Nigeria",
+  "country": "Nigeria",
+  "founders": "Chidalu Onyenso · founded 2022 (launched summer 2022 while at HBS; some press reports cite 2023)",
+  "heroStats": [
+    {
+      "value": "~$405k",
+      "label": "disclosed, 3 deals",
+      "source": "Launchbase Africa, Mar 2024; TechCabal, Oct 2024; VC4A, Dec 2024"
+    },
+    {
+      "value": "~100",
+      "label": "SME solar audits",
+      "source": ""
+    },
+    {
+      "value": "20+ MWh",
+      "label": "enabled",
+      "source": ""
+    },
+    {
+      "value": "1,800+",
+      "label": "SME waiting list",
+      "source": ""
+    }
+  ],
+  "art": "<svg aria-hidden=\"true\" class=\"case-art\" focusable=\"false\" viewbox=\"0 0 210 220\">\n<defs><pattern height=\"6\" id=\"P32art-c8t\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\"></rect><line stroke=\"#0E8577\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<circle cx=\"160\" cy=\"44\" fill=\"#F2766B\" r=\"22\" stroke=\"#16132B\" stroke-width=\"1.8\"></circle>\n<path d=\"M160 10 L160 4 M194 44 L202 44 M184 20 L190 14 M184 68 L190 74\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M10 120 L120 104 L150 160 L36 178 Z\" fill=\"#D3EFEA\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n<path d=\"M46 115 L72 172 M84 110 L112 166 M22 140 L134 124 M30 160 L142 144\" stroke=\"#16132B\" stroke-width=\"1.4\"></path>\n<path d=\"M60 200 L150 200 L150 176 L60 176 Z\" fill=\"#FFFFFF\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M70 188 L100 188 M108 188 L140 188\" stroke=\"#16132B\" stroke-width=\"1.4\"></path>\n<path d=\"M90 176 L94 168 M120 176 L116 166\" stroke=\"#16132B\" stroke-width=\"1.6\"></path>\n</svg>",
+  "statusIcon": "<svg aria-hidden=\"true\" height=\"12\" style=\"vertical-align:-1px;margin-right:4px\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#FFFFFF\" r=\"5.2\" stroke=\"#16132B\" stroke-width=\"1.3\"></circle><path d=\"M6 3 L6 6.2 L8.2 7.4\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.3\"></path></svg>",
+  "facts": {
+    "business": "Solar-asset credit marketplace: audits, prequalification, installers, lenders",
+    "investors": "Catalyst Fund, Madica, develoPPP Ventures (BMZ, implemented by GIZ)",
+    "route": "partner",
+    "routeText": "Leave the asset with partners: microfinance banks lend",
+    "status": "Pre-seed stage; 4 microfinance bank partners; Ghana planned"
+  },
+  "whyTitle": "Why this founder",
+  "journey": {
+    "title": "Funding journey: three cheques from three investor types in nine months (March–December 2024)",
+    "raw": {
+      "type": "raw",
+      "number": 27,
+      "html": "<div style=\"position:relative;width:682px;height:290px\">\n<svg aria-label=\"Timeline. 2022–2023: bootstrapped. Early/mid 2024: $100,000 from Catalyst Fund. October 2024: $200,000 pre-seed from Madica. December 2024: $105,100 grant from develoPPP Ventures. Bars drawn to scale.\" height=\"290\" role=\"img\" style=\"position:absolute;left:0;top:0\" viewbox=\"0 0 682 290\" width=\"682\">\n<defs>\n<pattern height=\"6\" id=\"P32-f32v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#ECE6FD\" height=\"6\" width=\"6\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.6\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern>\n<pattern height=\"6\" id=\"P32-f32g\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#ECEAE6\" height=\"6\" width=\"6\"></rect><line stroke=\"#6E6A7C\" stroke-width=\"1.6\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern>\n</defs>\n<path d=\"M0 200 L682 200\" stroke=\"#16132B\" stroke-width=\"2\"></path>\n<rect fill=\"#FFFFFF\" height=\"14\" stroke=\"#16132B\" stroke-width=\"1.5\" width=\"130\" x=\"4\" y=\"186\"></rect>\n<rect fill=\"#E2D8FF\" height=\"60\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"56\" x=\"232\" y=\"140\"></rect>\n<rect fill=\"#E2D8FF\" height=\"120\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"56\" x=\"420\" y=\"80\"></rect>\n<rect fill=\"#E6E4EA\" height=\"63\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"56\" x=\"560\" y=\"137\"></rect>\n<path d=\"M260 228 C 300 252, 520 252, 588 228\" fill=\"none\" stroke=\"#5B21E6\" stroke-dasharray=\"4 4\" stroke-width=\"1.6\"></path>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10.5\" font-weight=\"700\" text-anchor=\"middle\">\n<text x=\"69\" y=\"218\">2022–2023</text><text x=\"260\" y=\"218\">Mar 2024</text><text x=\"448\" y=\"218\">Oct 2024</text><text x=\"588\" y=\"218\">Dec 2024</text>\n</g>\n<text fill=\"#5B21E6\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"14.4\" font-style=\"italic\" font-weight=\"600\" text-anchor=\"middle\" x=\"424\" y=\"276\">three sources within nine months</text>\n</svg>\n<div class=\"ev\" style=\"left:4px;top:84px;width:176px\"><i>Bootstrapped</i>Launches in Lagos; audits SMEs, prequalifies them and connects them to installers and four partner microfinance banks</div>\n<div class=\"ev\" style=\"left:180px;top:58px;width:160px;text-align:center\"><b>$100,000</b>Catalyst Fund, plus venture-building support; a proof-of-concept cheque</div>\n<div class=\"ev\" style=\"left:366px;top:0;width:164px;text-align:center\"><b>$200,000</b>pre-seed, Madica (Flourish Ventures); target: $10M in loan originations by 2027</div>\n<div class=\"ev\" style=\"left:520px;top:54px;width:162px;text-align:center\"><b>€100,000</b>(~$105,100) develoPPP Ventures, BMZ via GIZ; non-dilutive match funding</div>\n</div>",
+      "board": "P32",
+      "caption": "Bars to scale; violet = early-stage cheques (instruments not disclosed), grey = grant. Sources: Launchbase Africa (Mar 2024); TechCabal (Oct 2024); VC4A (Dec 2024).",
+      "alt": "Timeline. 2022–2023: bootstrapped. Early/mid 2024: $100,000 from Catalyst Fund. October 2024: $200,000 pre-seed from Madica. December 2024: $105,100 grant from develoPPP Ventures. Bars drawn to scale."
+    },
+    "entries": [],
+    "figure": {
+      "number": 27,
+      "caption": "Bars to scale; violet = early-stage cheques (instruments not disclosed), grey = grant. Sources: Launchbase Africa (Mar 2024); TechCabal (Oct 2024); VC4A (Dec 2024)."
+    }
+  },
+  "analysisLabel": "Analysis across framework dimensions"
+}

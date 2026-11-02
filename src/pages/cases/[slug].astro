@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import CaseArt from '../../components/CaseArt.astro';
 import BarsFigure from '../../components/BarsFigure.astro';
 import CardsFigure from '../../components/CardsFigure.astro';
+import RawFigure from '../../components/RawFigure.astro';
 import site from '../../data/site.json';
 import index from '../../data/cases.json';
 import { makeGloss } from '../../lib/gloss.js';
@@ -28,20 +29,29 @@ const facts = { business: g.html(c.facts.business), investors: g.html(c.facts.in
 const why = c.why.map((p: string) => g.html(p));
 const journey = c.journey.entries.map((e: any) => ({ ...e, html: g.html(e.text) }));
 const journeyCap = g.html(c.journey.figure.caption);
+const journeyRaw = c.journey.raw;
 const blocks = c.blocks.map((b: any) => ({
   ...b,
-  html: b.type === 'p' ? g.html(b.text) : undefined,
+  html: b.type === 'p' || b.type === 'callout' ? g.html(b.text) : b.html,
+  items: b.type === 'dims' ? b.items.map((it: any) => ({ ...it, html: g.html(it.text) })) : b.items,
   captionHtml: b.caption ? g.html(b.caption) : undefined,
 }));
 const lessons = c.lessons.map((l: string) => g.html(l));
 
-const instruments = [...new Set(c.journey.entries.flatMap((e: any) => e.instruments))] as string[];
 const ikey = (s: string) => s.toLowerCase().replace(/[^a-z]+/g, '-');
+// Chip colour comes from the PDF's chip class; M-KOPA's hand-made data uses labels only.
+const LABEL_CLS: Record<string, string> = { Equity: 'eq', Debt: 'dt', Grant: 'gr', Revenue: 'rv' };
+const KEY_HEX: Record<string, string> = { Equity: '#5B21E6', Debt: '#F2766B' };
+const chips = (e: any) => e.instruments.map((label: string, i: number) => ({ label, cls: e.cls?.[i] ?? LABEL_CLS[label] ?? 'eq' }));
+const legend = [...new Map(c.journey.entries.flatMap(chips).map((x: any) => [x.label, x])).values()] as { label: string; cls: string }[];
+const keyBg = (k?: string) => (k ? KEY_HEX[k] ?? k : undefined);
 
 const toc = [
-  { id: 'why', label: 'Why this founder' },
+  { id: 'why', label: c.whyTitle ?? 'Why this founder' },
   { id: 'journey', label: c.journey.title },
-  ...blocks.filter((b: any) => b.type === 'h').map((b: any) => ({ id: b.id, label: b.title, sub: true })),
+  ...blocks.flatMap((b: any) => b.type === 'h' ? [{ id: b.id, label: b.title, sub: true }]
+    : b.type === 'dims' ? b.items.map((it: any) => ({ id: it.id, label: it.title, sub: true }))
+    : b.type === 'p' && b.lead ? [{ id: b.id, label: b.lead.replace(/\.$/, ''), sub: true }] : []),
   { id: 'lessons', label: 'Key lessons' },
 ];
 const pdf = u(site.pdf);
@@ -58,16 +68,16 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
       </nav>
       <div class="case-hero-grid">
         <div>
-          <span class="pill pill-violet">Case {c.number} · {c.country}</span>
+          <span class="pill pill-violet">{c.pill ?? `Case ${c.number} · ${c.country}`}</span>
           <h1><span class="nowrap">{c.name}</span></h1>
           <p class="founders">{c.founders}</p>
           <ul class="hero-stats" role="list">
             {c.heroStats.map((s: any) => (
-              <li><b>{s.value}</b><span>{s.label}</span><cite>({s.source})</cite></li>
+              <li><b>{s.value}</b><span>{s.label}</span>{s.source && <cite>({s.source})</cite>}</li>
             ))}
           </ul>
         </div>
-        <CaseArt name={c.illustration} />
+        {c.art ? <Fragment set:html={c.art} /> : <CaseArt name={c.illustration} />}
       </div>
     </div>
   </header>
@@ -78,7 +88,7 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
       <div><dt>Main investors</dt><dd set:html={facts.investors} /></div>
       <div><dt>Who carries the asset</dt><dd><span class="chip" data-route={c.facts.route}><span class="sw" aria-hidden="true"></span>{routeLabel}</span><span class="route-long">{c.facts.routeText}</span></dd></div>
       <div><dt>Status</dt><dd class:list={['status', `tone-${c.facts.statusTone}`]}>
-        <svg width="14" height="14" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5.5" fill="#0E8577" /><path d="M3.2 6.2 L5.2 8 L8.8 4.2" stroke="#FFFFFF" stroke-width="1.6" fill="none" /></svg>
+        {c.statusIcon ? <Fragment set:html={c.statusIcon.replace(/width="12" height="12"/, 'width="14" height="14"').replace(/ style="[^"]*"/, '')} /> : <svg width="14" height="14" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5.5" fill="#0E8577" /><path d="M3.2 6.2 L5.2 8 L8.8 4.2" stroke="#FFFFFF" stroke-width="1.6" fill="none" /></svg>}
         <span set:html={facts.status} />
       </dd></div>
     </dl>
@@ -94,26 +104,29 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
 
       <article class="doc-body">
         <section aria-labelledby="why">
-          <h2 id="why">Why this founder<a class="anchor" href="#why" aria-label="Link to Why this founder">#</a></h2>
+          <h2 id="why">{c.whyTitle ?? 'Why this founder'}<a class="anchor" href="#why" aria-label="Link to this section">#</a></h2>
           {why.map((p: string) => <p set:html={p} />)}
         </section>
 
         <section aria-labelledby="journey">
           <h2 id="journey">{c.journey.title}<a class="anchor" href="#journey" aria-label="Link to Funding journey">#</a></h2>
+          {journeyRaw ? (
+            <RawFigure number={journeyRaw.number} html={journeyRaw.html} board={journeyRaw.board} captionHtml={journeyCap} alt={journeyRaw.alt} />
+          ) : (
           <figure class="figure reveal" aria-labelledby="journey">
             <div class="tl-legend" role="group" aria-label="Highlight by instrument">
               <span class="tl-legend-l">Highlight</span>
-              {instruments.map((i) => (
-                <button type="button" class="ins-btn" aria-pressed="false" data-ins={ikey(i)}><span class:list={['ins', `ins-${ikey(i)}`]}>{i}</span></button>
+              {legend.map((x) => (
+                <button type="button" class="ins-btn" aria-pressed="false" data-ins={ikey(x.label)}><span class:list={['ins', `ins-${x.cls}`]}>{x.label}</span></button>
               ))}
             </div>
             <ol class="tl" role="list">
               {journey.map((e: any) => (
                 <li class="tl-row" data-ins={e.instruments.map(ikey).join(' ')}>
                   <span class="tl-d">{e.date}</span>
-                  <i class:list={['tl-k', e.key && `k-${ikey(e.key)}`]} aria-hidden="true"></i>
+                  <i class="tl-k" style={keyBg(e.key) ? `background:${keyBg(e.key)}` : undefined} aria-hidden="true"></i>
                   <div class="tl-b">
-                    <span class="tl-ins">{e.instruments.map((i: string) => <span class:list={['ins', `ins-${ikey(i)}`]}>{i}</span>)}</span>
+                    <span class="tl-ins">{chips(e).map((x: any) => <span class:list={['ins', `ins-${x.cls}`]}>{x.label}</span>)}</span>
                     <span set:html={e.html} />
                   </div>
                 </li>
@@ -121,13 +134,22 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
             </ol>
             <figcaption class="cap"><b>Figure {c.journey.figure.number}</b><span set:html={journeyCap} /></figcaption>
           </figure>
+          )}
         </section>
 
         <section aria-labelledby="analysis-label">
           <p class="lb" id="analysis-label">{c.analysisLabel}</p>
           {blocks.map((b: any, i: number) => {
             if (b.type === 'h') return <h2 id={b.id} class="h-analysis">{b.title}{b.sub && <span>: {b.sub}</span>}<a class="anchor" href={`#${b.id}`} aria-label={`Link to ${b.title}`}>#</a></h2>;
+            if (b.type === 'p' && b.lead) return <p class="lead-p"><strong id={b.id}>{b.lead}</strong> <Fragment set:html={b.html} /></p>;
             if (b.type === 'p') return <p set:html={b.html} />;
+            if (b.type === 'dims') return (
+              <div class="dims">
+                {b.items.map((it: any) => <div class="dim"><h3 id={it.id}>{it.title}</h3><p set:html={it.html} /></div>)}
+              </div>
+            );
+            if (b.type === 'callout') return <aside class="callout"><span class="lb">{b.label}</span><p set:html={b.html} /></aside>;
+            if (b.type === 'raw') return <RawFigure number={b.number} title={b.title} html={b.html} board={b.board} captionHtml={b.captionHtml} alt={b.alt} />;
             if (b.type === 'bars') return <BarsFigure id={`fig${b.number}`} number={b.number} title={b.title} max={b.max} bars={b.bars} note={b.note} captionHtml={b.captionHtml} />;
             if (b.type === 'cards') return <CardsFigure id={`fig${b.number}`} number={b.number} title={b.title} items={b.items} captionHtml={b.captionHtml} />;
             return null;

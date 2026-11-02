@@ -1,0 +1,173 @@
+{
+  "slug": "sendy",
+  "order": 4,
+  "number": "4",
+  "section": "04",
+  "sectionTitle": "Case studies: East & North Africa",
+  "pdfPages": [
+    24,
+    26
+  ],
+  "blocks": [
+    {
+      "type": "h",
+      "id": "funding-timing",
+      "title": "Funding timing",
+      "sub": "spending ahead of the next round"
+    },
+    {
+      "type": "p",
+      "text": "Sendy raised its $20M Series B in January 2020, weeks before COVID-19 reached Kenya, then expanded across countries and into fulfilment and supply through the 2021 funding peak. The plan relied on a $100M round in 2022, just as venture markets turned; when it did not close, Sendy was carrying a cost base sized for capital it had not raised. That mismatch, more than any single instrument, is the clearest capital-strategy lesson from the case."
+    },
+    {
+      "type": "h",
+      "id": "instrument-choice",
+      "title": "Instrument choice",
+      "sub": "equity funded a shift toward assets"
+    },
+    {
+      "type": "p",
+      "text": "Sendy’s original transport business was asset-light: an app coordinating contract drivers who owned their vehicles (Today Africa, n.d.). The capital intensity came later, with warehousing and fulfilment, which carry fixed costs, and a supply business that bought and held retail stock. These lines need working capital and physical assets, which M-KOPA and MNT-Halan fund with debt. Sendy funded them with venture equity, the most expensive capital available, on which a thin-margin logistics business struggles to earn venture returns. Asset-finance or working-capital facilities might have let equity fund the platform alone, but it is not clear such facilities were available on workable terms to a loss-making logistics company in 2021–2022. The lesson is less that Sendy chose the wrong instrument than that it took on asset-intensive lines without a financing route suited to them. Sendy itself exited Nigerian operations as part of a reported shift away from an asset-heavy model (TechCabal, August 2023)."
+    },
+    {
+      "type": "h",
+      "id": "investor-selection",
+      "title": "Investor selection",
+      "sub": "a strategic investor is not a backstop"
+    },
+    {
+      "type": "p",
+      "text": "Toyota Tsusho’s participation brought credibility, industry relationships and a market signal, but no public commitment to fund Sendy through a downturn. When the $100M round failed and an investor later withdrew, existing shareholders did not close the gap. A strategic investor’s backing is not a guarantee of future support."
+    },
+    {
+      "type": "h",
+      "id": "dilution-follow-on-funding-and-decline-or-delay-",
+      "title": "Dilution, follow-on funding and decline or delay decisions"
+    },
+    {
+      "type": "p",
+      "text": "Sendy’s attempt to raise at a $40–60M valuation in 2023, against an earlier valuation above $80M, shows how quickly bargaining power erodes when a company raises to survive. With hindsight, one alternative was to delay expansion and focus on Kenyan B2B transport, its most established line; whether that line was profitable on its own is not public. Instead, Sendy ran three product lines in four countries on about $26.5M of disclosed funding."
+    },
+    {
+      "type": "raw",
+      "number": 17,
+      "title": null,
+      "html": "<div style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px\">\n<div class=\"pn\">\n<div class=\"lb\" style=\"margin-bottom:2px\">A · The round</div>\n<div class=\"ft\">Sought vs. disclosed</div>\n<svg aria-label=\"Bars: $100M sought in 2022, did not close; about $26.5M of disclosed funding in total.\" height=\"160\" role=\"img\" viewbox=\"0 0 190 160\" width=\"190\">\n<defs><pattern height=\"6\" id=\"P21b-f21v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#ECE6FD\" height=\"6\" width=\"6\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<rect fill=\"#FFFFFF\" height=\"120\" stroke=\"#A3123A\" stroke-dasharray=\"6 4\" stroke-width=\"2\" width=\"56\" x=\"20\" y=\"10\"></rect>\n<rect fill=\"#E2D8FF\" height=\"32\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"56\" x=\"112\" y=\"98\"></rect>\n<path d=\"M6 130 L184 130\" stroke=\"#16132B\" stroke-width=\"2\"></path>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" text-anchor=\"middle\">\n<text font-size=\"15\" font-weight=\"800\" x=\"48\" y=\"74\">$100M</text>\n<text font-size=\"15\" font-weight=\"800\" x=\"140\" y=\"90\">~$26.5M</text>\n<text font-size=\"10\" font-weight=\"600\" x=\"48\" y=\"146\">sought, 2022</text>\n<text font-size=\"10\" font-weight=\"600\" x=\"140\" y=\"146\">total disclosed</text>\n</g>\n<text fill=\"#A3123A\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"12.8\" font-style=\"italic\" font-weight=\"600\" text-anchor=\"middle\" x=\"48\" y=\"116\">never closed</text>\n</svg>\n</div>\n<div class=\"pn\">\n<div class=\"lb\" style=\"margin-bottom:2px\">B · The valuation</div>\n<div class=\"ft\">Raising to survive</div>\n<div style=\"font:800 22px/1 'Plus Jakarta Sans',Arial,sans-serif;margin-top:8px;color:#16132B\">&gt;$80M</div><div style=\"font:500 11px/1.4 'Plus Jakarta Sans',Arial,sans-serif\">earlier valuation</div>\n<svg aria-hidden=\"true\" height=\"40\" viewbox=\"0 0 190 40\" width=\"190\"><path d=\"M30 6 C 60 10, 110 16, 150 30\" fill=\"none\" stroke=\"#A3123A\" stroke-width=\"2\"></path><path d=\"M142 24 L152 31 L140 34\" fill=\"none\" stroke=\"#A3123A\" stroke-width=\"2\"></path></svg>\n<div style=\"font:800 28px/1 'Plus Jakarta Sans',Arial,sans-serif;color:#A3123A\">$40–60M</div>\n<div style=\"font:500 11px/1.4 'Plus Jakarta Sans',Arial,sans-serif;margin-top:4px\">the valuation new-investor talks depended on in 2023</div>\n<div class=\"hd\" style=\"font:italic 600 12.8px/1.20 'Source Serif 4',Georgia,serif;color:#A3123A;margin-top:6px\">bargaining power erodes when raising to survive</div>\n</div>\n<div class=\"pn\">\n<div class=\"lb\" style=\"margin-bottom:2px\">C · The cost base</div>\n<div class=\"ft\">Asset-light core vs. asset-heavy add-ons</div>\n<div style=\"border:1.5px solid #16132B;border-radius:3px;padding:6px 8px;font:500 11px/1.35 'Plus Jakarta Sans',Arial,sans-serif;background:#ECE6FD\"><b style=\"font-weight:800\">Transport</b><br/>an app coordinating contract drivers who owned their vehicles</div>\n<div style=\"border:1.5px dashed #A3123A;border-radius:3px;padding:6px 8px;margin-top:8px;font:500 11px/1.35 'Plus Jakarta Sans',Arial,sans-serif;background:#F6DDE4\"><b style=\"font-weight:800\">Fulfilment</b> (warehousing): fixed costs<br/><b style=\"font-weight:800\">Supply</b>: bought and held retail stock<br/>funded with venture equity</div>\n</div>\n</div>",
+      "board": "P21b",
+      "caption": "Three views of Sendy’s capital position. Sources: The Star (Aug 2023); Today Africa (n.d.); TechCabal (Aug 2023).",
+      "alt": "Bars: $100M sought in 2022, did not close; about $26.5M of disclosed funding in total."
+    }
+  ],
+  "why": [
+    "Sendy is this study’s cautionary case. One of Kenya’s best-known logistics startups, with a Japanese strategic investor and multi-country operations, it closed in 2023 after a planned $100M round failed. Its founders built a credible operation. The available evidence suggests its capital strategy contributed to the outcome: the company committed to expansion before the capital was in hand, and moved from an asset-light transport marketplace into fulfilment and supply lines that required fixed costs and working capital, funded with equity. Operating costs, customer pricing and the 2022–2023 funding downturn also played a part (The Star, August 2023)."
+  ],
+  "lessons": [
+    "Never size the cost base to capital you have not raised; Sendy’s expansion assumed a $100M round that had not closed.",
+    "Match the financing route to the asset before adding asset-intensive lines: warehouses, inventory and working capital need asset or working-capital finance, or a partner who carries them, rather than venture equity.",
+    "A strategic investor brings credibility, not a commitment to fund the next round.",
+    "Focus before you expand."
+  ],
+  "name": "Sendy",
+  "pill": "Case 4 · Kenya · Cautionary",
+  "country": "Kenya · Cautionary",
+  "founders": "Meshack Alloys, Evanson Biwott, Don Okoth, Malaika Judd · founded 2014–15, Nairobi",
+  "heroStats": [
+    {
+      "value": "~$26.5M",
+      "label": "disclosed, from 14 investors",
+      "source": "The Star, Aug 2023; Today Africa, n.d.; TechCabal, Aug 2023"
+    },
+    {
+      "value": "~300",
+      "label": "staff in 2022",
+      "source": ""
+    },
+    {
+      "value": "Aug 2023",
+      "label": "ceased operations",
+      "source": "The Star, August 2023"
+    }
+  ],
+  "art": "<svg aria-hidden=\"true\" class=\"case-art\" focusable=\"false\" viewbox=\"0 0 220 200\">\n<defs><pattern height=\"6\" id=\"P20art-c4r\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\"></rect><line stroke=\"#A3123A\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M14 60 L130 56 L132 140 L16 144 Z\" fill=\"#F6DDE4\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n<path d=\"M132 80 L176 78 L204 108 L206 140 L132 140\" fill=\"#FFFFFF\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n<path d=\"M150 86 L172 86 L188 106 L150 106 Z\" fill=\"#F6DDE4\" stroke=\"#16132B\" stroke-width=\"1.5\"></path>\n<circle cx=\"50\" cy=\"150\" fill=\"#FAF7F0\" r=\"16\" stroke=\"#16132B\" stroke-width=\"2\"></circle>\n<circle cx=\"170\" cy=\"150\" fill=\"#FAF7F0\" r=\"16\" stroke=\"#16132B\" stroke-width=\"2\"></circle>\n<path d=\"M4 168 L216 166\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"2\"></path>\n<path d=\"M90 18 L112 40 M112 18 L90 40\" stroke=\"#A3123A\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n</svg>",
+  "statusIcon": "<svg aria-hidden=\"true\" height=\"12\" style=\"vertical-align:-1px;margin-right:4px\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#A3123A\" r=\"5.5\"></circle><path d=\"M3.8 3.8 L8.2 8.2 M8.2 3.8 L3.8 8.2\" stroke=\"#FFFFFF\" stroke-width=\"1.6\"></path></svg>",
+  "facts": {
+    "business": "On-demand delivery, then B2B transport, fulfilment and supply",
+    "investors": "Safaricom’s Spark Fund, Atlantica Ventures, Toyota Tsusho",
+    "route": "assetequity",
+    "routeText": "Asset-intensive lines funded with equity",
+    "status": "Ceased operations Aug 2023; administrator appointed Sept 2023"
+  },
+  "whyTitle": "Why this case",
+  "journey": {
+    "title": "Funding journey",
+    "entries": [
+      {
+        "date": "2015",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Commercial launch in Kenya as an on-demand delivery app. Investment from Safaricom’s Spark Fund.",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "Nov 2017",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "KES 207.6M (about $2M) equity investment from DOB Equity and CFAO Group, a Toyota Tsusho subsidiary, described by the CEO as growth capital (Business Daily, November 2017).",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "Oct 2019",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "$2M equity investment from Goodwell Investments (Ventureburn, October 2019).",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "Jan 2020",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "$20M Series B led by Atlantica Ventures, with Toyota Tsusho Corporation participating (Today Africa, n.d.).",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "2021–2022",
+        "instruments": [],
+        "cls": [],
+        "text": "Launches Sendy Fulfilment (warehousing) and Sendy Supply (retail sourcing); expands into Uganda and Nigeria, and takes a minority stake in Côte d’Ivoire’s Kamtar with Toyota Tsusho’s Mobility 54 (Business Daily, October 2021). Seeks $100M to fund pan-African expansion; the round does not close, beyond a small investment from MOL PLUS. Lays off 10% of staff in July 2022; Sendy Supply shuts in October 2022 with a further 10% cut, and Transport becomes B2B only (Techpoint Africa, August 2023)."
+      },
+      {
+        "date": "2023",
+        "instruments": [
+          "Closed"
+        ],
+        "cls": [
+          "rd"
+        ],
+        "text": "Suspends on-the-ground operations in Nigeria in February. A key investor withdraws, and talks with new investors depend on a valuation of $40–60M, against an earlier valuation above $80M. Operations cease in August; an administrator is appointed in September (The Star, August 2023; Today Africa, n.d.).",
+        "key": "#A3123A"
+      }
+    ],
+    "figure": {
+      "number": 16,
+      "caption": "Sendy’s funding journey, coloured by instrument. Sources: Business Daily (Nov 2017); Ventureburn (Oct 2019); Today Africa (n.d.); The Star (Aug 2023); Techpoint Africa (Aug 2023)."
+    }
+  },
+  "analysisLabel": "Analysis across framework dimensions",
+  "quote": "Never size the cost base to capital you have not raised."
+}

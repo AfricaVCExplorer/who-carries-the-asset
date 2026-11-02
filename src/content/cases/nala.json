@@ -1,0 +1,178 @@
+{
+  "slug": "nala",
+  "order": 3,
+  "number": "3",
+  "section": "04",
+  "sectionTitle": "Case studies: East & North Africa",
+  "pdfPages": [
+    21,
+    23
+  ],
+  "blocks": [
+    {
+      "type": "h",
+      "id": "funding-timing",
+      "title": "Funding timing",
+      "sub": "pivot first, institutionalise second"
+    },
+    {
+      "type": "p",
+      "text": "One of NALA’s most consequential capital decisions was not to raise. The original product solved a real problem in a low-ceiling market, and Fernandes kept the company small, so no large institutional cap table was committed to the old thesis when he pivoted in 2021. Pivots are often capital crises in disguise: investors hold equity in a business that no longer exists as backed, and the founder must raise while managing old expectations. NALA avoided this by raising its $10M seed in 2022, once remittances had traction. The Series A followed the same logic: $40M in July 2024, raised after a year of profitability and with African venture funding well below its 2021–2022 peak. A profitable company can raise to accelerate rather than to survive, which strengthens its negotiating position; the terms NALA obtained are not public. Headcount grew from 7 to more than 100 as capital went into building the organisation (Tech.eu, July 2024)."
+    },
+    {
+      "type": "h",
+      "id": "instrument-choice",
+      "title": "Instrument choice"
+    },
+    {
+      "type": "p",
+      "text": "NALA’s core needs (product, licences, compliance and its own rails) are platform costs with no separable asset to borrow against, and it funded them with equity. Payments do create one balance-sheet need: corridors must be pre-funded, so money is paid out before it is collected. NALA’s founder said the company “grew faster than we could handle pre-funding”, and in 2026 it took a credit facility of up to $50M for that float, describing it as funding growth rather than replacing equity (TechCabal, May 2026). The facility is a working-capital line tied to payment flows, not a loan book: NALA does not lend to its customers, and how much of the facility has been drawn is not public. The case refines the instrument logic rather than contradicting it: equity for the platform, and debt once a recurring, short-cycle asset (here, payment float) is large and predictable enough to finance."
+    },
+    {
+      "type": "raw",
+      "number": 14,
+      "title": null,
+      "html": "<svg aria-label=\"NALA T-account. Platform costs (product, licences, compliance, own rails) funded by equity of about $50M. Corridor pre-funding funded by a facility of up to $50M, first tranche $25M. Not a loan book.\" height=\"140\" role=\"img\" viewbox=\"0 0 682 150\" width=\"682\">\n<defs>\n<pattern height=\"7\" id=\"P19-f19v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#ECE6FD\" height=\"7\" width=\"7\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<pattern height=\"7\" id=\"P19-f19o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#FDE6E3\" height=\"7\" width=\"7\"></rect><line stroke=\"#D4503F\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<marker id=\"P19-f19a\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.5\"></path></marker>\n</defs>\n<path d=\"M4 14 C 120 11, 260 17, 341 14 S 560 11, 678 15\" fill=\"none\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"4\"></path>\n<path d=\"M341 13 C 343 60, 339 110, 342 146\" fill=\"none\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"4\"></path>\n<rect fill=\"#E2D8FF\" height=\"54\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"10\" y=\"26\"></rect>\n<rect fill=\"#FDDDD7\" height=\"54\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"10\" y=\"88\"></rect>\n<rect fill=\"#E2D8FF\" height=\"54\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"392\" y=\"26\"></rect>\n<rect fill=\"#FDDDD7\" height=\"54\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"280\" x=\"392\" y=\"88\"></rect>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\">\n<rect fill=\"#FFFFFF\" height=\"40\" opacity=\".93\" width=\"264\" x=\"18\" y=\"33\"></rect>\n<text font-size=\"13\" font-weight=\"800\" x=\"26\" y=\"50\">Platform</text>\n<text font-size=\"11\" font-weight=\"500\" x=\"26\" y=\"66\">product, licences, compliance, its own rails</text>\n<rect fill=\"#FFFFFF\" height=\"40\" opacity=\".93\" width=\"264\" x=\"18\" y=\"95\"></rect>\n<text font-size=\"13\" font-weight=\"800\" x=\"26\" y=\"112\">Corridor pre-funding</text>\n<text font-size=\"11\" font-weight=\"500\" x=\"26\" y=\"128\">money in transit, not a loan book</text>\n<rect fill=\"#FFFFFF\" height=\"40\" opacity=\".93\" width=\"264\" x=\"400\" y=\"33\"></rect>\n<text font-size=\"13\" font-weight=\"800\" x=\"408\" y=\"50\">Equity · ~$50M</text>\n<text font-size=\"11\" font-weight=\"500\" x=\"408\" y=\"66\">$10M seed (2022) + $40M Series A (2024)</text>\n<rect fill=\"#FFFFFF\" height=\"40\" opacity=\".93\" width=\"264\" x=\"400\" y=\"95\"></rect>\n<text font-size=\"13\" font-weight=\"800\" x=\"408\" y=\"112\">Credit facility · up to $50M</text>\n<text font-size=\"11\" font-weight=\"500\" x=\"408\" y=\"128\">$25M first tranche; Mars Growth Capital</text>\n</g>\n<path d=\"M290 53 L 388 53\" fill=\"none\" marker-end=\"url(#P19-f19a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M290 115 L 388 115\" fill=\"none\" marker-end=\"url(#P19-f19a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n</svg>",
+      "board": "P19",
+      "caption": "Not a loan book: the 2026 facility is a working-capital line tied to payment flows; how much has been drawn is not public. Sources: Tech.eu (July 2024); TechCabal (May 2026).",
+      "alt": "NALA T-account. Platform costs (product, licences, compliance, own rails) funded by equity of about $50M. Corridor pre-funding funded by a facility of up to $50M, first tranche $25M. Not a loan book."
+    },
+    {
+      "type": "h",
+      "id": "investor-selection",
+      "title": "Investor selection"
+    },
+    {
+      "type": "p",
+      "text": "NALA’s investors suit a global regulated-payments business rather than a Tanzanian startup: Accel, Bessemer and DST bring global fintech experience; angels from Deel, Robinhood, Monzo and Chime have scaled regulated consumer finance in NALA’s sending markets; Norrsken22 adds an Africa focus. Hires from Wise and Currencycloud add similar expertise for competing with Wise and Remitly. The 2026 lender, a joint venture with Japan’s MUFG Bank, adds a bank-affiliated debt partner suited to financing payment flows."
+    },
+    {
+      "type": "h",
+      "id": "dilution-management-and-the-rafiki-decision",
+      "title": "Dilution management and the Rafiki decision"
+    },
+    {
+      "type": "p",
+      "text": "NALA reached 500,000 customers and profitability having raised about $10M of disclosed institutional equity, little for cross-border payments, and raised its $40M Series A only once profitable, which limited dilution at both stages; actual ownership figures are not public. Using debt for corridor pre-funding in 2026 extends the same discipline. Rafiki reflects it too: NALA built its own rails only once partner failure rates of up to 15% became a measurable reliability problem."
+    },
+    {
+      "type": "raw",
+      "number": 15,
+      "title": "NALA’s capital sequence: each instrument matched to the job at the time",
+      "html": "<div style=\"display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border:1.5px solid #16132B;border-radius:4px;overflow:hidden;background:#FFFFFF\">\n<div style=\"padding:12px 12px 14px;border-right:1px solid #CFC9BC\"><div class=\"lb\" style=\"color:#16132B\">2021</div><div style=\"font:800 14px/1.25 'Plus Jakarta Sans',Arial,sans-serif;margin:4px 0 6px\">Pivot</div><div style=\"font:500 11.5px/1.45 'Plus Jakarta Sans',Arial,sans-serif\">to diaspora remittances, before a large institutional cap table existed</div></div>\n<div style=\"padding:12px 12px 14px;border-right:1px solid #CFC9BC;background:#ECE6FD\"><div class=\"lb\">2022 · equity</div><div style=\"font:800 14px/1.25 'Plus Jakarta Sans',Arial,sans-serif;margin:4px 0 6px\">$10M seed</div><div style=\"font:500 11.5px/1.45 'Plus Jakarta Sans',Arial,sans-serif\">once remittances had traction</div></div>\n<div style=\"padding:12px 12px 14px;border-right:1px solid #CFC9BC;background:#ECE6FD\"><div class=\"lb\">2024 · equity</div><div style=\"font:800 14px/1.25 'Plus Jakarta Sans',Arial,sans-serif;margin:4px 0 6px\">$40M Series A</div><div style=\"font:500 11.5px/1.45 'Plus Jakarta Sans',Arial,sans-serif\">after a year of profitability, in a weak market</div></div>\n<div style=\"padding:12px 12px 14px;background:#FDE6E3\"><div class=\"lb\" style=\"color:#8E2C20\">2026 · debt</div><div style=\"font:800 14px/1.25 'Plus Jakarta Sans',Arial,sans-serif;margin:4px 0 6px\">Facility up to $50M</div><div style=\"font:500 11.5px/1.45 'Plus Jakarta Sans',Arial,sans-serif\">for corridor pre-funding, not lending</div></div>\n</div>",
+      "board": "P19b",
+      "caption": "Summarised from the case timeline and analysis. Sources: Tech.eu (July 2024); TechCabal (May 2026).",
+      "alt": null
+    }
+  ],
+  "why": [
+    "Benjamin Fernandes started NALA in Tanzania as a mobile money management app and took it through Y Combinator. In 2021 he pivoted to diaspora remittances, later building Rafiki, NALA’s own payment rails. NALA’s capital story is one of sequencing: pivot before institutional money, a modest seed on the new model, a Series A only once profitable and, in 2026, debt for a working-capital need that equity is poorly suited to."
+  ],
+  "lessons": [
+    "Pivot before you institutionalise. NALA pivoted before it had a large institutional cap table, when fewer shareholders had to agree to the change.",
+    "Raise from strength. NALA’s Series A came after profitability, in a weak market, and still attracted a strong syndicate.",
+    "Instrument choice depends on what the balance sheet must carry, not the sector label: platform costs suit equity, while payment float, once large and predictable, can be financed with debt, as can a lender’s loan book."
+  ],
+  "name": "NALA",
+  "pill": "Case 3 · Tanzania",
+  "country": "Tanzania",
+  "founders": "Benjamin Fernandes · founded ~2017; pivoted 2021",
+  "heroStats": [
+    {
+      "value": "~$50M",
+      "label": "equity raised",
+      "source": "Tech.eu, July 2024; TechCabal, May 2026"
+    },
+    {
+      "value": "≤$50M",
+      "label": "credit facility (2026)",
+      "source": "TechCabal, May 2026"
+    },
+    {
+      "value": "500,000",
+      "label": "customers by 2024",
+      "source": ""
+    },
+    {
+      "value": "Profitable",
+      "label": "at Series A",
+      "source": "Tech.eu, July 2024"
+    }
+  ],
+  "art": "<svg aria-hidden=\"true\" class=\"case-art\" focusable=\"false\" viewbox=\"0 0 220 230\">\n<defs><pattern height=\"6\" id=\"P18art-c3v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<circle cx=\"70\" cy=\"150\" fill=\"#E2D8FF\" r=\"52\" stroke=\"#16132B\" stroke-width=\"2\"></circle>\n<path d=\"M18 150 L122 150 M70 98 C 46 120, 46 180, 70 202 M70 98 C 94 120, 94 180, 70 202\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.5\"></path>\n<path d=\"M120 112 C 140 60, 170 50, 200 36\" fill=\"none\" stroke=\"#16132B\" stroke-dasharray=\"5 4\" stroke-width=\"1.8\"></path>\n<path d=\"M176 30 L210 22 L196 52 L190 40 Z\" fill=\"#F2766B\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M190 40 L210 22\" stroke=\"#16132B\" stroke-width=\"1.4\"></path>\n</svg>",
+  "statusIcon": "<svg aria-hidden=\"true\" height=\"12\" style=\"vertical-align:-1px;margin-right:4px\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#0E8577\" r=\"5.5\"></circle><path d=\"M3.2 6.2 L5.2 8 L8.8 4.2\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"1.6\"></path></svg>",
+  "facts": {
+    "business": "Cross-border payments: consumer remittances and Rafiki B2B rails",
+    "investors": "Accel, Amplo, Bessemer, Y Combinator; Acrew Capital, DST Global",
+    "route": "noasset",
+    "routeText": "Core business on equity; payment float on a facility",
+    "status": "Profitable at Series A; 11 African markets (2024), network spanning 16 countries (2026)"
+  },
+  "whyTitle": "Why this founder",
+  "journey": {
+    "title": "Funding journey",
+    "entries": [
+      {
+        "date": "2017–2020",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Mobile money management app in Tanzania; Y Combinator. Small early cheques while the original product was tested."
+      },
+      {
+        "date": "2021",
+        "instruments": [],
+        "cls": [],
+        "text": "Pivot to diaspora remittances from the UK, EU and US into Africa."
+      },
+      {
+        "date": "2022",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "$10M seed from Accel, Amplo, Bessemer Venture Partners and Y Combinator, with angels including the founders of Deel, Robinhood and Monzo.",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "2023–2024",
+        "instruments": [],
+        "cls": [],
+        "text": "M-Pesa partnership. Rafiki, NALA’s B2B payments platform, is built after partner rails reach failure rates of up to 15% as NALA scales (TechCrunch, March 2024)."
+      },
+      {
+        "date": "July 2024",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "$40M Series A led by Lauren Kolodny of Acrew Capital, with DST Global and Amplo returning, plus Norrsken22, HOF Capital and fintech founders including the co-founders of Chime and Robinhood. NALA reports profitability and positive cash flow over the previous 12 months, revenue up 10x in 12 months and transaction volume up 34x in 20 months (Tech.eu, July 2024).",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "May 2026",
+        "instruments": [
+          "Debt facility"
+        ],
+        "cls": [
+          "dt"
+        ],
+        "text": "Secures a credit facility of up to $50M from Liquidity via Mars Growth Capital (a Liquidity–MUFG joint venture), starting with a $25M tranche, to pre-fund payment corridors on its stablecoin-based rails and support enterprise clients. NALA says it still holds more than half of the equity raised in 2024 (TechCabal, May 2026).",
+        "key": "#F2766B"
+      }
+    ],
+    "figure": {
+      "number": 13,
+      "caption": "NALA’s funding journey, coloured by instrument. Sources: TechCrunch (Mar 2024); Tech.eu (July 2024); TechCabal (May 2026)."
+    }
+  },
+  "analysisLabel": "Analysis across framework dimensions",
+  "quote": "A profitable company can raise to accelerate rather than to survive, which strengthens its negotiating position."
+}

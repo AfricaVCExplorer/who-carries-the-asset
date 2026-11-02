@@ -1,0 +1,91 @@
+---
+// Moove: the comparator (PDF page 33). Not assessed on the seven dimensions,
+// so it has its own short layout rather than the case template.
+import Base from '../../layouts/Base.astro';
+import RawFigure from '../../components/RawFigure.astro';
+import m from '../../content/moove.json';
+import index from '../../data/cases.json';
+import site from '../../data/site.json';
+import { makeGloss } from '../../lib/gloss.js';
+import { u } from '../../lib/url.js';
+
+const c = index.comparator;
+const g = makeGloss();
+const why = g.html(m.why);
+const quotes = m.quotes.map((q) => ({ ...q, html: g.html(q.text) }));
+const cap = g.html(m.figCaption);
+const art = m.art.replace(/ width="150" height="110"/, '').replace('<svg', '<svg class="case-art moove-art"');
+const pdfAt = `${u(site.pdf)}#page=33`;
+---
+<Base title="Moove: comparator" description="Moove, the comparator: a Lagos-founded vehicle financier whose Nigerian repayments were linked to ride-hailing earnings, read alongside the nine cases." current="cases/">
+  <header class="case-hero moove-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href={u()}>Home</a><span aria-hidden="true">/</span>
+        <a href={u('cases/')}>05 · Comparator: Moove</a>
+      </nav>
+      <div class="case-hero-grid">
+        <div>
+          <span class="pill pill-comparator">Comparator · Nigeria</span>
+          <h1>Moove</h1>
+          <p class="founders">The Lagos-founded vehicle financier, read alongside the nine cases</p>
+          <ul class="hero-stats" role="list">
+            {c.stats.map((s) => <li><b>{s.value}</b><span>{s.label}</span><cite>({s.source})</cite></li>)}
+          </ul>
+        </div>
+        <Fragment set:html={art} />
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <dl class="facts">
+      <div><dt>Business</dt><dd>Financed ride-hailing drivers’ cars</dd></div>
+      <div><dt>Repayment</dt><dd>Linked to drivers’ ride-hailing earnings</dd></div>
+      <div><dt>Who carries the asset</dt><dd><span class="chip" data-route="comparator"><span class="sw" aria-hidden="true"></span>{index.routes.comparator.label}</span><span class="route-long">Own the asset, fund it with debt, repayment linked to one outside platform</span></dd></div>
+      <div><dt>Status</dt><dd class="status">
+        <svg width="14" height="14" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5.5" fill="#A3123A" /><path d="M3.8 3.8 L8.2 8.2 M8.2 3.8 L3.8 8.2" stroke="#FFFFFF" stroke-width="1.6" /></svg>
+        Announced the end of Nigerian operations, Oct 2026
+      </dd></div>
+    </dl>
+
+    <div class="doc doc-single">
+      <article class="doc-body">
+        <RawFigure number={23} title={m.figTitle} html={m.figHtml} board="P28" captionHtml={cap} alt={m.figAlt} />
+
+        <section aria-labelledby="why">
+          <h2 id="why">Why it is in the study<a class="anchor" href="#why" aria-label="Link to this section">#</a></h2>
+          <p set:html={why} />
+        </section>
+
+        <div class="mq">
+          {quotes.map((q) => (
+            <aside class:list={['mq-box', { fw: q.framework }]}>
+              <span class="lb">{q.label}</span>
+              <p set:html={q.html} />
+            </aside>
+          ))}
+        </div>
+        <p><a class="link-arrow" href={pdfAt}>PDF page 33</a></p>
+      </article>
+    </div>
+
+    <nav class="pager" aria-label="Previous and next">
+      <a class="pg-prev" href={u('cases/autogirl/')} rel="prev"><span>← Case 6</span><b>Autogirl</b></a>
+      <a class="pg-next" href={u('cases/feegor/')} rel="next"><span>Case 7 →</span><b>Feegor</b></a>
+    </nav>
+  </div>
+</Base>
+
+<style>
+  .moove-hero { background: var(--crimson-tint); }
+  .pill-comparator { border: 1.5px dashed var(--r-comparator); color: var(--r-comparator); background: #fff; }
+  .doc-single { grid-template-columns: minmax(0, 1fr); }
+  .doc-single .doc-body { margin: 0 auto; }
+  .mq { display: grid; gap: 14px; margin: 8px 0 28px; }
+  .mq-box { padding: 16px 20px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--r-comparator); border-radius: var(--radius); }
+  .mq-box .lb { color: var(--r-comparator); margin-bottom: 6px; }
+  .mq-box p { margin: 0; }
+  .mq-box.fw { background: var(--violet-tint); border-color: var(--violet); border-left-color: var(--violet); }
+  .mq-box.fw .lb { color: var(--violet); }
+</style>

@@ -1,0 +1,197 @@
+{
+  "slug": "autogirl",
+  "order": 6,
+  "number": "6",
+  "section": "05",
+  "sectionTitle": "Case studies: West Africa",
+  "pdfPages": [
+    30,
+    32
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "lead": "Funding timing.",
+      "id": "funding-timing",
+      "text": "Autogirl has gone roughly seven years without a disclosed institutional round. Arinze planned a seed round in 2022, but we found no record of it closing; the 2022–2024 funding downturn and cooling investor appetite for Nigerian mobility may have contributed. The company stayed largely revenue-funded through its Ghana expansion. Whether the delay was a choice or a round that failed to close is not public."
+    },
+    {
+      "type": "p",
+      "lead": "Instrument choice and debt vs. equity.",
+      "id": "instrument-choice-and-debt-vs-equity",
+      "text": "Autogirl’s main financing instrument is its marketplace: owners carry the vehicles, and by 2024 had received more than $530,000 from an asset base Autogirl never financed (TechCabal, January 2026). Moove offers a contrast. It financed ride-hailing drivers’ cars, with repayment linked to their platform earnings, and announced the end of its Nigerian operations about a month after Uber left Nigeria in September 2026, transferring vehicles valued at about ₦35bn to customers at no further cost (Nairametrics, October 2026; Nation Africa, 2026). Moove gave no reason, drivers could still work on other platforms such as Bolt, and Moove continues to raise capital elsewhere, so the link to Uber’s exit is a plausible explanation rather than an established cause. Autogirl had no fleet debt to unwind. Risk remains: a ₦20M crash showed that when an owner’s insurance fails, Autogirl becomes the insurer of last resort. Verified insurance, guarantors and tracker-backed KYC now do the work a reserve or debt facility would do elsewhere."
+    },
+    {
+      "type": "raw",
+      "number": 21,
+      "title": "Owners carry the fleet; contracts carry the risk",
+      "html": "<div style=\"position:relative;width:682px;height:300px\">\n<svg aria-hidden=\"true\" height=\"300\" style=\"position:absolute;left:0;top:0\" viewbox=\"0 0 682 300\" width=\"682\">\n<defs>\n<marker id=\"P26-f26a\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.5\"></path></marker>\n<marker id=\"P26-f26t\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#0E8577\" stroke-width=\"1.6\"></path></marker>\n<marker id=\"P26-f26r\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#A3123A\" stroke-width=\"1.6\"></path></marker>\n<pattern height=\"7\" id=\"P26-f26h\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#DDF1EE\" height=\"7\" width=\"7\"></rect><line stroke=\"#0E8577\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n</defs>\n<rect fill=\"#D3EFEA\" height=\"104\" rx=\"4\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"200\" x=\"0\" y=\"20\"></rect>\n<path d=\"M200 60 L 236 60\" marker-end=\"url(#P26-f26a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M440 60 L 476 60\" marker-end=\"url(#P26-f26a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M240 104 C 210 120, 205 120, 204 110\" fill=\"none\" marker-end=\"url(#P26-f26t)\" stroke=\"#0E8577\" stroke-width=\"1.8\"></path>\n<path d=\"M340 124 L 340 168\" fill=\"none\" marker-end=\"url(#P26-f26r)\" stroke=\"#A3123A\" stroke-dasharray=\"5 4\" stroke-width=\"1.6\"></path>\n</svg>\n<div class=\"bx\" style=\"left:8px;top:26px;width:184px;height:92px;background:#FFFFFF;padding:8px 10px\"><b>Car owners</b>list vehicles and carry the asset; Autogirl never financed the fleet</div>\n<div class=\"bx\" style=\"left:240px;top:20px;width:200px;height:104px;background:#FFFFFF\"><b>Muvment platform</b>supplies customers, drivers and verification</div>\n<div class=\"bx\" style=\"left:476px;top:20px;width:206px;height:104px;background:#FFFFFF\"><b>Customers</b>corporate clients needing cars for three to twelve months, plus self-drive and chauffeured rentals</div>\n<div style=\"position:absolute;left:8px;top:132px;width:220px;font:italic 600 13.6px/1.20 'Source Serif 4',Georgia,serif;color:#0E8577\">$530,000+ paid out to owners by 2024</div>\n<div class=\"bx\" style=\"left:170px;top:176px;width:340px;height:112px;background:#F6DDE4;border-color:#A3123A\"><b style=\"color:#A3123A\">₦20M (~$14,000) lesson</b>An uninsured self-drive crash: when an owner’s insurance fails, Autogirl becomes the insurer of last resort. Verified comprehensive insurance is now a listing condition.</div>\n<div style=\"position:absolute;left:530px;top:180px;width:152px;font:500 11px/1.4 'Plus Jakarta Sans',Arial,sans-serif\"><div class=\"lb\" style=\"color:#0E8577;margin-bottom:6px\">Risk controls now</div><div style=\"display:flex;flex-direction:column;gap:5px;align-items:flex-start\"><span class=\"chip\">Verified insurance</span><span class=\"chip\">Guarantors</span><span class=\"chip\">Tracker-backed KYC</span></div></div>\n</div>",
+      "board": "P26",
+      "caption": "Autogirl’s asset-light model moves fleet risk to owners and contracts, not off the map. Sources: TechCabal (Nov 2023; Jan 2026); CNN (Sept 2024).",
+      "alt": null
+    },
+    {
+      "type": "callout",
+      "label": "Company-reported",
+      "text": "Company materials for the Prado investment offer cite 520+ vehicles, 20,000+ rentals and ₦2B+ paid to owners, and the company website cites 70,000+ rides; these figures are company-reported and use different bases."
+    },
+    {
+      "type": "p",
+      "lead": "Prado investment offer (unresolved).",
+      "id": "prado-investment-offer-unresolved",
+      "text": "Company materials describe a Prado investment opportunity that raises outside capital on the strength of Prado rental returns. Its classification cannot be established from public sources, so this study does not treat it as equity. Classification depends on structure: shares in Autogirl would make it dilutive equity; investor-owned vehicles managed by Autogirl would make it off-balance-sheet asset capital; a promised fixed return would make it debt-like whatever the label. Company marketing to car owners describes earnings of up to ₦30M a year as “guaranteed” (Muvment by Autogirl, July 2026); if similar language applies to investors, Autogirl would carry the return risk, and a pooled, return-promising scheme may raise questions under the Investments and Securities Act 2025. The amount raised, investor and vehicle numbers, instrument and any return guarantee are not public."
+    },
+    {
+      "type": "raw",
+      "number": 22,
+      "title": "Classifying the Prado offer: who holds title, and who carries the return risk?",
+      "html": "<div style=\"position:relative;width:682px;height:250px\">\n<svg aria-hidden=\"true\" height=\"250\" style=\"position:absolute;left:0;top:0\" viewbox=\"0 0 682 250\" width=\"682\">\n<defs><marker id=\"P27-f27a\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.5\"></path></marker></defs>\n<path d=\"M341 58 L341 78 M112 78 L570 78\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M112 78 L112 96\" marker-end=\"url(#P27-f27a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M341 78 L341 96\" marker-end=\"url(#P27-f27a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M570 78 L570 96\" marker-end=\"url(#P27-f27a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M112 148 L112 164\" marker-end=\"url(#P27-f27a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M341 148 L341 164\" marker-end=\"url(#P27-f27a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M570 148 L570 164\" marker-end=\"url(#P27-f27a)\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n</svg>\n<div class=\"bx\" style=\"left:171px;top:0;width:340px;height:58px;text-align:center;background:#16132B;color:#FAF7F0;border-color:#16132B\"><b>Prado investment offer</b>If the structure is…</div>\n<div class=\"bx\" style=\"left:12px;top:100px;width:200px;height:48px;text-align:center\">shares in Autogirl</div>\n<div class=\"bx\" style=\"left:241px;top:100px;width:200px;height:48px;text-align:center\">investor-owned vehicles managed by Autogirl</div>\n<div class=\"bx\" style=\"left:470px;top:100px;width:200px;height:48px;text-align:center\">a promised fixed return</div>\n<div class=\"bx\" style=\"left:12px;top:168px;width:200px;height:70px;background:#ECE6FD;border-color:#5B21E6\"><b>Dilutive equity</b></div>\n<div class=\"bx\" style=\"left:241px;top:168px;width:200px;height:70px;background:#DDF1EE;border-color:#0E8577\"><b>Off-balance-sheet asset capital</b></div>\n<div class=\"bx\" style=\"left:470px;top:168px;width:200px;height:70px;background:#FDE6E3;border-color:#D4503F\"><b>Debt-like, whatever the label</b>a pooled scheme may raise questions under the ISA 2025</div>\n<div style=\"position:absolute;left:536px;top:2px;transform:rotate(-6deg);border:2.5px solid #A3123A;border-radius:4px;padding:4px 10px;font:800 13px/1 'Plus Jakarta Sans',Arial,sans-serif;letter-spacing:.14em;color:#A3123A;background:#FAF7F0\">UNRESOLVED</div>\n</div>",
+      "board": "P27",
+      "caption": "Outcome unresolved: the study does not treat the offer as equity. The amount raised, investor and vehicle numbers, instrument and any return guarantee are not public. Source: Muvment by Autogirl (July 2026).",
+      "alt": null
+    },
+    {
+      "type": "p",
+      "lead": "Investor selection.",
+      "id": "investor-selection",
+      "text": "Disclosed external money has come only from an accelerator programme run by a trust and a grant for women founders, neither taking equity or a board seat. Arinze has said she aims to sell Muvment to a global peer-to-peer platform such as Turo when it enters Africa (TechCabal, January 2026); a moderate-valuation trade sale suits angels, strategic and impact investors better than a venture fund needing a much larger outcome."
+    },
+    {
+      "type": "p",
+      "lead": "Dilution management.",
+      "id": "dilution-management",
+      "text": "The founding team (Arinze and COO Ebuka Arinze) is reported to hold the company in full; whether the Prado offer changes this is not public."
+    },
+    {
+      "type": "p",
+      "lead": "Treasury, FX and follow-on funding.",
+      "id": "treasury-fx-and-follow-on-funding",
+      "text": "Revenue, costs and owner payouts are in naira and now cedis. With no dollar liabilities, Autogirl avoids the currency mismatch facing dollar-funded peers, but has no hard-currency buffer for cross-border growth. No follow-on institutional funding has been disclosed."
+    }
+  ],
+  "why": [
+    "Chinazom Arinze started Autogirl with no capital. As a law student, she sold cars on commission, flipped her first car with the proceeds and organised campus-to-Lagos rides. Car trading tied up too much cash for too little margin, so she moved into rentals, matching corporate clients who needed cars for three to twelve months with private cars sitting idle between commutes: owners list vehicles, and Autogirl supplies customers, drivers and verification. By her account, revenue covered all staff costs by 2022 with no outside investor (Nairametrics, June 2022), and the company has since entered Ghana. Because owners finance the fleet, the model does the work capital does elsewhere, making Autogirl a foil to Sendy and to Moove, the Lagos-founded vehicle financier that announced the end of its Nigerian operations in October 2026, a month after Uber left the market (Nairametrics, October 2026)."
+  ],
+  "lessons": [
+    "In mobility, a marketplace that lets owners fund the fleet can substitute for capital: Autogirl entered a second country with no disclosed vehicle financing.",
+    "Asset-light moves risk; it does not remove it. Insurance, guarantor and KYC terms in the host and rental contracts are the real risk controls and have to be enforced from day one.",
+    "Asset-linked raises need careful classification. A raise built around one vehicle type can be equity, asset finance or debt depending on who holds title and carries the return risk, which determines how it is accounted for and regulated."
+  ],
+  "name": "Autogirl",
+  "pill": "Case 6 · Nigeria & Ghana",
+  "country": "Nigeria & Ghana",
+  "founders": "Chinazom Arinze · founded 2019, Lagos · now Muvment by Autogirl",
+  "heroStats": [
+    {
+      "value": "12,000+",
+      "label": "rides by 2024",
+      "source": "TechCabal, January 2026"
+    },
+    {
+      "value": "3,000+",
+      "label": "customers",
+      "source": ""
+    },
+    {
+      "value": "$530,000+",
+      "label": "paid out to car owners",
+      "source": "TechCabal, January 2026"
+    },
+    {
+      "value": "6",
+      "label": "cities, 2 countries",
+      "source": ""
+    }
+  ],
+  "art": "<svg aria-hidden=\"true\" class=\"case-art\" focusable=\"false\" viewbox=\"0 0 210 200\">\n<defs><pattern height=\"6\" id=\"P25art-c6t\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\"></rect><line stroke=\"#0E8577\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M14 130 L28 96 C 34 84, 44 78, 58 78 L132 76 C 146 76, 156 84, 164 96 L188 104 C 198 108, 202 116, 202 126 L202 138 L14 140 Z\" fill=\"#D3EFEA\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n<path d=\"M46 96 L64 84 L100 84 L100 100 L44 102 Z M110 84 L136 84 L150 99 L110 100 Z\" fill=\"#FFFFFF\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"1.6\"></path>\n<circle cx=\"56\" cy=\"142\" fill=\"#FAF7F0\" r=\"17\" stroke=\"#16132B\" stroke-width=\"2\"></circle>\n<circle cx=\"164\" cy=\"142\" fill=\"#FAF7F0\" r=\"17\" stroke=\"#16132B\" stroke-width=\"2\"></circle>\n<circle cx=\"56\" cy=\"142\" fill=\"#16132B\" r=\"6\"></circle>\n<circle cx=\"164\" cy=\"142\" fill=\"#16132B\" r=\"6\"></circle>\n<path d=\"M4 160 L206 158\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"2\"></path>\n<path d=\"M150 40 C 150 28, 160 20, 172 20 C 184 20, 194 28, 194 40 L194 56 L150 56 Z\" fill=\"#F2766B\" stroke=\"#16132B\" stroke-width=\"1.8\"></path>\n<path d=\"M162 56 L162 40 C 162 34, 166 30, 172 30 C 178 30, 182 34, 182 40 L182 56\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.6\"></path>\n<text fill=\"#16132B\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"12.0\" font-style=\"italic\" font-weight=\"600\" text-anchor=\"middle\" x=\"172\" y=\"72\">owner’s keys</text>\n</svg>",
+  "statusIcon": "<svg aria-hidden=\"true\" height=\"12\" style=\"vertical-align:-1px;margin-right:4px\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#FFFFFF\" r=\"5.2\" stroke=\"#16132B\" stroke-width=\"1.3\"></circle><path d=\"M6 3 L6 6.2 L8.2 7.4\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.3\"></path></svg>",
+  "facts": {
+    "business": "Peer-to-peer vehicle rentals: chauffeured and self-drive cars, with boat and jet rentals on request",
+    "investors": "No institutional round; GET Accelerated (₦10M) and Grey’s UpGreyed Her ($2,000) grants; Seedstars",
+    "route": "partner",
+    "routeText": "Leave the asset with a partner: owners carry the fleet",
+    "status": "Lagos, Abuja, Benin City, Enugu, Port Harcourt, Accra; Prado offer unresolved"
+  },
+  "whyTitle": "Why this founder",
+  "journey": {
+    "title": "Funding journey",
+    "entries": [
+      {
+        "date": "2018–2019",
+        "instruments": [
+          "Revenue"
+        ],
+        "cls": [
+          "rv"
+        ],
+        "text": "Arinze sells cars for dealers on commission and flips her first vehicle with the proceeds. Autogirl is formally registered in 2019 as a dealership and rental business."
+      },
+      {
+        "date": "2020–2022",
+        "instruments": [
+          "Owners’ cars"
+        ],
+        "cls": [
+          "pt"
+        ],
+        "text": "Pivot to peer-to-peer rentals, run on calls, WhatsApp and Google Sheets. By June 2022, revenue covers payroll for seven staff with no outside investor; a first seed round is planned.",
+        "key": "#0E8577"
+      },
+      {
+        "date": "2023",
+        "instruments": [],
+        "cls": [],
+        "text": "Around 3,000 trips completed and roughly 123 corporate clients served. Free driver-training programme for women launched."
+      },
+      {
+        "date": "2024",
+        "instruments": [
+          "Grant"
+        ],
+        "cls": [
+          "gr"
+        ],
+        "text": "Operations rebuilt as the Muvment platform with live booking and owner dashboards. 12,000+ rides; $530,000+ paid to owners (TechCabal, January 2026). $2,000 UpGreyed Her grant (May); Ghana launch (June); GET Accelerated 2024 cohort; Seedstars accelerator.",
+        "key": "#8C8898"
+      },
+      {
+        "date": "January 2025",
+        "instruments": [
+          "Grant"
+        ],
+        "cls": [
+          "gr"
+        ],
+        "text": "Named one of five GET Accelerated startups to receive an additional ₦10M in equity-free funding.",
+        "key": "#8C8898"
+      },
+      {
+        "date": "2025–2026",
+        "instruments": [
+          "Loss"
+        ],
+        "cls": [
+          "rd"
+        ],
+        "text": "Absorbs a ₦20M (~$14,000) loss on an uninsured self-drive crash; makes verified comprehensive insurance a listing condition (TechCabal, January 2026). Targets Ghana profitability in 2026, eyes Kenya, Côte d’Ivoire and Benin, and lists electric vehicles.",
+        "key": "#A3123A"
+      },
+      {
+        "date": "2024–2026(date unconfirmed)",
+        "instruments": [
+          "Prado offer · unresolved"
+        ],
+        "cls": [
+          "un"
+        ],
+        "text": "Prado investment offer reported, built around Autogirl’s strongest rental category. Company marketing says a Prado can earn about ₦100,000 a day and up to ₦30M a year in gross rental income; the source does not state occupancy, costs or contractual terms (Muvment by Autogirl, July 2026)."
+      }
+    ],
+    "figure": {
+      "number": 20,
+      "caption": "Autogirl’s funding journey. Sources: Nairametrics (June 2022); TechCabal (Nov 2023; Jan 2025; Jan 2026); ThisDay (May 2024); Muvment by Autogirl (July 2026)."
+    }
+  },
+  "analysisLabel": "Analysis across framework dimensions",
+  "quote": "Asset-light moves risk; it does not remove it."
+}

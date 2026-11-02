@@ -1,0 +1,175 @@
+{
+  "slug": "lemfi",
+  "order": 9,
+  "number": "9",
+  "section": "05",
+  "sectionTitle": "Case studies: West Africa",
+  "pdfPages": [
+    39,
+    40
+  ],
+  "blocks": [
+    {
+      "type": "dims",
+      "items": [
+        {
+          "id": "funding-timing",
+          "title": "Funding timing",
+          "text": "LemFi took 21 months from seed (November 2021) to Series A (August 2023) and 17 months from Series A to Series B (January 2025). Condia’s State of Startup Funding in Africa report puts the current median seed-to-Series A gap at 29 months, up from 18 months (Forbes Africa, May 2026), so LemFi was faster than today’s median but not clearly faster than the median when it raised. The traction metrics behind each round are not public."
+        }
+      ]
+    },
+    {
+      "type": "raw",
+      "number": 30,
+      "title": "Months between priced rounds, against the median seed-to-Series A gap",
+      "html": "<svg aria-label=\"Bars: 21 months from seed (November 2021) to Series A (August 2023); 17 months from Series A to Series B (January 2025). Dashed lines: the current 29-month median seed-to-Series A gap, up from 18 months.\" height=\"122\" role=\"img\" viewbox=\"0 0 682 150\" width=\"682\">\n<defs><pattern height=\"6\" id=\"P35-f35v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#ECE6FD\" height=\"6\" width=\"6\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.6\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\">\n<text font-size=\"11.5\" font-weight=\"700\" x=\"0\" y=\"36\">Seed → Series A</text>\n<text font-size=\"10\" font-weight=\"500\" x=\"0\" y=\"51\">Nov 2021 → Aug 2023</text>\n<rect fill=\"#E2D8FF\" height=\"26\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"336\" x=\"150\" y=\"22\"></rect>\n<text font-size=\"14\" font-weight=\"800\" x=\"496\" y=\"41\">21 months</text>\n<text font-size=\"11.5\" font-weight=\"700\" x=\"0\" y=\"96\">Series A → Series B</text>\n<text font-size=\"10\" font-weight=\"500\" x=\"0\" y=\"111\">Aug 2023 → Jan 2025</text>\n<rect fill=\"#E2D8FF\" height=\"26\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"272\" x=\"150\" y=\"82\"></rect>\n<text font-size=\"14\" font-weight=\"800\" x=\"432\" y=\"101\">17 months</text>\n<path d=\"M150 136 L 614 136\" stroke=\"#16132B\" stroke-width=\"1.5\"></path>\n<text font-size=\"9.5\" font-weight=\"600\" x=\"150\" y=\"148\">0</text>\n<text font-size=\"9.5\" font-weight=\"600\" text-anchor=\"middle\" x=\"390\" y=\"148\">15</text>\n</g>\n<path d=\"M614 10 L 614 136\" stroke=\"#A3123A\" stroke-dasharray=\"6 4\" stroke-width=\"2\"></path>\n<text fill=\"#A3123A\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"9.5\" font-weight=\"700\" text-anchor=\"end\" x=\"608\" y=\"148\">29 months</text>\n<path d=\"M438 10 L 438 136\" stroke=\"#8C8898\" stroke-dasharray=\"3 4\" stroke-width=\"2\"></path>\n<text fill=\"#6E6A7C\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"9.5\" font-weight=\"700\" x=\"444\" y=\"148\">18 (earlier)</text>\n<text fill=\"#A3123A\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"13.6\" font-style=\"italic\" font-weight=\"600\" text-anchor=\"end\" x=\"606\" y=\"66\">current median</text>\n<text fill=\"#A3123A\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"13.6\" font-style=\"italic\" font-weight=\"600\" text-anchor=\"end\" x=\"606\" y=\"82\">seed → Series A</text>\n</svg>",
+      "board": "P35",
+      "caption": "Bars to one scale. The median rose from 18 to 29 months, so LemFi beat today’s median but not clearly the median when it raised. Sources: FinTech Futures (Aug 2023); LemFi (n.d.); Forbes Africa (May 2026).",
+      "alt": "Bars: 21 months from seed (November 2021) to Series A (August 2023); 17 months from Series A to Series B (January 2025). Dashed lines: the current 29-month median seed-to-Series A gap, up from 18 months."
+    },
+    {
+      "type": "dims",
+      "items": [
+        {
+          "id": "instrument-choice",
+          "title": "Instrument choice",
+          "text": "LemFi’s disclosed funding is priced equity across three rounds, plus a reported extension; no venture debt or grants are recorded. That fits its core business: money transfer and accounts are platform costs with no separable asset to borrow against. The 2025 acquisition of Pillar changes the picture at the margin. LemFi Credit gives customers small revolving credit lines, built with a lending partner, and which party carries the loans is not disclosed. An acquisition and an early credit product do not make LemFi a balance-sheet lender, but if lending becomes material and stays on LemFi’s books, the framework in Section 7 points to debt or partner funding for that book, as M-KOPA and MNT-Halan use."
+        },
+        {
+          "id": "investor-selection",
+          "title": "Investor selection",
+          "text": "For its Series B, LemFi chose Highland Europe, a European growth-stage firm, over a typical Africa-focused investor, aligning its investor base with its customers’ markets. Y Combinator is reported to have participated from seed to Series B; whether from conviction or pro-rata rights is unknown."
+        },
+        {
+          "id": "dilution-management",
+          "title": "Dilution management",
+          "text": "LemFi’s dilution is undisclosed, as is normal for private companies. The progression from small seed rounds to a $53M Series B suggests disciplined fundraising, but without a published cap table this remains an inference."
+        },
+        {
+          "id": "follow-on-funding-and-debt-equity-decisions",
+          "title": "Follow-on funding and debt/equity decisions",
+          "text": "LemFi’s strongest signal is three consecutive priced equity rounds, each larger than the last, with no disclosed down round or survival bridge. Whether its equity-only structure to date reflects design or the absence of a borrowing need is an open question; no decision to decline or delay capital is documented."
+        }
+      ]
+    }
+  ],
+  "why": [
+    "Ridwan Olalere left unvested Uber stock in 2020 and invested £19,000 of his own money in a remittance company, drawing on unit economics he had observed at OPay. He has said his first $500,000 pitch deck understated costs and overstated market size, halving the planned 12-month runway; he and co-founder Rian Cochran recovered from those early forecasting errors (TechCabal, August 2025)."
+  ],
+  "lessons": [
+    "A lead investor based in your customers’ market (Highland Europe for a company serving the European diaspora) can matter as much as sector expertise.",
+    "An equity-only structure suits a payments platform, but should be revisited once the company carries float or credit, as NALA did with its corridor facility."
+  ],
+  "name": "LemFi",
+  "pill": "Case 9 · Nigeria",
+  "country": "Nigeria",
+  "founders": "Ridwan Olalere & Rian Cochran · founded 2020 as Lemonade Finance",
+  "heroStats": [
+    {
+      "value": "~$86M",
+      "label": "disclosed equity",
+      "source": ""
+    },
+    {
+      "value": "1M+",
+      "label": "customers (~2M by mid-2025)",
+      "source": ""
+    },
+    {
+      "value": "$1B+",
+      "label": "monthly transaction volume",
+      "source": ""
+    },
+    {
+      "value": "20+",
+      "label": "countries",
+      "source": ""
+    }
+  ],
+  "art": "<svg aria-hidden=\"true\" class=\"case-art\" focusable=\"false\" viewbox=\"0 0 220 220\">\n<defs><pattern height=\"6\" id=\"P34art-c9v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.4\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern><marker id=\"P34art-c9a\" markerheight=\"9\" markerwidth=\"9\" orient=\"auto\" refx=\"5\" refy=\"4.5\"><path d=\"M0 0 L9 4.5 L0 9\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.6\"></path></marker></defs>\n<rect fill=\"#FFFFFF\" height=\"130\" rx=\"10\" stroke=\"#16132B\" stroke-width=\"2\" width=\"76\" x=\"20\" y=\"40\"></rect>\n<rect fill=\"#E2D8FF\" height=\"96\" rx=\"2\" width=\"60\" x=\"28\" y=\"54\"></rect>\n<text fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"14\" font-weight=\"800\" text-anchor=\"middle\" x=\"58\" y=\"108\">GBP</text>\n<rect fill=\"#FFFFFF\" height=\"130\" rx=\"10\" stroke=\"#16132B\" stroke-width=\"2\" width=\"76\" x=\"128\" y=\"60\"></rect>\n<rect fill=\"#FDE6E3\" height=\"96\" rx=\"2\" width=\"60\" x=\"136\" y=\"74\"></rect>\n<text fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"16\" font-weight=\"800\" text-anchor=\"middle\" x=\"166\" y=\"128\">₦</text>\n<path d=\"M66 28 C 90 6, 130 6, 160 40\" fill=\"none\" marker-end=\"url(#P34art-c9a)\" stroke=\"#16132B\" stroke-dasharray=\"5 4\" stroke-width=\"1.8\"></path>\n<text fill=\"#16132B\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"12.8\" font-style=\"italic\" font-weight=\"600\" text-anchor=\"middle\" x=\"110\" y=\"214\">diaspora sends home</text>\n</svg>",
+  "statusIcon": "<svg aria-hidden=\"true\" height=\"12\" style=\"vertical-align:-1px;margin-right:4px\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#0E8577\" r=\"5.5\"></circle><path d=\"M3.2 6.2 L5.2 8 L8.8 4.2\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"1.6\"></path></svg>",
+  "facts": {
+    "business": "Cross-border payments, accounts and, from 2025, credit products for immigrant communities in Europe and North America",
+    "investors": "Y Combinator, Highland Europe, Endeavor Catalyst, Left Lane Capital, Palm Drive Capital",
+    "route": "noasset",
+    "routeText": "Core payments business on equity; credit via a lending partner",
+    "status": "Series B+; ~$120M if the reported €30M extension closes"
+  },
+  "whyTitle": "Why this founder",
+  "journey": {
+    "title": "Funding journey",
+    "entries": [
+      {
+        "date": "2020",
+        "instruments": [
+          "Own funds"
+        ],
+        "cls": [
+          "rv"
+        ],
+        "text": "Founded as Lemonade Finance by Ridwan Olalere and Rian Cochran, building a remittance app for African diaspora communities sending money home."
+      },
+      {
+        "date": "Summer 2021",
+        "instruments": [],
+        "cls": [],
+        "text": "Joins Y Combinator (Summer 2021 batch)."
+      },
+      {
+        "date": "November 2021",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Raises a Seed round (amount not disclosed in open sources).",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "August 2023",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Raises a $33M Series A led by Left Lane Capital (FinTech Futures, August 2023).",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "January 2025",
+        "instruments": [
+          "Equity"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "$53M Series B led by Highland Europe, with Endeavor Catalyst, Left Lane Capital, Palm Drive Capital and Y Combinator (LemFi, n.d.).",
+        "key": "#5B21E6"
+      },
+      {
+        "date": "2025",
+        "instruments": [],
+        "cls": [],
+        "text": "Acquires UK fintech Pillar (June 2025), gaining an alternative credit-scoring model and a UK credit licence, and expands LemFi Credit, a revolving credit line of up to £300 built with lending partner Fintern (FinTech Futures, June 2025). Secures regulatory approvals in Canada and Australia."
+      },
+      {
+        "date": "2026",
+        "instruments": [
+          "Equity, reported"
+        ],
+        "cls": [
+          "eq"
+        ],
+        "text": "Reported to be raising a Series B extension of about €30M; LemFi had not commented (FinTech Futures, May 2026)."
+      }
+    ],
+    "figure": {
+      "number": 29,
+      "caption": "LemFi’s funding journey: priced equity throughout. Sources: FinTech Futures (Aug 2023; June 2025; May 2026); LemFi (n.d.); Y Combinator (n.d.)."
+    }
+  },
+  "analysisLabel": "Analysis across framework dimensions"
+}
