@@ -2,7 +2,7 @@
 
 Interactive website for the Dream VC Investor Accelerator 2026 capstone *Who carries the asset? How African founders use capital as a strategic tool: nine cases, one framework* by Princess Oti, Abdullahi Lawal and Nate Cheruiyot.
 
-Live site: https://vcexplorer.github.io/who-carries-the-asset/
+Live site: https://africavcexplorer.github.io/who-carries-the-asset/
 
 The 58-page PDF in `public/report/` is the single source of truth. Every number on the site must match it exactly and carry its source citation.
 
