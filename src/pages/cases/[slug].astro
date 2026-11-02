@@ -1,0 +1,182 @@
+---
+import Base from '../../layouts/Base.astro';
+import CaseArt from '../../components/CaseArt.astro';
+import BarsFigure from '../../components/BarsFigure.astro';
+import CardsFigure from '../../components/CardsFigure.astro';
+import site from '../../data/site.json';
+import index from '../../data/cases.json';
+import { makeGloss } from '../../lib/gloss.js';
+import { u } from '../../lib/url.js';
+
+export async function getStaticPaths() {
+  const files = import.meta.glob('../../content/cases/*.json', { eager: true });
+  return Object.values(files).map((m: any) => ({ params: { slug: m.default.slug }, props: { c: m.default } }));
+}
+
+const { c } = Astro.props as { c: any };
+
+// Reading order across the report: cases 1–6, Moove (comparator), cases 7–9.
+const all = [...index.cases];
+all.splice(6, 0, index.comparator as any);
+const pos = all.findIndex((x) => x.slug === c.slug);
+const prev = pos > 0 ? { href: u(`cases/${all[pos - 1].slug}/`), label: all[pos - 1].name, kicker: all[pos - 1].number === 'Comparator' ? 'Comparator' : `Case ${all[pos - 1].number}` } : { href: u('cases/'), label: c.sectionTitle, kicker: `Section ${c.section}` };
+const next = pos < all.length - 1 ? { href: u(`cases/${all[pos + 1].slug}/`), label: all[pos + 1].name, kicker: all[pos + 1].number === 'Comparator' ? 'Comparator' : `Case ${all[pos + 1].number}` } : { href: u('synthesis/'), label: 'Cross-case synthesis', kicker: 'Section 06' };
+
+// Glossary tooltips in reading order.
+const g = makeGloss();
+const facts = { business: g.html(c.facts.business), investors: g.html(c.facts.investors), status: g.html(c.facts.status) };
+const why = c.why.map((p: string) => g.html(p));
+const journey = c.journey.entries.map((e: any) => ({ ...e, html: g.html(e.text) }));
+const journeyCap = g.html(c.journey.figure.caption);
+const blocks = c.blocks.map((b: any) => ({
+  ...b,
+  html: b.type === 'p' ? g.html(b.text) : undefined,
+  captionHtml: b.caption ? g.html(b.caption) : undefined,
+}));
+const lessons = c.lessons.map((l: string) => g.html(l));
+
+const instruments = [...new Set(c.journey.entries.flatMap((e: any) => e.instruments))] as string[];
+const ikey = (s: string) => s.toLowerCase().replace(/[^a-z]+/g, '-');
+
+const toc = [
+  { id: 'why', label: 'Why this founder' },
+  { id: 'journey', label: c.journey.title },
+  ...blocks.filter((b: any) => b.type === 'h').map((b: any) => ({ id: b.id, label: b.title, sub: true })),
+  { id: 'lessons', label: 'Key lessons' },
+];
+const pdf = u(site.pdf);
+const pdfAt = `${pdf}#page=${c.pdfPages[0]}`;
+const routeLabel = (index.routes as any)[c.facts.route]?.label;
+---
+<Base title={`${c.name}: Case ${c.number}`} description={c.description} current="cases/">
+
+  <header class="case-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href={u()}>Home</a><span aria-hidden="true">/</span>
+        <a href={u('cases/')}>{c.section} · {c.sectionTitle}</a>
+      </nav>
+      <div class="case-hero-grid">
+        <div>
+          <span class="pill pill-violet">Case {c.number} · {c.country}</span>
+          <h1><span class="nowrap">{c.name}</span></h1>
+          <p class="founders">{c.founders}</p>
+          <ul class="hero-stats" role="list">
+            {c.heroStats.map((s: any) => (
+              <li><b>{s.value}</b><span>{s.label}</span><cite>({s.source})</cite></li>
+            ))}
+          </ul>
+        </div>
+        <CaseArt name={c.illustration} />
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <dl class="facts">
+      <div><dt>Business</dt><dd set:html={facts.business} /></div>
+      <div><dt>Main investors</dt><dd set:html={facts.investors} /></div>
+      <div><dt>Who carries the asset</dt><dd><span class="chip" data-route={c.facts.route}><span class="sw" aria-hidden="true"></span>{routeLabel}</span><span class="route-long">{c.facts.routeText}</span></dd></div>
+      <div><dt>Status</dt><dd class:list={['status', `tone-${c.facts.statusTone}`]}>
+        <svg width="14" height="14" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5.5" fill="#0E8577" /><path d="M3.2 6.2 L5.2 8 L8.8 4.2" stroke="#FFFFFF" stroke-width="1.6" fill="none" /></svg>
+        <span set:html={facts.status} />
+      </dd></div>
+    </dl>
+
+    <div class="doc">
+      <aside class="toc" aria-label="On this page">
+        <p class="lb">On this page</p>
+        <ol role="list">
+          {toc.map((t) => <li class:list={{ sub: t.sub }}><a href={`#${t.id}`}>{t.label}</a></li>)}
+        </ol>
+        <a class="toc-pdf" href={pdfAt}>PDF pages {c.pdfPages[0]}–{c.pdfPages[1]}</a>
+      </aside>
+
+      <article class="doc-body">
+        <section aria-labelledby="why">
+          <h2 id="why">Why this founder<a class="anchor" href="#why" aria-label="Link to Why this founder">#</a></h2>
+          {why.map((p: string) => <p set:html={p} />)}
+        </section>
+
+        <section aria-labelledby="journey">
+          <h2 id="journey">{c.journey.title}<a class="anchor" href="#journey" aria-label="Link to Funding journey">#</a></h2>
+          <figure class="figure reveal" aria-labelledby="journey">
+            <div class="tl-legend" role="group" aria-label="Highlight by instrument">
+              <span class="tl-legend-l">Highlight</span>
+              {instruments.map((i) => (
+                <button type="button" class="ins-btn" aria-pressed="false" data-ins={ikey(i)}><span class:list={['ins', `ins-${ikey(i)}`]}>{i}</span></button>
+              ))}
+            </div>
+            <ol class="tl" role="list">
+              {journey.map((e: any) => (
+                <li class="tl-row" data-ins={e.instruments.map(ikey).join(' ')}>
+                  <span class="tl-d">{e.date}</span>
+                  <i class:list={['tl-k', e.key && `k-${ikey(e.key)}`]} aria-hidden="true"></i>
+                  <div class="tl-b">
+                    <span class="tl-ins">{e.instruments.map((i: string) => <span class:list={['ins', `ins-${ikey(i)}`]}>{i}</span>)}</span>
+                    <span set:html={e.html} />
+                  </div>
+                </li>
+              ))}
+            </ol>
+            <figcaption class="cap"><b>Figure {c.journey.figure.number}</b><span set:html={journeyCap} /></figcaption>
+          </figure>
+        </section>
+
+        <section aria-labelledby="analysis-label">
+          <p class="lb" id="analysis-label">{c.analysisLabel}</p>
+          {blocks.map((b: any, i: number) => {
+            if (b.type === 'h') return <h2 id={b.id} class="h-analysis">{b.title}{b.sub && <span>: {b.sub}</span>}<a class="anchor" href={`#${b.id}`} aria-label={`Link to ${b.title}`}>#</a></h2>;
+            if (b.type === 'p') return <p set:html={b.html} />;
+            if (b.type === 'bars') return <BarsFigure id={`fig${b.number}`} number={b.number} title={b.title} max={b.max} bars={b.bars} note={b.note} captionHtml={b.captionHtml} />;
+            if (b.type === 'cards') return <CardsFigure id={`fig${b.number}`} number={b.number} title={b.title} items={b.items} captionHtml={b.captionHtml} />;
+            return null;
+          })}
+        </section>
+
+        <section class="lessons" aria-labelledby="lessons">
+          <h2 id="lessons" class="lb-h">Key lessons for founders &amp; investors<a class="anchor" href="#lessons" aria-label="Link to Key lessons">#</a></h2>
+          <ol role="list">
+            {lessons.map((l: string, i: number) => <li><span class="n" aria-hidden="true">{i + 1}</span><p set:html={l} /></li>)}
+          </ol>
+        </section>
+
+        {c.quote && (
+          <figure class="pq reveal">
+            <blockquote><p>{c.quote}</p></blockquote>
+          </figure>
+        )}
+      </article>
+    </div>
+
+    <nav class="pager" aria-label="Previous and next">
+      <a class="pg-prev" href={prev.href} rel="prev"><span>← {prev.kicker}</span><b>{prev.label}</b></a>
+      <a class="pg-next" href={next.href} rel="next"><span>{next.kicker} →</span><b>{next.label}</b></a>
+    </nav>
+  </div>
+
+  <script>
+    // Timeline: highlight entries by instrument
+    document.querySelectorAll<HTMLElement>('.tl-legend').forEach((lg) => {
+      const fig = lg.closest('figure')!;
+      const rows = [...fig.querySelectorAll<HTMLElement>('.tl-row')];
+      lg.querySelectorAll<HTMLButtonElement>('.ins-btn').forEach((b) => b.addEventListener('click', () => {
+        const on = b.getAttribute('aria-pressed') !== 'true';
+        lg.querySelectorAll('.ins-btn').forEach((o) => o.setAttribute('aria-pressed', 'false'));
+        b.setAttribute('aria-pressed', String(on));
+        rows.forEach((r) => r.classList.toggle('dim', on && !(r.dataset.ins || '').split(' ').includes(b.dataset.ins!)));
+      }));
+    });
+
+    // Table of contents: mark the section in view
+    const links = new Map([...document.querySelectorAll<HTMLAnchorElement>('.toc a[href^="#"]')].map((a) => [a.getAttribute('href')!.slice(1), a]));
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        links.forEach((a) => a.removeAttribute('aria-current'));
+        links.get(e.target.id)?.setAttribute('aria-current', 'true');
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    links.forEach((_, id) => { const el = document.getElementById(id); if (el) io.observe(el); });
+  </script>
+</Base>

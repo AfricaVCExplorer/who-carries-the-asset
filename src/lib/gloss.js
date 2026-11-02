@@ -13,12 +13,16 @@ const entries = glossary.terms
   .filter((t) => !SKIP.has(t.term))
   .map((t) => {
     const isPhrase = /[a-z]/.test(t.term) && !/^[A-Z][a-z]?[A-Z]/.test(t.term) && t.term !== 'SaaS' && t.term !== 'KfW';
-    // Phrases (e.g. "Platform capital") match case-insensitively; acronyms match exactly.
-    return { ...t, re: new RegExp(`(?<![\\w-])${reEsc(t.term)}(?![\\w-])`, isPhrase ? 'i' : '') };
+    // Acronyms also match their plural ("DFIs"); phrases match case-insensitively.
+    const tail = isPhrase ? '' : 's?';
+    return { ...t, re: new RegExp(`(?<![\\w-])${reEsc(t.term)}${tail}(?![\\w-])`, isPhrase ? 'i' : '') };
   })
   .sort((a, b) => b.term.length - a.term.length);
 
 let counter = 0;
+
+// Keep hyphenated names and ranges (M-KOPA, $55M–$75M, 2011–2014) on one line, as in the PDF.
+const plain = (s) => esc(s).replace(/(?<![\w$-])(\$?[A-Za-z0-9][\w.$]*(?:[-–]\$?[\w.]+)+)/g, '<span class="nowrap">$1</span>');
 
 export function makeGloss() {
   const seen = new Set();
@@ -38,11 +42,11 @@ export function makeGloss() {
       const { e, m } = best;
       seen.add(e.term);
       const id = `gl-${++counter}`;
-      out += esc(rest.slice(0, m.index));
+      out += plain(rest.slice(0, m.index));
       out += `<span class="gl"><button type="button" class="gl-t" aria-describedby="${id}">${esc(m[0])}</button><span role="tooltip" id="${id}" class="gl-tip"><b>${esc(e.term)}</b> ${esc(e.definition)}</span></span>`;
       rest = rest.slice(m.index + m[0].length);
     }
-    return out + esc(rest);
+    return out + plain(rest);
   }
   return { html, esc };
 }

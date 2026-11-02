@@ -1,0 +1,82 @@
+{
+  "slug": "m-kopa",
+  "order": 1,
+  "number": "1",
+  "country": "Kenya",
+  "section": "04",
+  "sectionTitle": "Case studies: East & North Africa",
+  "name": "M-KOPA",
+  "founders": "Jesse Moore & Nick Hughes · founded 2011, Nairobi",
+  "pdfPages": [15, 17],
+  "description": "Case 1, M-KOPA (Kenya): how a pay-as-you-go lender funded customer devices with diversified debt and kept equity for the platform.",
+  "illustration": "m-kopa",
+  "heroStats": [
+    { "value": "~$245M", "label": "equity by May 2023", "source": "TechCrunch, May 2023" },
+    { "value": "$300M+", "label": "debt facilities by 2023", "source": "TechCrunch, May 2023" },
+    { "value": "10M", "label": "customers", "source": "FF News, October 2026" },
+    { "value": "$600M", "label": "revenue, FY2025", "source": "FF News, October 2026" }
+  ],
+  "facts": {
+    "business": "Pay-as-you-go smartphones, solar equipment, loans, insurance",
+    "investors": "Generation IM, Broadscale, Sumitomo (equity); Standard Bank, IFC, FMO, BII (debt)",
+    "route": "debt",
+    "routeText": "Own the asset, fund it with diversified debt",
+    "status": "First annual profit 2024, maintained 2025; five markets",
+    "statusTone": "ok"
+  },
+  "why": [
+    "Former Vodafone executives Jesse Moore and Nick Hughes, the latter one of the architects of M-Pesa, built M-KOPA on one insight: low-income customers can pay for an asset if payments are small, daily and made over mobile money. That made M-KOPA a lender, and it designed its capital structure around that fact from an early stage. It meets the success criteria on revenue scale, multi-country expansion and repeated follow-on funding, and has reported annual profits since 2024 (TechCabal, October 2025; FF News, October 2026)."
+  ],
+  "journey": {
+    "title": "Funding journey",
+    "entries": [
+      { "date": "2011–2014", "instruments": ["Grant", "Equity"], "text": "Early grant and impact equity (amounts not itemised in the sources reviewed) fund product development and the first Kenyan solar home system pilots while the pay-as-you-go model is proven on small volumes." },
+      { "date": "2015–2021", "instruments": ["Equity", "Debt"], "text": "Impact equity, including from British International Investment (formerly CDC), alongside working-capital debt from local and international lenders, which reached a little over $100M before 2023 (TechCrunch, May 2023), so customer devices are financed largely outside the equity base." },
+      { "date": "March 2022", "instruments": ["Equity"], "key": "Equity", "text": "M-KOPA raises a $75M equity round led by Generation Investment Management and Broadscale Group." },
+      { "date": "May 2023", "instruments": ["Debt", "Equity"], "key": "Debt", "text": "More than $250M raised, the company’s largest raise to date: more than $200M of sustainability-linked debt, half provided by Standard Bank, with IFC, FMO, BII, Lion’s Head, Mirova SunFunder and Nithio; and $55M of equity led by Sumitomo Corporation, a Japanese trading house, with $36.5M; Blue Haven Initiative, Lightrock, Broadscale and Latitude participated (TechCrunch, May 2023)." },
+      { "date": "2024–2026", "instruments": ["Revenue"], "text": "First annual profit in 2024 (KES 1.2B, ~$9.2M) on revenue of $416M, up 66% (TechCabal, October 2025). FY2025 revenue of $600M, up 45%, with profitability maintained; 10 million customers by October 2026 (FF News, October 2026)." }
+    ],
+    "figure": { "number": 7, "caption": "M-KOPA’s funding journey, coloured by instrument. Sources: TechCrunch (May 2023); TechCabal (Oct 2025); FF News (Oct 2026)." }
+  },
+  "analysisLabel": "Analysis across framework dimensions",
+  "blocks": [
+    { "type": "h", "id": "instrument-choice", "title": "Instrument choice", "sub": "funding the book separately from the business" },
+    { "type": "p", "text": "M-KOPA’s defining decision is to separate what equity and debt pay for. Equity funds the platform: technology, credit underwriting, market entry and the agent network. Debt funds the receivables, the devices customers pay off over time; in 2023 the company raised more than $200M of debt against $55M of equity. Babajide Duroshola, then General Manager for Nigeria, said it was “very difficult for us to be lending based off equity drawdowns”, and described equity as expensive because it means giving up part of the business (TechCabal, May 2023). M-KOPA had extended more than $1B of cumulative credit to over three million customers by May 2023, and about $1.5B by late 2024 (TechCrunch, May 2023; African Business, September 2024). With receivables on debt facilities, each equity dollar supports several dollars of lending. The structure appears to work because repayments are small, frequent and observable, and because financed devices can be locked when customers stop paying, which gives lenders a repayment record to underwrite. Its risks are less visible in public sources: the currency mix of M-KOPA’s facilities and its hedging are only partly disclosed. IFC’s 2022 loans were offered in local-currency equivalents, up to $50M in dollars or shillings in Kenya and up to $15M in Ugandan shillings (IFC, November 2022), but the currency of most other facilities is not public, and any dollar debt funding shilling or naira receivables would carry the mismatch described in Section 3." },
+    {
+      "type": "bars",
+      "number": 8,
+      "title": "Equity and debt raised, against credit extended (US$, to scale)",
+      "max": 1500,
+      "bars": [
+        { "label": "Equity raised", "sub": "by May 2023", "value": 245, "display": "~$245M", "fill": "lilac", "source": "TechCrunch, May 2023" },
+        { "label": "Debt facilities", "sub": "by 2023", "value": 300, "display": ">$300M", "fill": "coral", "lowerBound": true, "source": "TechCrunch, May 2023" },
+        { "label": "Credit extended", "sub": "cumulative, late 2024", "value": 1500, "display": "~$1.5B", "fill": "grey", "source": "African Business, Sept 2024" }
+      ],
+      "note": "each equity dollar supports several dollars of lending",
+      "caption": "Bars drawn to one scale; the debt bar is a lower bound. Sources: TechCrunch (May 2023); African Business (Sept 2024)."
+    },
+    { "type": "h", "id": "investor-selection", "title": "Investor selection", "sub": "DFIs as lenders, a corporate as the equity anchor" },
+    { "type": "p", "text": "The investor base mirrors the instruments. DFIs (IFC, FMO, BII) act mainly as lenders, where their mandate goes furthest, and Standard Bank provided half of the 2023 facility. Sumitomo Corporation led the 2023 equity round with $36.5M, its first significant fintech-focused investment in Africa, and Lightrock and Broadscale also participated (TechCrunch, May 2023). The 2023 debt was sustainability-linked, tying lender terms to growth in women customers; its pricing is not public, so whether impact lowered M-KOPA’s cost of capital cannot be confirmed." },
+    { "type": "h", "id": "funding-timing", "title": "Funding timing", "sub": "more than a decade of patience" },
+    { "type": "p", "text": "M-KOPA took 13 years to report its first annual profit, moving from solar home systems into smartphones, loans and insurance. It raised repeatedly, in equity rounds of $55M–$75M rather than single very large rounds. Its 2023 raise closed as African venture funding fell sharply, and illustrates an advantage lenders can have in a downturn: debt providers underwrite repayment data as well as growth prospects. It was among the continent’s largest raises that year." },
+    { "type": "h", "id": "dilution", "title": "Dilution management and follow-on funding" },
+    { "type": "p", "text": "Ownership figures are not public, but raising about $245M of equity while extending around $1.5B of credit indicates that instrument choice, not only valuation, limited dilution. Returning equity investors and repeat DFI lending are consistent with investor confidence through the transition to profitability. No decision to decline or delay capital is documented. In July 2025 M-KOPA was reported to be nearing a close on about $160M of Series F equity, again led by Sumitomo; the company confirmed a raise was under way, but no close has been announced (ImpactAlpha, July 2025)." },
+    {
+      "type": "cards",
+      "number": 9,
+      "title": "What made the receivables financeable",
+      "items": [
+        { "icon": "bars", "title": "Small, frequent repayments", "text": "daily payments made over mobile money" },
+        { "icon": "line", "title": "An observable record", "text": "a repayment history lenders can underwrite" },
+        { "icon": "lock", "title": "Enforcement", "text": "financed devices can be locked when customers stop paying" }
+      ],
+      "caption": "The three conditions the case identifies behind M-KOPA’s debt capacity. The currency mix of its facilities and its hedging are only partly disclosed. Sources: TechCabal (May 2023); TechCrunch (May 2023)."
+    }
+  ],
+  "lessons": [
+    "Where an asset produces small, predictable and observable repayments, fund it with debt and the platform with equity. A lender that funds its loan book with venture equity dilutes its shareholders every time it grows.",
+    "Use DFIs where their mandate is strongest: M-KOPA’s DFIs took part mainly as lenders in a sustainability-linked facility rather than as equity investors.",
+    "Debt capacity rests on data and enforcement: daily repayment records and remote device locking appear central to what made M-KOPA’s receivables financeable."
+  ],
+  "quote": "A lender that funds its loan book with venture equity dilutes its shareholders every time it grows."
+}

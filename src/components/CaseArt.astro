@@ -1,0 +1,18 @@
+---
+// Case header illustrations, redrawn from the PDF case openers.
+interface Props { name: string }
+const { name } = Astro.props;
+---
+{name === 'm-kopa' && (
+  <svg class="case-art" viewBox="0 0 230 230" aria-hidden="true" focusable="false">
+    <path d="M20 70 L150 52 L178 120 L44 140 Z" fill="#FDDDD7" stroke="#16132B" stroke-width="2" stroke-linejoin="round" />
+    <path d="M63 64 L88 132 M106 58 L133 126 M30 94 L162 76 M37 117 L170 99" stroke="#16132B" stroke-width="1.5" />
+    <path d="M100 136 L104 190 M78 192 L130 188" stroke="#16132B" stroke-width="2.2" stroke-linecap="round" />
+    <rect x="150" y="110" width="58" height="104" rx="9" fill="#FFFFFF" stroke="#16132B" stroke-width="2" />
+    <rect x="157" y="122" width="44" height="72" rx="2" fill="#E2D8FF" />
+    <circle cx="179" cy="204" r="3.5" fill="#16132B" />
+    <text x="179" y="164" text-anchor="middle" font-family="Plus Jakarta Sans, Arial" font-weight="800" font-size="13" fill="#16132B">KES</text>
+    <path d="M172 26 C 186 14, 206 18, 210 34" stroke="#5B21E6" stroke-width="2" fill="none" stroke-linecap="round" />
+    <path d="M178 36 C 186 30, 196 32, 200 40" stroke="#5B21E6" stroke-width="2" fill="none" stroke-linecap="round" />
+  </svg>
+)}

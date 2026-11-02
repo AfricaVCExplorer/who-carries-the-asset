@@ -1,0 +1,28 @@
+---
+// Horizontal bars drawn to one scale (e.g. Figure 8). HTML rather than SVG so
+// labels stay readable at phone width. Each bar is focusable and shows its source.
+interface Bar { label: string; sub?: string; value: number; display: string; fill: string; lowerBound?: boolean; source: string }
+interface Props { number: number; title: string; max: number; bars: Bar[]; note?: string; captionHtml: string; id: string }
+const { number, title, max, bars, note, captionHtml, id } = Astro.props;
+const pct = (v: number) => Math.max(1.5, (v / max) * 100);
+---
+<figure class="figure fig-bars reveal" aria-labelledby={`${id}-t`}>
+  <p class="ft" id={`${id}-t`}>{title}</p>
+  <div class="canvas">
+    <ul class="bars" role="list">
+      {bars.map((b) => (
+        <li class="bar-row">
+          <span class="bar-l"><strong>{b.label}</strong>{b.sub && <span>{b.sub}</span>}</span>
+          <span class="bar-track">
+            <span class:list={['bar', `fill-${b.fill}`, { lb: b.lowerBound }]} style={`--w:${pct(b.value)}%`} tabindex="0" aria-describedby={`${id}-${b.label.replace(/\W+/g, '-')}`}>
+              <span class="bar-tip" role="tooltip" id={`${id}-${b.label.replace(/\W+/g, '-')}`}>{b.display} {b.sub}{b.lowerBound ? ' (lower bound)' : ''} · {b.source}</span>
+            </span>
+            <b class="bar-v">{b.display}</b>
+          </span>
+        </li>
+      ))}
+    </ul>
+    {note && <p class="fig-note">{note}</p>}
+  </div>
+  <figcaption class="cap"><b>Figure {number}</b><span set:html={captionHtml} /></figcaption>
+</figure>
