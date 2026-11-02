@@ -1,0 +1,42 @@
+---
+// Notes on sources (PDF page 53).
+import Base from '../layouts/Base.astro';
+import DocShell from '../components/DocShell.astro';
+import n from '../content/notes.json';
+import { makeGloss } from '../lib/gloss.js';
+import { u } from '../lib/url.js';
+
+const g = makeGloss();
+const items = n.items.map((it) => ({ ...it, out: g.html(it.text) }));
+---
+<Base title="Notes on sources" description={`Notes on sources: the status date, figures reported but not confirmed, and company-reported material.`} current="">
+  <header class="plain-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href={u()}>Home</a><span aria-hidden="true">/</span><span>Notes on sources</span></nav>
+      <p class="lb">{n.status}</p>
+      <h1>Notes on sources</h1>
+    </div>
+  </header>
+  <DocShell toc={[]} pdfPages={[53, 53]} here="notes-on-sources/">
+    <ol class="sec-items notes" role="list">
+      {items.map((it, i) => (
+        <li><span class="n" aria-hidden="true">{i + 1}</span><div><h2 class="note-h">{it.lead.replace(/\.$/, '')}</h2><p set:html={it.out} /></div></li>
+      ))}
+    </ol>
+    <div class="note-side">
+      {n.side.map((s) => (
+        <div><p class="lb">{s.label}</p><p>{s.text}</p></div>
+      ))}
+    </div>
+    <p><a class="link-arrow" href={u('references/')}>Go to the references</a></p>
+  </DocShell>
+</Base>
+
+<style>
+  .notes { margin-bottom: 36px; }
+  .note-h { margin: 2px 0 8px; font-size: 1.1875rem; }
+  .note-side { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; padding-top: 16px; border-top: 2px solid var(--ink); margin-bottom: 24px; }
+  .note-side .lb { margin-bottom: 6px; }
+  .note-side p:last-child { margin: 0; font: 500 .9375rem/1.55 var(--sans); color: var(--ink-soft); }
+  @media (max-width: 640px) { .note-side { grid-template-columns: 1fr; } }
+</style>

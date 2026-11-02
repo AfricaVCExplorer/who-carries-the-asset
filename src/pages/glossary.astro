@@ -1,0 +1,58 @@
+---
+// Appendix A: glossary of terms (PDF page 57), with a filter.
+import Base from '../layouts/Base.astro';
+import DocShell from '../components/DocShell.astro';
+import gl from '../data/glossary.json';
+import { u } from '../lib/url.js';
+
+const id = (s: string) => 'g-' + s.toLowerCase().replace(/[^a-z0-9₦]+/g, '-').replace(/^-|-$/g, '');
+---
+<Base title="Glossary" description="Appendix A: the abbreviations and terms used throughout the capstone, from asset capital and platform capital to securitisation and SAFE." current="">
+  <header class="plain-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href={u()}>Home</a><span aria-hidden="true">/</span><span>Glossary</span></nav>
+      <p class="lb">Appendix A</p>
+      <h1>Glossary of terms</h1>
+      <p class="intro">{gl.intro}</p>
+    </div>
+  </header>
+  <DocShell toc={[]} pdfPages={[57, 57]} here="glossary/">
+    <div class="ref-filter" hidden>
+      <label for="gl-q">Find a term</label>
+      <input id="gl-q" type="search" placeholder="e.g. DFI, securitisation" autocomplete="off" />
+      <span class="gl-count" role="status" aria-live="polite">{gl.terms.length} terms</span>
+    </div>
+    <dl class="gloss">
+      {gl.terms.map((t) => <div id={id(t.term)}><dt>{t.term}</dt><dd>{t.definition}</dd></div>)}
+    </dl>
+  </DocShell>
+</Base>
+
+<script>
+  const box = document.querySelector<HTMLElement>('.ref-filter');
+  const q = document.getElementById('gl-q') as HTMLInputElement | null;
+  const count = document.querySelector<HTMLElement>('.gl-count');
+  if (box && q) {
+    box.hidden = false;
+    const rows = [...document.querySelectorAll<HTMLElement>('.gloss > div')];
+    q.addEventListener('input', () => {
+      const s = q.value.trim().toLowerCase();
+      let n = 0;
+      rows.forEach((r) => { const ok = !s || (r.textContent || '').toLowerCase().includes(s); r.hidden = !ok; if (ok) n++; });
+      if (count) count.textContent = s ? `${n} of ${rows.length} terms` : `${rows.length} terms`;
+    });
+  }
+</script>
+
+<style>
+  .gloss { margin: 0; border-top: 1.5px solid var(--ink); }
+  .gloss > div { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 18px; padding: 12px 0; border-bottom: 1px solid var(--line-soft); }
+  .gloss > div:target { background: var(--violet-tint); }
+  .gloss dt { font: 800 1rem/1.4 var(--sans); }
+  .gloss dd { margin: 0; }
+  @media (max-width: 560px) { .gloss > div { grid-template-columns: 1fr; gap: 2px; } }
+  .ref-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-bottom: 28px; padding: 16px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+  .ref-filter label { font: 700 .75rem/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .ref-filter input { flex: 1 1 240px; min-height: 44px; padding: 10px 14px; border: 1.5px solid var(--ink); border-radius: var(--pill); background: var(--paper); font: 500 1rem/1.2 var(--sans); color: var(--ink); }
+  .gl-count { font: 600 .875rem/1 var(--sans); color: var(--muted); }
+</style>

@@ -1,0 +1,67 @@
+---
+// References (PDF pages 54–56), grouped by case as in the report, with a filter.
+import Base from '../layouts/Base.astro';
+import DocShell from '../components/DocShell.astro';
+import refs from '../content/references.json';
+import { u } from '../lib/url.js';
+
+const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const groups = refs.groups.map((g) => ({ ...g, id: slug(g.group) }));
+const toc = groups.map((g) => ({ id: g.id, label: g.group }));
+const total = groups.reduce((n, g) => n + g.entries.length, 0);
+---
+<Base title="References" description="References for the capstone, grouped by case as in the report: academic literature, industry reports and press sources for each company." current="">
+  <header class="plain-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href={u()}>Home</a><span aria-hidden="true">/</span><span>References</span></nav>
+      <p class="lb">Sources and bibliography</p>
+      <h1>References</h1>
+      <p class="intro">{refs.intro}</p>
+    </div>
+  </header>
+  <DocShell toc={toc} pdfPages={[54, 56]} here="references/">
+    <div class="ref-filter" hidden>
+      <label for="ref-q">Filter references</label>
+      <input id="ref-q" type="search" placeholder="Outlet, author, year or company" autocomplete="off" />
+      <span class="ref-count" role="status" aria-live="polite">{total} references</span>
+    </div>
+    {groups.map((g) => (
+      <section class="ref-group" aria-labelledby={g.id}>
+        <h2 id={g.id} class="sec-h">{g.group}<a class="anchor" href={`#${g.id}`} aria-label="Link to this section">#</a></h2>
+        <ul class="refs">{g.entries.map((e) => <li set:html={e} />)}</ul>
+      </section>
+    ))}
+  </DocShell>
+</Base>
+
+<script>
+  const box = document.querySelector<HTMLElement>('.ref-filter');
+  const q = document.getElementById('ref-q') as HTMLInputElement | null;
+  const count = document.querySelector<HTMLElement>('.ref-count');
+  if (box && q) {
+    box.hidden = false;
+    const items = [...document.querySelectorAll<HTMLLIElement>('.refs li')];
+    const groups = [...document.querySelectorAll<HTMLElement>('.ref-group')];
+    q.addEventListener('input', () => {
+      const s = q.value.trim().toLowerCase();
+      let n = 0;
+      items.forEach((li) => { const ok = !s || (li.textContent || '').toLowerCase().includes(s); li.hidden = !ok; if (ok) n++; });
+      groups.forEach((g) => { g.hidden = !g.querySelector('li:not([hidden])'); });
+      if (count) count.textContent = s ? `${n} of ${items.length} references` : `${items.length} references`;
+    });
+  }
+</script>
+
+<style>
+  .refs { list-style: none; margin: 0 0 8px; padding: 0; border-top: 1.5px solid var(--ink); }
+  .refs li { padding: 12px 0; border-bottom: 1px solid var(--line-soft); font-size: 1rem; line-height: 1.5; overflow-wrap: anywhere; }
+  .refs a { color: var(--violet); }
+  .ref-url { display: block; margin-top: 2px; font: 500 .8125rem/1.4 var(--sans); }
+  .ref-url a { color: var(--muted); }
+  .ref-group { margin-bottom: 40px; }
+  .ref-group .sec-h { font-size: 1.5rem; }
+  .ref-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-bottom: 32px; padding: 16px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+  .ref-filter label { font: 700 .75rem/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .ref-filter input { flex: 1 1 240px; min-height: 44px; padding: 10px 14px; border: 1.5px solid var(--ink); border-radius: var(--pill); background: var(--paper); font: 500 1rem/1.2 var(--sans); color: var(--ink); }
+  .ref-count { font: 600 .875rem/1 var(--sans); color: var(--muted); }
+</style>
