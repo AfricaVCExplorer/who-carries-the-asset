@@ -258,6 +258,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus-visible { opacity: 1; color: v
 .hero .sub { margin: 22px 0 0; max-width: 34ch; font: 400 clamp(1.25rem, 1.05rem + .9vw, 1.6rem)/1.35 var(--serif); }
 .hero .by { margin: 22px 0 0; font: 600 .9375rem/1.5 var(--sans); }
 .hero .by span { opacity: .92; font-weight: 500; }
+.hero .by-date { display: block; margin-top: 1.5em; }
 .hero .ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
 .hero-art { justify-self: end; width: 100%; max-width: 380px; }
 .hero-art svg { width: 100%; height: auto; display: block; }
