@@ -1,0 +1,48 @@
+{
+  "slug": "implications",
+  "pdfPages": [
+    50,
+    50
+  ],
+  "blocks": [
+    {
+      "type": "items",
+      "items": [
+        {
+          "n": "1",
+          "title": "Underwrite the capital structure, not only the company.",
+          "text": "A strong team with a sound product can still fail if asset-intensive operations are funded with equity or if debt depends on one platform; Sendy and Moove illustrate these risks, alongside other causes. Investors who push portfolio companies to raise larger equity rounds for inventory, fleets or working capital may be adding risk."
+        },
+        {
+          "n": "2",
+          "title": "Diligence the risk transfer in partner models.",
+          "text": "An asset-light company is only as asset-light as its contracts: investors should review the insurance, guarantee, escrow and title terms that shift risk to owners, logistics partners and lenders, and test whether they are enforced."
+        },
+        {
+          "n": "3",
+          "title": "Help founders build debt capacity early.",
+          "text": "M-KOPA and MNT-Halan could borrow at scale, and years of repayment data that lenders could underwrite appear to be one reason. Investors can help by requiring clean receivables reporting from the first financed asset and introducing lenders and DFIs early, while testing whether the business’s cash flows can carry debt."
+        },
+        {
+          "n": "4",
+          "title": "Close the lead-investor gap at pre-seed.",
+          "text": "Three of the nine companies reached the market on grants, prizes and small cheques with no clear lead for a priced round. Investors able to lead small priced rounds for companies with proven partner models may gain a sourcing advantage."
+        },
+        {
+          "n": "5",
+          "title": "Align expectations with the exit.",
+          "text": "MNT-Halan’s listing suggests that a domestic exchange can provide liquidity; Autogirl’s trade-sale goal shows that some founders build for moderate outcomes. Funds should back companies whose likely exit fits their return model and leave the rest to investors whose models fit them."
+        },
+        {
+          "n": "6",
+          "title": "Distinguish suitability from availability.",
+          "text": "A structure that suits a business in principle, such as local-currency securitisation, may not exist in its market. Investors should establish which lenders, markets and licences are actually accessible before recommending a capital structure."
+        }
+      ]
+    }
+  ],
+  "title": "Implications for investors",
+  "pill": "Section 08",
+  "number": "08",
+  "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 230 170\">\n<defs><pattern height=\"6\" id=\"P43art-h43v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern><pattern height=\"6\" id=\"P43art-h43o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M115 30 L115 150 M70 150 L160 150\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"2.4\"></path>\n<path d=\"M30 46 L200 34\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"2.4\"></path>\n<path d=\"M44 45 L22 100 L66 100 Z\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"1.4\"></path>\n<path d=\"M186 35 L164 90 L208 90 Z\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"1.4\"></path>\n<path d=\"M16 100 C 16 120, 72 120, 72 100 Z\" fill=\"rgba(255,255,255,.3)\" stroke=\"#FFFFFF\" stroke-width=\"1.8\"></path>\n<path d=\"M158 90 C 158 110, 214 110, 214 90 Z\" fill=\"rgba(255,255,255,.3)\" stroke=\"#FFFFFF\" stroke-width=\"1.8\"></path>\n<circle cx=\"115\" cy=\"30\" fill=\"rgba(255,255,255,.3)\" r=\"6\" stroke=\"#FFFFFF\" stroke-width=\"1.6\"></circle>\n</svg>"
+}

@@ -1,0 +1,31 @@
+---
+// Prose sections converted from the PDF: 00–03, 06, 08, 09.
+import Base from '../layouts/Base.astro';
+import SectionHero from '../components/SectionHero.astro';
+import DocShell from '../components/DocShell.astro';
+import Blocks from '../components/Blocks.astro';
+import { makeGloss } from '../lib/gloss.js';
+import { prepare, tocFrom } from '../lib/blocks.js';
+
+export async function getStaticPaths() {
+  const files = import.meta.glob('../content/sections/*.json', { eager: true });
+  const pages = ['introduction', 'executive-summary', 'methodology', 'literature-review', 'synthesis', 'implications', 'conclusion'];
+  return Object.values(files)
+    .map((m: any) => m.default)
+    .filter((d: any) => pages.includes(d.slug))
+    .map((d: any) => ({ params: { section: d.slug }, props: { d } }));
+}
+
+const { d } = Astro.props as { d: any };
+const g = makeGloss();
+const blocks = prepare(d.blocks, g);
+const toc = tocFrom(blocks);
+// Meta description built from the section's own headings
+const description = `Section ${d.number}, ${d.title}${toc.length ? ': ' + toc.map((x) => x.label).join('; ') : ''}.`.slice(0, 300);
+---
+<Base title={d.title} description={description} current={`${d.slug}/`}>
+  <SectionHero number={d.number} pill={d.pill} title={d.title} art={d.art} />
+  <DocShell toc={toc} pdfPages={d.pdfPages} here={`${d.slug}/`}>
+    <Blocks blocks={blocks} />
+  </DocShell>
+</Base>

@@ -1,0 +1,47 @@
+---
+// Two-column reading layout: sticky table of contents plus the article, then a pager.
+import site from '../data/site.json';
+import seq from '../data/sequence.json';
+import { u } from '../lib/url.js';
+interface Props { toc: { id: string; label: string; sub?: boolean }[]; pdfPages?: number[]; here: string }
+const { toc, pdfPages, here } = Astro.props;
+const i = seq.findIndex((s) => s.href === here);
+const prev = i > 0 ? seq[i - 1] : { href: '', kicker: 'Home', label: site.title };
+const next = i >= 0 && i < seq.length - 1 ? seq[i + 1] : null;
+// Case studies sit between the overview and the synthesis
+const prevHref = here === 'synthesis/' ? 'cases/lemfi/' : prev.href;
+const prevKicker = here === 'synthesis/' ? 'Case 9' : prev.kicker;
+const prevLabel = here === 'synthesis/' ? 'LemFi' : prev.label;
+const pdf = u(site.pdf);
+---
+<div class="wrap">
+  <div class:list={['doc', { 'doc-notoc': toc.length < 2 }]}>
+    {toc.length >= 2 && (
+      <aside class="toc" aria-label="On this page">
+        <p class="lb">On this page</p>
+        <ol role="list">{toc.map((t) => <li class:list={{ sub: t.sub }}><a href={`#${t.id}`}>{t.label}</a></li>)}</ol>
+        {pdfPages && <a class="toc-pdf" href={`${pdf}#page=${pdfPages[0]}`}>PDF {pdfPages[0] === pdfPages[1] ? `page ${pdfPages[0]}` : `pages ${pdfPages[0]}–${pdfPages[1]}`}</a>}
+      </aside>
+    )}
+    <article class="doc-body">
+      <slot />
+      {toc.length < 2 && pdfPages && <p><a class="link-arrow" href={`${pdf}#page=${pdfPages[0]}`}>PDF {pdfPages[0] === pdfPages[1] ? `page ${pdfPages[0]}` : `pages ${pdfPages[0]}–${pdfPages[1]}`}</a></p>}
+    </article>
+  </div>
+  <nav class="pager" aria-label="Previous and next">
+    <a class="pg-prev" href={u(prevHref)} rel="prev"><span>← {prevKicker}</span><b>{prevLabel}</b></a>
+    {next ? <a class="pg-next" href={u(next.href)} rel="next"><span>{next.kicker} →</span><b>{next.label}</b></a> : <span />}
+  </nav>
+</div>
+
+<script>
+  const links = new Map([...document.querySelectorAll<HTMLAnchorElement>('.toc a[href^="#"]')].map((a) => [a.getAttribute('href')!.slice(1), a]));
+  if (links.size) {
+    const io = new IntersectionObserver((entries) => entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      links.forEach((a) => a.removeAttribute('aria-current'));
+      links.get(e.target.id)?.setAttribute('aria-current', 'true');
+    }), { rootMargin: '-20% 0px -70% 0px' });
+    links.forEach((_, id) => { const el = document.getElementById(id); if (el) io.observe(el); });
+  }
+</script>

@@ -1,0 +1,47 @@
+{
+  "slug": "cases-east",
+  "pdfPages": [
+    14,
+    14
+  ],
+  "blocks": [
+    {
+      "type": "flow",
+      "html": "<div style=\"margin-top:28px;font:700 11px/1.4 'Plus Jakarta Sans',Arial,sans-serif;color:#2A2640\"><span class=\"lb\">Geographies covered</span>  Kenya, Egypt, Tanzania</div>",
+      "board": "P12"
+    },
+    {
+      "type": "p",
+      "text": "The four cases below cover East and North Africa. Three meet the success criteria: M-KOPA (asset financing), MNT-Halan (digital lending) and NALA (cross-border payments). The fourth, Sendy, a logistics company that closed in 2023, is the cautionary case. Three regional features shape capital strategy: mobile money dominates East African payments, Egypt has absorbed repeated devaluations since 2016, and DFIs are active in both regions."
+    },
+    {
+      "type": "items",
+      "items": [
+        {
+          "n": "1",
+          "title": "M-KOPAKenya · Fintech: asset financing and digital credit",
+          "text": "Own + diversified debt 15"
+        },
+        {
+          "n": "2",
+          "title": "MNT-HalanEgypt · Fintech with logistics roots: digital lending, payments, e-commerce, delivery",
+          "text": "Own + diversified debt 18"
+        },
+        {
+          "n": "3",
+          "title": "NALATanzania · Fintech: cross-border payments",
+          "text": "No asset in core 21"
+        },
+        {
+          "n": "4",
+          "title": "SendyKenya · Logistics: on-demand delivery, then B2B transport, fulfilment and supply",
+          "text": "Asset lines + equity 24"
+        }
+      ]
+    }
+  ],
+  "title": "Case studies: East & North Africa",
+  "pill": "Section 04",
+  "number": "04",
+  "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 220 170\">\n<defs><pattern height=\"6\" id=\"P12art-h12o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<circle cx=\"150\" cy=\"56\" fill=\"rgba(255,255,255,.3)\" r=\"26\" stroke=\"#FFFFFF\" stroke-width=\"1.8\"></circle>\n<path d=\"M150 18 L150 10 M188 56 L196 56 M177 29 L183 23 M177 83 L183 89 M123 29 L117 23\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M14 150 L60 96 L88 124 L122 82 L176 150 Z\" fill=\"rgba(255,255,255,.14)\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M60 96 L70 112 L52 120 M122 82 L132 100 L112 106\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"1.4\"></path>\n<path d=\"M4 152 L216 150\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"2.2\"></path>\n</svg>"
+}

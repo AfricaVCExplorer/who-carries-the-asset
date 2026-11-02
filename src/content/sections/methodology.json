@@ -1,0 +1,138 @@
+{
+  "slug": "methodology",
+  "pdfPages": [
+    8,
+    11
+  ],
+  "blocks": [
+    {
+      "type": "h",
+      "id": "research-design",
+      "title": "Research design",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "The study is an exploratory, qualitative, comparative multiple-case study based on desk research. It relies on publicly available material, listed by case in the bibliography. Its purpose is to identify recurring patterns in founder financing decisions and the conditions under which they hold, not to estimate the effect of any financing choice on company outcomes."
+    },
+    {
+      "type": "h",
+      "id": "case-selection-criteria",
+      "title": "Case selection criteria",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "html": "Cases were limited to <b>fintech</b> and <b>logistics</b> because they place contrasting demands on capital: fintech ranges from asset-light payments to balance-sheet lending, while logistics tends to be asset-intensive and thin-margin. Within that filter, cases were selected purposively to vary region, business model, stage and outcome, and to include at least one company that failed after raising institutional capital. The scaled cases also required a public record of funding rounds and investors; the early-stage cases were chosen for how they designed their capital needs, and their public records are thinner. The selected cases are:"
+    },
+    {
+      "type": "flow",
+      "html": "<table class=\"t\" style=\"margin-top:4px\">\n<tr><th style=\"width:170px\">Case</th><th>Sector and capital story</th></tr>\n<tr><td class=\"n\">1 · <span style=\"white-space:nowrap\">M-KOPA</span> (Kenya)</td><td>Fintech, asset financing. Debt-funded assets, equity-funded platform.</td></tr>\n<tr><td class=\"n\">2 · <span style=\"white-space:nowrap\">MNT-Halan</span> (Egypt)</td><td>Fintech with logistics roots. Local-currency securitisation, raising through devaluation, 2026 EGX listing.</td></tr>\n<tr><td class=\"n\">3 · NALA (Tanzania)</td><td>Fintech, payments. Pivot before institutional capital; Series A raised while profitable; 2026 credit facility to pre-fund payments.</td></tr>\n<tr><td class=\"n\">4 · Sendy (Kenya)</td><td>Logistics, cautionary case. Asset-light transport marketplace that added fulfilment and supply lines funded largely with equity; closed in 2023.</td></tr>\n<tr><td class=\"n\">5 · Moniepoint (Nigeria)</td><td>Fintech, business payments and banking. Revenue-funded until 2019; licensed microfinance bank; over $280M of equity raised.</td></tr>\n<tr><td class=\"n\">6 · Autogirl (Nigeria)</td><td>Logistics and mobility, peer-to-peer vehicle rentals. Largely revenue-funded since 2019, with car owners financing the fleet; expanded to Ghana in 2024.</td></tr>\n<tr><td class=\"n\">7 · Feegor (Nigeria)</td><td>Logistics and B2B commerce, wholesale sourcing marketplace. Asset-light by design: 3PL partners deliver, fintech partners provide BNPL credit.</td></tr>\n<tr><td class=\"n\">8 · LemFi (Nigeria)</td><td>Fintech, cross-border payments and remittances for the African diaspora in Europe and North America. Equity-funded payments business; added credit products through its 2025 acquisition of Pillar.</td></tr>\n<tr><td class=\"n\">9 · Earthbond (Nigeria)</td><td>Fintech, embedded asset financing (solar credit marketplace). Often tagged “climate tech”, but the business is credit origination for partner lenders.</td></tr>\n</table>",
+      "board": "P07"
+    },
+    {
+      "type": "figure",
+      "number": 4,
+      "title": null,
+      "html": "<div class=\"ft\" style=\"margin-top:6px\">Where we looked: nine cases in four home markets, plus Autogirl’s move into Ghana</div><svg aria-label=\"Map of Africa with pins. Egypt: MNT-Halan, own and fund with local-currency securitisation. Kenya: M-KOPA, own and fund with diversified debt; Sendy, own and fund with equity. Tanzania: NALA, no financeable asset, equity. Nigeria: Moniepoint, own and fund with debt; Autogirl, Feegor and Earthbond, asset left with a partner; LemFi, no financeable asset, equity; Moove as a dashed comparator. Ghana: Autogirl's 2024 expansion.\" height=\"430\" role=\"img\" viewbox=\"0 0 682 430\" width=\"682\">\n<defs>\n<pattern height=\"6\" id=\"P08-m8\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#F1ECE0\" height=\"6\" width=\"6\"></rect><line stroke=\"#E3C2BC\" stroke-width=\"1\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern>\n</defs>\n<g transform=\"translate(150,4)\">\n<path d=\"M79.9 25.9 L105.8 28.6 L127.4 20.5 L166.3 18.3 L170.6 20.5 L166.3 34.5 L173.3 39.9 L181.4 41.5 L193.8 45.3 L208.4 54.0 L219.2 50.7 L220.3 44.2 L240.8 46.4 L272.7 50.7 L285.6 50.2 L287.2 58.3 L294.8 70.7 L302.9 89.6 L312.1 105.8 L319.1 122.0 L325.0 135.5 L335.3 145.8 L345.0 151.7 L348.8 162.0 L365.0 158.7 L388.2 155.5 L385.5 167.9 L375.8 186.8 L359.6 208.4 L340.7 223.5 L328.3 232.7 L323.4 245.1 L321.3 255.9 L325.6 265.1 L329.4 277.5 L330.4 297.5 L316.4 313.2 L302.4 335.3 L302.9 348.8 L288.9 359.6 L286.2 373.6 L278.6 380.1 L263.5 395.2 L249.4 402.8 L232.7 402.8 L219.2 407.1 L210.6 403.3 L207.3 390.9 L199.8 373.6 L192.7 362.8 L189.5 341.2 L182.5 327.2 L174.9 311.0 L177.6 292.1 L184.6 277.5 L181.9 267.8 L177.1 251.6 L177.6 245.1 L170.6 239.7 L161.4 224.6 L163.0 207.3 L163.6 199.8 L158.2 194.9 L149.0 195.4 L142.5 196.0 L135.5 185.2 L124.7 185.2 L115.0 187.9 L100.4 193.3 L89.6 191.1 L70.2 195.4 L60.4 189.0 L49.6 181.9 L39.9 172.8 L29.1 159.8 L20.5 147.9 L16.7 139.8 L22.1 131.7 L24.3 113.4 L19.4 105.8 L23.7 90.7 L32.9 77.7 L41.0 70.2 L49.1 66.4 L58.3 58.3 L59.4 48.6 L65.3 39.4 L74.5 35.1 Z\" fill=\"#EEE9E1\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M377.4 284.0 L383.4 302.9 L378.5 314.2 L370.4 338.0 L365.5 353.7 L355.3 356.9 L347.2 345.6 L345.0 336.9 L351.0 326.1 L348.8 311.0 L360.7 304.5 L369.3 293.7 Z\" fill=\"#EEE9E1\" stroke=\"#16132B\" stroke-linejoin=\"round\" stroke-width=\"1.6\"></path>\n<path d=\"M279.7 57.2 L 380 30\" stroke=\"#16132B\" stroke-dasharray=\"3 3\" stroke-width=\"1\"></path>\n<path d=\"M309.9 226.2 L 400 196\" stroke=\"#16132B\" stroke-dasharray=\"3 3\" stroke-width=\"1\"></path>\n<path d=\"M323.4 255.9 L 400 300\" stroke=\"#16132B\" stroke-dasharray=\"3 3\" stroke-width=\"1\"></path>\n<path d=\"M129.6 184.1 L 70 262\" stroke=\"#16132B\" stroke-dasharray=\"3 3\" stroke-width=\"1\"></path>\n<path d=\"M110.1 189 L 10 180\" stroke=\"#16132B\" stroke-dasharray=\"3 3\" stroke-width=\"1\"></path>\n<circle cx=\"279.7\" cy=\"57.2\" fill=\"#F2766B\" r=\"7\" stroke=\"#16132B\" stroke-width=\"1.8\"></circle>\n<circle cx=\"306\" cy=\"222\" fill=\"#F2766B\" r=\"7\" stroke=\"#16132B\" stroke-width=\"1.8\"></circle>\n<circle cx=\"316\" cy=\"230\" fill=\"#A3123A\" r=\"6\" stroke=\"#16132B\" stroke-width=\"1.6\"></circle>\n<circle cx=\"323.4\" cy=\"255.9\" fill=\"#5B21E6\" r=\"7\" stroke=\"#16132B\" stroke-width=\"1.8\"></circle>\n<circle cx=\"110.1\" cy=\"189\" fill=\"#0E8577\" r=\"6\" stroke=\"#16132B\" stroke-width=\"1.6\"></circle>\n<circle cx=\"136\" cy=\"168\" fill=\"none\" r=\"14\" stroke=\"#A3123A\" stroke-dasharray=\"4 3\" stroke-width=\"1.6\"></circle>\n<circle cx=\"124\" cy=\"176\" fill=\"#2C64C7\" r=\"5.5\" stroke=\"#16132B\" stroke-width=\"1.4\"></circle>\n<circle cx=\"136\" cy=\"176\" fill=\"#0E8577\" r=\"5.5\" stroke=\"#16132B\" stroke-width=\"1.4\"></circle>\n<circle cx=\"148\" cy=\"172\" fill=\"#0E8577\" r=\"5.5\" stroke=\"#16132B\" stroke-width=\"1.4\"></circle>\n<circle cx=\"130\" cy=\"164\" fill=\"#0E8577\" r=\"5.5\" stroke=\"#16132B\" stroke-width=\"1.4\"></circle>\n<circle cx=\"142\" cy=\"160\" fill=\"#5B21E6\" r=\"5.5\" stroke=\"#16132B\" stroke-width=\"1.4\"></circle>\n</g>\n</svg><div style=\"position:absolute;left:532px;top:22px;width:150px;font:500 11px/1.35 'Plus Jakarta Sans',Arial,sans-serif\"><div style=\"font-weight:800;font-size:13px\">Egypt</div><div><b style=\"color:#B23A2C\">●</b> MNT-Halan · own the asset, fund it with local-currency securitisation</div></div><div style=\"position:absolute;left:552px;top:176px;width:130px;font:500 11px/1.35 'Plus Jakarta Sans',Arial,sans-serif\"><div style=\"font-weight:800;font-size:13px\">Kenya</div><div><b style=\"color:#B23A2C\">●</b> M-KOPA · own + diversified debt</div><div><b style=\"color:#A3123A\">●</b> Sendy · asset-intensive lines funded with equity; closed 2023</div></div><div style=\"position:absolute;left:552px;top:298px;width:130px;font:500 11px/1.35 'Plus Jakarta Sans',Arial,sans-serif\"><div style=\"font-weight:800;font-size:13px\">Tanzania</div><div><b style=\"color:#5B21E6\">●</b> NALA · no financeable asset in the core business; equity (plus a corridor facility)</div></div><div style=\"position:absolute;left:0;top:140px;width:150px;font:500 11px/1.35 'Plus Jakarta Sans',Arial,sans-serif\"><div style=\"font-weight:800;font-size:13px\">Ghana</div><div><b style=\"color:#0E8577\">●</b> Autogirl’s 2024 expansion (Accra, June 2024)</div></div><div style=\"position:absolute;left:0;top:266px;width:214px;font:500 11px/1.35 'Plus Jakarta Sans',Arial,sans-serif\"><div style=\"font-weight:800;font-size:13px\">Nigeria</div><div><b style=\"color:#2C64C7\">●</b> Moniepoint · deposits under a banking licence</div><div><b style=\"color:#0E8577\">●</b> Autogirl, Feegor, Earthbond · asset left with a partner</div><div><b style=\"color:#5B21E6\">●</b> LemFi · no financeable asset in the core business; equity</div><div><b style=\"color:#A3123A\">◌</b> Moove (comparator) · debt linked to one platform</div></div>",
+      "board": "P08",
+      "caption": "Pins sit in each company’s home market, coloured by funding route (see the key on page 11). The dashed ring marks Moove, read alongside the nine cases, not one of them. Sources: case studies, Sections 04–05."
+    },
+    {
+      "type": "h",
+      "id": "analytical-dimensions",
+      "title": "Analytical dimensions",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Each case is assessed on the same seven dimensions where evidence allows. The dimensions are not equally relevant or equally documented for every company; where information is undisclosed, the case says so rather than inferring it. All seven are read through one organising question, who carries the asset and its risk (see the next page)."
+    },
+    {
+      "type": "flow",
+      "html": "<table class=\"t\">\n<tr><th style=\"width:150px\">Dimension</th><th>Questions asked of every case</th></tr>\n<tr><td class=\"n\">Funding timing</td><td>When did the founder raise, and why then? What was the business condition, and were raises deliberately delayed or accelerated?</td></tr>\n<tr><td class=\"n\">Instrument choice</td><td>Equity, debt, grant or blended. How did the mix evolve across stages, and why?</td></tr>\n<tr><td class=\"n\">Investor selection</td><td>Who did the founder choose to take money from, and who did they turn down? What does the investor mix suggest about the founder’s strategic intent?</td></tr>\n<tr><td class=\"n\">Dilution management</td><td>How did founders protect ownership through rounds? What dilution patterns emerge, and how do they compare across geographies?</td></tr>\n<tr><td class=\"n\">Follow-on funding</td><td>Ability to raise a subsequent round, as a market-validated signal of model quality and investor confidence.</td></tr>\n<tr><td class=\"n\">Debt vs. equity decisions</td><td>When did founders shift between debt and equity, and what triggered the shift?</td></tr>\n<tr><td class=\"n\">Decline or delay decisions</td><td>Documented cases where founders rejected capital, delayed a raise or took a smaller round than available, and why.</td></tr>\n</table>",
+      "board": "P08"
+    },
+    {
+      "type": "h",
+      "id": "one-organising-question",
+      "title": "One organising question",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "The seven dimensions are read through one question: who carries the asset and its risk? Timing, instrument choice, dilution and investor selection matter here mainly for how they answer it, as the figure shows. The case write-ups keep the seven headings so that cases can be compared, and each case opener names its answer under “Who carries the asset”."
+    },
+    {
+      "type": "figure",
+      "number": 5,
+      "title": null,
+      "html": "<div style=\"margin:4px 0 2px\"><svg aria-hidden=\"true\" height=\"300\" viewbox=\"0 0 682 300\" width=\"682\"><defs><lineargradient id=\"P08b-hg\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#5B21E6\"></stop><stop offset=\".55\" stop-color=\"#C13BDB\"></stop><stop offset=\"1\" stop-color=\"#F2766B\"></stop></lineargradient></defs><line stroke=\"#CFC9BC\" stroke-width=\"1.5\" x1=\"341\" x2=\"341\" y1=\"150\" y2=\"32\"></line><line stroke=\"#CFC9BC\" stroke-width=\"1.5\" x1=\"341\" x2=\"522\" y1=\"150\" y2=\"76\"></line><line stroke=\"#CFC9BC\" stroke-width=\"1.5\" x1=\"341\" x2=\"567\" y1=\"150\" y2=\"176\"></line><line stroke=\"#CFC9BC\" stroke-width=\"1.5\" x1=\"341\" x2=\"442\" y1=\"150\" y2=\"256\"></line><line stroke=\"#CFC9BC\" stroke-width=\"1.5\" x1=\"341\" x2=\"240\" y1=\"150\" y2=\"256\"></line><line stroke=\"#CFC9BC\" stroke-width=\"1.5\" x1=\"341\" x2=\"115\" y1=\"150\" y2=\"176\"></line><line stroke=\"#CFC9BC\" stroke-width=\"1.5\" x1=\"341\" x2=\"160\" y1=\"150\" y2=\"76\"></line><ellipse cx=\"341\" cy=\"150\" fill=\"url(#P08b-hg)\" rx=\"92\" ry=\"46\"></ellipse><text fill=\"#fff\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"13.5\" font-weight=\"800\" text-anchor=\"middle\" x=\"341\" y=\"146\">Who carries the asset</text><text fill=\"#fff\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"13.5\" font-weight=\"800\" text-anchor=\"middle\" x=\"341\" y=\"163\">and its risk?</text><rect fill=\"#FFFFFF\" height=\"42\" rx=\"9\" stroke=\"#16132B\" stroke-width=\"1.5\" width=\"198\" x=\"242\" y=\"11\"></rect><text fill=\"#5B21E6\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10.5\" font-weight=\"800\" text-anchor=\"middle\" x=\"341\" y=\"27\">Funding timing</text><text fill=\"#2A2640\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"9\" font-style=\"italic\" text-anchor=\"middle\" x=\"341\" y=\"42\">when the asset can be financed</text><rect fill=\"#FFFFFF\" height=\"42\" rx=\"9\" stroke=\"#16132B\" stroke-width=\"1.5\" width=\"198\" x=\"423\" y=\"55\"></rect><text fill=\"#5B21E6\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10.5\" font-weight=\"800\" text-anchor=\"middle\" x=\"522\" y=\"71\">Instrument choice</text><text fill=\"#2A2640\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"9\" font-style=\"italic\" text-anchor=\"middle\" x=\"522\" y=\"86\">whether the asset can carry debt</text><rect fill=\"#FFFFFF\" height=\"42\" rx=\"9\" stroke=\"#16132B\" stroke-width=\"1.5\" width=\"198\" x=\"468\" y=\"155\"></rect><text fill=\"#5B21E6\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10.5\" font-weight=\"800\" text-anchor=\"middle\" x=\"567\" y=\"171\">Debt vs. equity</text><text fill=\"#2A2640\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"9\" font-style=\"italic\" text-anchor=\"middle\" x=\"567\" y=\"186\">set by the asset’s cash flows</text><rect fill=\"#FFFFFF\" height=\"42\" rx=\"9\" stroke=\"#16132B\" stroke-width=\"1.5\" width=\"198\" x=\"343\" y=\"235\"></rect><text fill=\"#5B21E6\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10.5\" font-weight=\"800\" text-anchor=\"middle\" x=\"442\" y=\"251\">Investor selection</text><text fill=\"#2A2640\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"9\" font-style=\"italic\" text-anchor=\"middle\" x=\"442\" y=\"266\">who funds platform, who funds asset</text><rect fill=\"#FFFFFF\" height=\"42\" rx=\"9\" stroke=\"#16132B\" stroke-width=\"1.5\" width=\"198\" x=\"141\" y=\"235\"></rect><text fill=\"#5B21E6\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10.5\" font-weight=\"800\" text-anchor=\"middle\" x=\"240\" y=\"251\">Dilution</text><text fill=\"#2A2640\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"9\" font-style=\"italic\" text-anchor=\"middle\" x=\"240\" y=\"266\">equity spent on assets dilutes most</text><rect fill=\"#FFFFFF\" height=\"42\" rx=\"9\" stroke=\"#16132B\" stroke-width=\"1.5\" width=\"198\" x=\"16\" y=\"155\"></rect><text fill=\"#5B21E6\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10.5\" font-weight=\"800\" text-anchor=\"middle\" x=\"115\" y=\"171\">Follow-on funding</text><text fill=\"#2A2640\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"9\" font-style=\"italic\" text-anchor=\"middle\" x=\"115\" y=\"186\">lenders follow repayment data</text><rect fill=\"#FFFFFF\" height=\"42\" rx=\"9\" stroke=\"#16132B\" stroke-width=\"1.5\" width=\"198\" x=\"61\" y=\"55\"></rect><text fill=\"#5B21E6\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10.5\" font-weight=\"800\" text-anchor=\"middle\" x=\"160\" y=\"71\">Decline or delay</text><text fill=\"#2A2640\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"9\" font-style=\"italic\" text-anchor=\"middle\" x=\"160\" y=\"86\">refusing capital that fits badly</text></svg></div>",
+      "board": "P08b",
+      "caption": "How each dimension connects to the organising question. Source: Sections 02 and 07."
+    },
+    {
+      "type": "h",
+      "id": "unit-of-analysis-and-how-the-cases-are-used",
+      "title": "Unit of analysis and how the cases are used",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "The unit of analysis is the company. Each case follows one company’s financing decisions from founding to the latest public information. Where a founder’s earlier venture shaped those decisions, as Vasiti did for Feegor, it is described as background and is not assessed against the framework."
+    },
+    {
+      "type": "p",
+      "text": "The mix of outcomes is deliberate. The five scaled companies show which structures held up at scale; Sendy shows a structure that did not; Moove is read alongside the cases as a comparator. The three early-stage companies are comparators, not tests of success: their outcomes are open, so they show how founders design around an asset before they can finance it. Funding timing, instrument choice and investor selection apply fully at their stage; dilution, follow-on funding and debt-versus-equity decisions are thinly documented and are reported as such. Currency and treasury are not a separate dimension: they are assessed within instrument choice and debt versus equity, because the currency of a liability matters in relation to the asset it funds, and the framework adds a currency row to its stage guidance (Section 7)."
+    },
+    {
+      "type": "flow",
+      "html": "<div class=\"nb\"><div class=\"t\">What readers should not generalise from this sample</div><ul>\n<li>That a financing choice caused an outcome: the cases show associations, and every outcome also reflects execution, markets and timing.</li>\n<li>That the scaled companies are typical: they were chosen partly for their strong public records, and only one failure is examined in full.</li>\n<li>That partner models succeed: the early-stage outcomes are not yet known.</li>\n<li>That the patterns hold beyond fintech and logistics, or outside Egypt, Kenya, Nigeria, Tanzania and Ghana.</li></ul></div>",
+      "board": "P08b"
+    },
+    {
+      "type": "h",
+      "id": "data-sources",
+      "title": "Data sources",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Each case draws on publicly available sources: company announcements and blogs, investor and DFI press releases, listing disclosures where available (notably for MNT-Halan’s EGX offering), founder interviews and commentary published in the press, reporting by outlets such as TechCabal, TechCrunch, Rest of World, Enterprise AM and Techpoint Africa, and funding databases (Crunchbase, Tracxn, Briter, Africa: The Big Deal). Material claims are cited in the text by outlet and date, and sources are listed by case in the bibliography."
+    },
+    {
+      "type": "h",
+      "id": "evidence-standards",
+      "title": "Evidence standards",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "The cases distinguish four kinds of statement: documented facts, such as round sizes, investors and dates reported by the company, its investors or regulators; founder-reported explanations, such as why a round was raised or a product line closed, which are attributed to the founder; the authors’ interpretations, signalled by language such as “suggests” or “is consistent with”; and open questions, which are stated as such. Where secondary sources disagree, the case reports the range or the better-sourced figure. Events from mid-2026 onward rely on press reports close to the submission date and may be revised."
+    },
+    {
+      "type": "h",
+      "id": "limitations",
+      "title": "Limitations",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "The study has five main limitations. First, selection bias: cases were chosen partly for the strength of their public record, which favours companies that raised and announced institutional capital, and only one failed company is examined in full. Second, disclosure is uneven: ownership and dilution are rarely public, debt terms are seldom disclosed, and the early-stage cases rely heavily on founder interviews given to the press. Third, the companies differ widely in maturity, from pre-seed startups to a lender preparing to list, so stage effects and strategy effects are hard to separate. Fourth, the cases span different markets, regulators and currencies, which limits direct comparison. Fifth, applying one framework to businesses as different as a deposit-taking bank, a remittance app and a car-rental marketplace means some dimensions carry more weight in some cases than in others. The findings are therefore patterns and plausible explanations, not estimates of causal effects, and they are not representative of African startups generally."
+    },
+    {
+      "type": "flow",
+      "html": "<div style=\"margin-top:12px\">\n<div class=\"ft\">The nine cases by stage, and the comparator read alongside them</div>\n<div style=\"display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px\">\n<div class=\"gp\"><div class=\"n\" style=\"color:#5B21E6\">5</div><div class=\"h\">Scaled</div><div class=\"b\"><span style=\"white-space:nowrap\">M-KOPA</span>, <span style=\"white-space:nowrap\">MNT-Halan</span>, NALA, Moniepoint, LemFi</div></div>\n<div class=\"gp\"><div class=\"n\" style=\"color:#0E8577\">3</div><div class=\"h\">Early-stage</div><div class=\"b\">Autogirl, Feegor, Earthbond. Included for how founders design capital needs before scale.</div></div>\n<div class=\"gp\"><div class=\"n\" style=\"color:#A3123A\">1</div><div class=\"h\">Cautionary</div><div class=\"b\">Sendy, closed in 2023</div></div>\n<div class=\"gp\" style=\"border-style:dashed;background:#FAF7F0\"><div class=\"n\" style=\"color:transparent;-webkit-text-stroke:1.5px #16132B\">+1</div><div class=\"h\">Comparator</div><div class=\"b\">Moove’s 2026 exit from Nigeria, read alongside the nine cases</div></div>\n</div>\n<div style=\"display:flex;gap:10px;margin-top:8px;padding-top:6px;border-top:1px solid #CFC9BC;font:500 10.5px/1.35 'Plus Jakarta Sans',Arial,sans-serif;color:#4A4660\"><b style=\"color:#5B21E6;white-space:nowrap\">Figure 6</b><span>Case mix used in the cross-case synthesis. Source: Section 06.</span></div>\n</div>",
+      "board": "P09"
+    },
+    {
+      "type": "flow",
+      "html": "<div style=\"margin-top:14px;border:1.5px solid #16132B;border-radius:4px;padding:12px 16px 14px\">\n<div class=\"lb\" style=\"margin-bottom:10px\">How to read the colours in this report</div>\n<div style=\"display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px 14px\">\n<div style=\"display:flex;align-items:center;gap:8px;font:600 11px/1.3 'Plus Jakarta Sans',Arial,sans-serif\"><i style=\"display:inline-block;width:13px;height:13px;border-radius:50%;flex:none;background:#5B21E6\"></i>Equity</div>\n<div style=\"display:flex;align-items:center;gap:8px;font:600 11px/1.3 'Plus Jakarta Sans',Arial,sans-serif\"><i style=\"display:inline-block;width:13px;height:13px;border-radius:50%;flex:none;background:#F2766B\"></i>Debt / securitisation</div>\n<div style=\"display:flex;align-items:center;gap:8px;font:600 11px/1.3 'Plus Jakarta Sans',Arial,sans-serif\"><i style=\"display:inline-block;width:13px;height:13px;border-radius:50%;flex:none;background:#2C64C7\"></i>Deposits</div>\n<div style=\"display:flex;align-items:center;gap:8px;font:600 11px/1.3 'Plus Jakarta Sans',Arial,sans-serif\"><i style=\"display:inline-block;width:13px;height:13px;border-radius:50%;flex:none;background:#0E8577\"></i>Partner-held asset</div>\n<div style=\"display:flex;align-items:center;gap:8px;font:600 11px/1.3 'Plus Jakarta Sans',Arial,sans-serif\"><i style=\"display:inline-block;width:13px;height:13px;border-radius:50%;flex:none;background:#8C8898\"></i>Grants and prizes</div>\n<div style=\"display:flex;align-items:center;gap:8px;font:600 11px/1.3 'Plus Jakarta Sans',Arial,sans-serif\"><i style=\"display:inline-block;width:13px;height:13px;border-radius:50%;flex:none;background:#A3123A\"></i>Cautionary outcome</div>\n<div style=\"display:flex;align-items:center;gap:8px;font:600 11px/1.3 'Plus Jakarta Sans',Arial,sans-serif\"><i style=\"display:inline-block;width:13px;height:13px;border-radius:50%;flex:none;background:#FFFFFF;border:2px solid #16132B;box-sizing:border-box\"></i>Revenue / own funds</div>\n<div style=\"display:flex;align-items:center;gap:8px;font:600 11px/1.3 'Plus Jakarta Sans',Arial,sans-serif\"><i style=\"display:inline-block;width:13px;height:13px;border-radius:50%;flex:none;background:#FAF7F0;border:2px dashed #16132B;box-sizing:border-box\"></i>Comparator (Moove)</div>\n</div>\n</div>",
+      "board": "P09"
+    }
+  ],
+  "title": "Methodology and analytical framework",
+  "pill": "Section 02",
+  "number": "02",
+  "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 230 170\">\n<defs><pattern height=\"6\" id=\"P07art-h7v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M20 40 L80 24 L150 40 L210 24 L210 140 L150 156 L80 140 L20 156 Z\" fill=\"rgba(255,255,255,.14)\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M80 24 L80 140 M150 40 L150 156\" stroke=\"#FFFFFF\" stroke-width=\"1.4\"></path>\n<path d=\"M80 24 L150 40 L150 156 L80 140 Z\" fill=\"rgba(255,255,255,.3)\" opacity=\".7\"></path>\n<path d=\"M40 120 C 70 100, 100 118, 120 90 S 170 70, 186 60\" fill=\"none\" stroke=\"#FFFFFF\" stroke-dasharray=\"4 4\" stroke-width=\"1.6\"></path>\n<path d=\"M186 30 C 172 30, 164 40, 164 52 C 164 68, 186 84, 186 84 C 186 84, 208 68, 208 52 C 208 40, 200 30, 186 30 Z\" fill=\"rgba(255,255,255,.3)\" stroke=\"#FFFFFF\" stroke-width=\"1.8\"></path>\n<circle cx=\"186\" cy=\"52\" fill=\"rgba(255,255,255,.3)\" r=\"6\" stroke=\"#FFFFFF\" stroke-width=\"1.5\"></circle>\n</svg>"
+}

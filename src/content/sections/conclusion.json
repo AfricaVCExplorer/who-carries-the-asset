@@ -1,0 +1,59 @@
+{
+  "slug": "conclusion",
+  "pdfPages": [
+    51,
+    52
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "This capstone asked how a set of African founders have used capital as a strategic tool, and what founders and investors can learn from them. Across nine fintech and logistics companies, the answer is a set of connected principles, not a single rule to raise less or raise later."
+    },
+    {
+      "type": "items",
+      "items": [
+        {
+          "n": "1",
+          "html": "The first and most important principle is that <b>capital strategy starts with the asset</b>. M-KOPA and MNT-Halan fund owned assets with diversified debt and Moniepoint can draw on deposits, each reserving equity mainly for the platform; Autogirl, Feegor and Earthbond leave assets with partners; NALA and LemFi built their core payments businesses on equity and have since added debt-related activity as float and credit needs emerged. The two outcomes at the other end are consistent with this principle but do not prove it: Sendy, which funded asset-intensive lines with equity, closed in 2023, and Moove, whose Nigerian vehicle finance was linked to Uber, left Nigeria in 2026. Execution, unit economics, market conditions and platform concentration also played a part."
+        },
+        {
+          "n": "2",
+          "html": "The second principle is <b>sequence</b>. Several founders left risk with partners until they had the data to price it, then brought assets onto their own balance sheets once lenders were available. This is a heuristic that depends on context, not a path every company should follow."
+        },
+        {
+          "n": "3",
+          "html": "The third is <b>timing</b>: founders who raised from strength attracted strong investors in difficult markets, although the terms they obtained are rarely public."
+        },
+        {
+          "n": "4",
+          "html": "The fourth is <b>investor selection</b>: the founders studied chose, or attracted, investors for specific contributions and changed the composition of their investor base as their capital needs, customer markets and exit plans developed."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The study has limits. It is an exploratory comparison of nine purposively selected cases based on public sources, and it does not establish causality. Case selection favours companies with strong public records, and only one failed company is examined in full. The three early-stage companies do not meet the success test, so their outcomes remain open. Dilution is inferred from capital structure rather than measured, and debt terms are rarely disclosed. Several facts rest on founder statements and press coverage, and some, such as the structure of Autogirl’s Prado offer, could not be verified. The East and North Africa set lacks an early-stage case. Future research could use prospectus and secondary-transaction data, such as MNT-Halan’s listing documents, to measure dilution directly, and founder interviews to test the reasons behind the decisions described here."
+    },
+    {
+      "type": "p",
+      "text": "Within those limits, the cases are consistent with the view that capital strategy, not only capital quantum, helps separate founders who build durable businesses from those who build impressive funding announcements. What the cases reasonably establish is that the asset and its risks shaped every company’s financing options. What they suggest is that matching the instrument, the owner and the currency to the asset is associated with greater resilience. What remains uncertain is how far these patterns hold beyond fintech and logistics and outside the markets studied. The African ecosystem would benefit from celebrating funding rounds less and examining financing decisions more: why, when, how, from whom and on whose balance sheet."
+    },
+    {
+      "type": "figure",
+      "number": 41,
+      "title": "What the study can and cannot claim",
+      "html": "<div style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px\">\n<div class=\"pn\"><div class=\"tp\" style=\"background:#0E8577;color:#FFFFFF\">What the cases establish</div><div class=\"b\"><div>The asset and its risks shaped every company’s financing options.</div></div></div>\n<div class=\"pn\"><div class=\"tp\" style=\"background:#F2766B\">What they suggest</div><div class=\"b\"><div>Matching the instrument, the owner and the currency to the asset is associated with greater resilience.</div></div></div>\n<div class=\"pn\"><div class=\"tp\" style=\"background:#16132B;color:#FAF7F0\">What remains uncertain</div><div class=\"b\"><div>How far these patterns hold beyond fintech and logistics and outside the markets studied.</div></div></div>\n</div>",
+      "board": "P45",
+      "caption": "The conclusion in three panels. Source: Section 09.",
+      "alt": null
+    },
+    {
+      "type": "quote",
+      "text": "Capital strategy, not only capital quantum, helps separate founders who build durable businesses from those who build impressive funding announcements."
+    }
+  ],
+  "title": "Conclusion",
+  "pill": "Section 09",
+  "number": "09",
+  "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 220 170\">\n<defs><pattern height=\"6\" id=\"P44art-h44v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<circle cx=\"110\" cy=\"88\" fill=\"rgba(255,255,255,.3)\" fill-opacity=\".6\" r=\"62\" stroke=\"#FFFFFF\" stroke-width=\"2\"></circle>\n<path d=\"M78 90 L102 114 L146 62\" fill=\"none\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"7\"></path>\n<path d=\"M30 160 L190 158\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"6\"></path>\n</svg>"
+}

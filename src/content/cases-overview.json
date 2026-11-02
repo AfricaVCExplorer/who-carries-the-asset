@@ -1,0 +1,107 @@
+[
+  {
+    "number": "04",
+    "title": "Case studies: East & North Africa",
+    "pdfPage": 14,
+    "geographies": "Kenya, Egypt, Tanzania",
+    "intro": [
+      "The four cases below cover East and North Africa. Three meet the success criteria: M-KOPA (asset financing), MNT-Halan (digital lending) and NALA (cross-border payments). The fourth, Sendy, a logistics company that closed in 2023, is the cautionary case. Three regional features shape capital strategy: mobile money dominates East African payments, Egypt has absorbed repeated devaluations since 2016, and DFIs are active in both regions."
+    ],
+    "rows": [
+      {
+        "n": "1",
+        "name": "M-KOPA",
+        "slug": "m-kopa",
+        "sub": "Kenya · Fintech: asset financing and digital credit",
+        "route": "Own + diversified debt",
+        "routeKey": "debt"
+      },
+      {
+        "n": "2",
+        "name": "MNT-Halan",
+        "slug": "mnt-halan",
+        "sub": "Egypt · Fintech with logistics roots: digital lending, payments, e-commerce, delivery",
+        "route": "Own + diversified debt",
+        "routeKey": "debt"
+      },
+      {
+        "n": "3",
+        "name": "NALA",
+        "slug": "nala",
+        "sub": "Tanzania · Fintech: cross-border payments",
+        "route": "No asset in core",
+        "routeKey": "noasset"
+      },
+      {
+        "n": "4",
+        "name": "Sendy",
+        "slug": "sendy",
+        "sub": "Kenya · Logistics: on-demand delivery, then B2B transport, fulfilment and supply",
+        "route": "Asset lines + equity",
+        "routeKey": "assetequity"
+      }
+    ],
+    "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 220 170\">\n<defs><pattern height=\"6\" id=\"P12art-h12o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<circle cx=\"150\" cy=\"56\" fill=\"rgba(255,255,255,.3)\" r=\"26\" stroke=\"#FFFFFF\" stroke-width=\"1.8\"></circle>\n<path d=\"M150 18 L150 10 M188 56 L196 56 M177 29 L183 23 M177 83 L183 89 M123 29 L117 23\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M14 150 L60 96 L88 124 L122 82 L176 150 Z\" fill=\"rgba(255,255,255,.14)\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M60 96 L70 112 L52 120 M122 82 L132 100 L112 106\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"1.4\"></path>\n<path d=\"M4 152 L216 150\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"2.2\"></path>\n</svg>"
+  },
+  {
+    "number": "05",
+    "title": "Case studies: West Africa",
+    "pdfPage": 27,
+    "geographies": "Nigeria and Ghana",
+    "intro": [
+      "The five case studies below examine founders in West African markets, with Nigeria as the primary anchor. Two are scaled companies (Moniepoint and LemFi) and three are early-stage (Autogirl, Feegor and Earthbond). They apply the same analytical framework as the East and North Africa cases, enabling cross-regional comparison in the synthesis that follows."
+    ],
+    "rows": [
+      {
+        "n": "5",
+        "name": "Moniepoint",
+        "slug": "moniepoint",
+        "sub": "Nigeria · Business payments and banking; licensed microfinance bank",
+        "route": "Deposits, banking licence",
+        "routeKey": "deposits"
+      },
+      {
+        "n": "6",
+        "name": "Autogirl (Muvment by Autogirl)",
+        "slug": "autogirl",
+        "sub": "Nigeria and Ghana · Peer-to-peer vehicle rental marketplace",
+        "route": "Partner-held asset",
+        "routeKey": "partner"
+      },
+      {
+        "n": "+",
+        "name": "Moove",
+        "slug": "moove",
+        "sub": "Nigeria · Vehicle financing for ride-hailing drivers",
+        "route": "Debt linked to one platform",
+        "comparator": true,
+        "routeKey": "comparator"
+      },
+      {
+        "n": "7",
+        "name": "Feegor",
+        "slug": "feegor",
+        "sub": "Nigeria · B2B wholesale sourcing marketplace",
+        "route": "Partner-held asset",
+        "routeKey": "partner"
+      },
+      {
+        "n": "8",
+        "name": "Earthbond",
+        "slug": "earthbond",
+        "sub": "Nigeria · Solar-asset credit marketplace",
+        "route": "Partner-held asset",
+        "routeKey": "partner"
+      },
+      {
+        "n": "9",
+        "name": "LemFi",
+        "slug": "lemfi",
+        "sub": "Nigeria · Cross-border payments for the diaspora",
+        "route": "No asset in core",
+        "routeKey": "noasset"
+      }
+    ],
+    "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 220 170\">\n<defs><pattern height=\"6\" id=\"P22art-h22t\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M20 140 C 60 120, 70 70, 110 76 S 170 40, 196 30\" fill=\"none\" stroke=\"#FFFFFF\" stroke-dasharray=\"5 4\" stroke-width=\"1.8\"></path>\n<path d=\"M28 108 C 16 108, 8 118, 8 130 C 8 146, 28 160, 28 160 C 28 160, 48 146, 48 130 C 48 118, 40 108, 28 108 Z\" fill=\"rgba(255,255,255,.3)\" stroke=\"#FFFFFF\" stroke-width=\"1.8\"></path>\n<circle cx=\"28\" cy=\"130\" fill=\"rgba(255,255,255,.3)\" r=\"6\" stroke=\"#FFFFFF\" stroke-width=\"1.5\"></circle>\n<path d=\"M192 8 C 180 8, 172 18, 172 30 C 172 46, 192 60, 192 60 C 192 60, 212 46, 212 30 C 212 18, 204 8, 192 8 Z\" fill=\"rgba(255,255,255,.3)\" stroke=\"#FFFFFF\" stroke-width=\"1.8\"></path>\n<circle cx=\"192\" cy=\"30\" fill=\"rgba(255,255,255,.3)\" r=\"6\" stroke=\"#FFFFFF\" stroke-width=\"1.5\"></circle>\n<rect fill=\"rgba(255,255,255,.14)\" height=\"40\" rx=\"3\" stroke=\"#FFFFFF\" stroke-width=\"1.8\" width=\"54\" x=\"96\" y=\"96\"></rect>\n<path d=\"M96 108 L150 108\" stroke=\"#FFFFFF\" stroke-width=\"1.4\"></path>\n<text fill=\"#FFFFFF\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"11\" font-weight=\"800\" text-anchor=\"middle\" x=\"123\" y=\"128\">₦</text>\n</svg>"
+  }
+]

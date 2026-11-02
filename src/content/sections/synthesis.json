@@ -1,0 +1,173 @@
+{
+  "slug": "synthesis",
+  "pdfPages": [
+    41,
+    46
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "This section compares all nine cases: five scaled companies (M-KOPA, MNT-Halan, NALA, Moniepoint, LemFi), three early-stage companies (Autogirl, Feegor, Earthbond) and one cautionary case (Sendy), read alongside Moove’s 2026 exit from Nigeria. The early-stage cases show how founders design capital needs before scale; their outcomes are not yet known. The patterns below come from a small, purposive sample and should be read as recurring associations and plausible explanations, not causal findings."
+    },
+    {
+      "type": "h",
+      "id": "patterns-across-geographies-1-who-owns-and-finances-the-",
+      "title": "Patterns across geographies · 1. Who owns and finances the asset shapes the capital strategy",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "The strongest pattern recurs in every market. Any business that needs vehicles, inventory, devices, float or loans must decide whose balance sheet carries them and how they are financed. The nine cases, plus Moove, give five broad answers:"
+    },
+    {
+      "type": "figure",
+      "number": 31,
+      "title": null,
+      "html": "<table class=\"t\" style=\"margin-top:4px\">\n<tr><th style=\"width:200px\">Asset route</th><th style=\"width:210px\">Cases</th><th>Outcome</th></tr>\n<tr><td class=\"r\"><i style=\"background:#A3123A\"></i>Own the asset, fund it with equity</td><td>Sendy (fulfilment and supply lines added to an asset-light transport marketplace)</td><td><svg aria-hidden=\"true\" class=\"ic\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#A3123A\" r=\"5.5\"></circle><path d=\"M3.8 3.8 L8.2 8.2 M8.2 3.8 L3.8 8.2\" stroke=\"#FFFFFF\" stroke-width=\"1.6\"></path></svg>Closed in 2023 after a planned $100M round failed; costs, pricing and the funding downturn also contributed</td></tr>\n<tr><td class=\"r\"><i style=\"border:2px dashed #A3123A;background:#FFFFFF\"></i>Own the asset, fund it with debt, with repayment linked to one outside platform</td><td>Moove (vehicles financed against ride-hailing earnings, linked to Uber in Nigeria)</td><td><svg aria-hidden=\"true\" class=\"ic\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#A3123A\" r=\"5.5\"></circle><path d=\"M3.8 3.8 L8.2 8.2 M8.2 3.8 L3.8 8.2\" stroke=\"#FFFFFF\" stroke-width=\"1.6\"></path></svg>Ended Nigerian operations in October 2026, a month after Uber left; no reason given, and Moove continues to raise capital elsewhere</td></tr>\n<tr><td class=\"r\"><i style=\"background:#F2766B\"></i>Own the asset, fund it with diversified debt or <span style=\"color:#2C64C7\">deposits</span></td><td><span style=\"white-space:nowrap\">M-KOPA</span>, <span style=\"white-space:nowrap\">MNT-Halan</span> (debt and securitisation); <span style=\"color:#2C64C7;font-weight:700\">Moniepoint</span> (licensed bank: deposits; debt not disclosed)</td><td><svg aria-hidden=\"true\" class=\"ic\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#0E8577\" r=\"5.5\"></circle><path d=\"M3.2 6.2 L5.2 8 L8.8 4.2\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"1.6\"></path></svg>Scaled; all three profitable or valued above $1B</td></tr>\n<tr><td class=\"r\"><i style=\"background:#0E8577\"></i>Leave the asset with a partner</td><td>Autogirl (owners), Feegor (3PLs and fintech BNPL), Earthbond (microfinance banks)</td><td><svg aria-hidden=\"true\" class=\"ic\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#FFFFFF\" r=\"5.2\" stroke=\"#16132B\" stroke-width=\"1.3\"></circle><path d=\"M6 3 L6 6.2 L8.2 7.4\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.3\"></path></svg>Reached the market on revenue, grants and small rounds; outcomes not yet known</td></tr>\n<tr><td class=\"r\"><i style=\"background:#5B21E6\"></i>No financeable asset in the core business</td><td>NALA, LemFi (payments)</td><td><svg aria-hidden=\"true\" class=\"ic\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\"><circle cx=\"6\" cy=\"6\" fill=\"#0E8577\" r=\"5.5\"></circle><path d=\"M3.2 6.2 L5.2 8 L8.8 4.2\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"1.6\"></path></svg>Core business equity-funded; both scaled across many markets. Both have since added debt-related activity: NALA a corridor pre-funding facility, LemFi credit products</td></tr>\n</table>",
+      "board": "P36",
+      "caption": "Five broad answers to “whose balance sheet?”, with outcomes as set out in the synthesis. Tick = scaled; clock = outcome not yet known; cross = closed or exited. Source: Sections 04–05."
+    },
+    {
+      "type": "label",
+      "text": "Section 06 · The cases side by side"
+    },
+    {
+      "type": "h",
+      "id": "one-page-case-comparison",
+      "title": "One-page case comparison",
+      "level": 2
+    },
+    {
+      "type": "p",
+      "text": "The table sets the ten companies against the organising question. Figures are the disclosed amounts used in the case write-ups; “outcome so far” records what is public, not a judgement that the financing choice caused it."
+    },
+    {
+      "type": "figure",
+      "number": 32,
+      "title": null,
+      "html": "<table class=\"cc\"><tr><th>Case</th><th>What must be financed</th><th>Who carries the asset</th><th>Capital so far</th><th>Currency position</th><th>Outcome so far</th></tr><tr class=\"g\"><td colspan=\"6\">Scaled</td></tr><tr><td class=\"n\"><span style=\"white-space:nowrap\">M-KOPA</span><span>Kenya</span></td><td>Customer devices and loans</td><td><span class=\"rc\" style=\"background:#F2766B\"></span><span style=\"white-space:nowrap\">M-KOPA</span>, funded with diversified debt</td><td>~$245M equity to May 2023; $300M+ debt facilities</td><td><span style=\"white-space:nowrap\">Local-currency</span> revenue; facility currency only partly disclosed</td><td>First annual profit 2024; 10M customers</td></tr><tr><td class=\"n\"><span style=\"white-space:nowrap\">MNT-Halan</span><span>Egypt</span></td><td><span style=\"white-space:nowrap\">Egyptian-pound</span> loan book</td><td><span class=\"rc\" style=\"background:#F2766B\"></span><span style=\"white-space:nowrap\">MNT-Halan</span>, funded through EGP securitisation</td><td>Equity from DPI, Apis, Chimera, IFC, Al Ahly Capital; $400M+ securitised in 2023</td><td>EGP assets funded with EGP debt</td><td>20% of Egyptian arm listed on the EGX, Oct 2026</td></tr><tr><td class=\"n\">Moniepoint<span>Nigeria</span></td><td>Business and consumer lending</td><td><span class=\"rc\" style=\"background:#2C64C7\"></span>Moniepoint, as a licensed bank funded by deposits</td><td>&gt;$280M equity</td><td>Naira deposits fund naira lending</td><td>$1B+ valuation since Oct 2024</td></tr><tr><td class=\"n\">NALA<span>Tanzania</span></td><td>No asset in the core business; corridor float</td><td><span class=\"rc\" style=\"background:#5B21E6\"></span>Equity for the platform; float on a facility up to $50M (2026)</td><td>~$50M equity</td><td>Much revenue in sterling, euros and dollars</td><td>Profitable at Series A (2024)</td></tr><tr><td class=\"n\">LemFi<span>Nigeria</span></td><td>No asset in the core business; credit since 2025</td><td><span class=\"rc\" style=\"background:#5B21E6\"></span>Equity; who will carry future loans is open</td><td>~$86M disclosed equity; €30M extension reported</td><td>Much revenue in sterling, euros and dollars</td><td>Series B, Jan 2025; 20+ countries</td></tr><tr class=\"g\"><td colspan=\"6\">Cautionary</td></tr><tr><td class=\"n\">Sendy<span>Kenya</span></td><td>Fulfilment, warehousing and supply stock</td><td><span class=\"rc\" style=\"background:#A3123A\"></span>Sendy, funded with equity</td><td>~$26.5M disclosed equity from 14 investors</td><td>Not a factor discussed in the case</td><td>Closed August 2023</td></tr><tr class=\"g\"><td colspan=\"6\">Early-stage comparators</td></tr><tr><td class=\"n\">Autogirl<span>Nigeria</span></td><td>Vehicles</td><td><span class=\"rc\" style=\"background:#0E8577\"></span>Car owners on the platform</td><td>Revenue; ₦10M GET Accelerated and $2,000 grants</td><td>Naira and cedi revenue; no disclosed debt</td><td>Ghana launch 2024; outcome open</td></tr><tr><td class=\"n\">Feegor<span>Nigeria</span></td><td>Stock, delivery and BNPL credit</td><td><span class=\"rc\" style=\"background:#0E8577\"></span>Sellers, 3PL partners and fintech lenders</td><td>Friends and family; ₦50M prize; $500,000 <span style=\"white-space:nowrap\">pre-seed</span> sought</td><td>Naira revenue and costs; no disclosed debt</td><td>Outcome open</td></tr><tr><td class=\"n\">Earthbond<span>Nigeria</span></td><td>Solar loans to small businesses</td><td><span class=\"rc\" style=\"background:#0E8577\"></span>Partner microfinance banks</td><td>~$405k across three cheques, including a grant</td><td>Naira; no <span style=\"white-space:nowrap\">firm-level</span> debt disclosed</td><td>Outcome open</td></tr><tr class=\"g\"><td colspan=\"6\">Comparator, not assessed on the seven dimensions</td></tr><tr><td class=\"n\">Moove<span>Nigeria</span></td><td>Vehicles for <span style=\"white-space:nowrap\">ride-hailing</span> drivers</td><td><span class=\"rc\" style=\"background:#8C8898\"></span>Moove, with debt; repayment linked to one platform</td><td>Not assessed</td><td>Not assessed</td><td>Ended Nigerian operations, Oct 2026</td></tr></table>",
+      "board": "P36b",
+      "caption": "The cases compared on the asset question. Dot colours follow the route key on page 11. Sources: case studies, Sections 04–05."
+    },
+    {
+      "type": "p",
+      "text": "The pattern is clearer against the wider market. Partech reports that African startups raised $4.9B of equity and $1.55B of debt in 2022 (Partech Africa, January 2023), so debt was under a quarter of funding even though many startups finance inventory, devices, vehicles or loans; the data do not show how much equity went to assets specifically. Sendy illustrates the risk of funding asset-intensive lines with equity, though its failure also reflects a cost base sized to an unraised round. Moove suggests a second risk: debt suits a fleet, but repayment tied to one platform’s earnings is exposed to that platform’s presence in the market, so lender, customer and platform concentration can matter as much as the instrument."
+    },
+    {
+      "type": "figure",
+      "number": 33,
+      "title": "African startup funding, 2022: $6.5B in total",
+      "html": "<svg aria-label=\"Bars to scale: $4.9B of equity against $1.55B of debt in 2022, $6.5B in total.\" height=\"96\" role=\"img\" viewbox=\"0 0 682 96\" width=\"682\">\n<defs>\n<pattern height=\"6\" id=\"P37-f37v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#ECE6FD\" height=\"6\" width=\"6\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.6\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern>\n<pattern height=\"6\" id=\"P37-f37o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"#FDE6E3\" height=\"6\" width=\"6\"></rect><line stroke=\"#D4503F\" stroke-width=\"1.6\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern>\n</defs>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\">\n<text font-size=\"12\" font-weight=\"700\" x=\"0\" y=\"28\">Equity</text>\n<rect fill=\"#E2D8FF\" height=\"28\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"480\" x=\"70\" y=\"10\"></rect>\n<text font-size=\"15\" font-weight=\"800\" x=\"560\" y=\"30\">$4.9B</text>\n<text font-size=\"12\" font-weight=\"700\" x=\"0\" y=\"74\">Debt</text>\n<rect fill=\"#FDDDD7\" height=\"28\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"152\" x=\"70\" y=\"56\"></rect>\n<text font-size=\"15\" font-weight=\"800\" x=\"232\" y=\"76\">$1.55B</text>\n</g>\n<text fill=\"#5B21E6\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"14.4\" font-style=\"italic\" font-weight=\"600\" x=\"310\" y=\"78\">debt was under a quarter of funding</text>\n</svg>",
+      "board": "P37",
+      "caption": "Bars to one scale. The $6.5B was spread across 764 deals: 693 equity and 71 debt, as restated in Partech’s 2025 report. Sources: Partech Africa (January 2023; January 2026).",
+      "alt": "Bars to scale: $4.9B of equity against $1.55B of debt in 2022, $6.5B in total."
+    },
+    {
+      "type": "flow",
+      "html": "<div style=\"margin:16px 0 4px;border:2px solid #A3123A;border-radius:4px;background:#F6DDE4;padding:14px 18px;display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;align-items:start\">\n<svg aria-hidden=\"true\" height=\"36\" viewbox=\"0 0 36 36\" width=\"36\"><path d=\"M18 3 L34 32 L2 32 Z\" fill=\"#FFFFFF\" stroke=\"#A3123A\" stroke-linejoin=\"round\" stroke-width=\"2.4\"></path><path d=\"M18 13 L18 22\" stroke=\"#A3123A\" stroke-linecap=\"round\" stroke-width=\"3\"></path><circle cx=\"18\" cy=\"27\" fill=\"#A3123A\" r=\"1.8\"></circle></svg>\n<div><div class=\"lb\" style=\"color:#A3123A;margin-bottom:6px\">The pattern has limits</div><div style=\"font-size:14px;line-height:1.52\">Owning and debt-financing assets appears to have worked for M-KOPA and MNT-Halan in part because their receivables are small, frequent, observable and in a currency matched to their funders, and because lenders were available. A business with lumpy, seasonal or currency-mismatched cash flows could find debt riskier than equity, since missed repayments can trigger covenant breaches and force a sale or shutdown that equity would not. Leaving assets with partners lowered the capital the early-stage companies needed, but it moved risk rather than removing it (Autogirl’s uninsured crash) and ceded margin and control to partners (Earthbond’s lenders, Feegor’s BNPL providers). Asset-light did not guarantee survival either: Sabi still cut staff and pivoted. Debt-funded ownership is therefore not superior in general; it suits assets whose cash flows can carry it.</div></div>\n</div>",
+      "board": "P37"
+    },
+    {
+      "type": "quote",
+      "text": "Debt-funded ownership is not superior in general; it suits assets whose cash flows can carry it."
+    },
+    {
+      "type": "label",
+      "text": "Patterns across geographies, continued"
+    },
+    {
+      "type": "items",
+      "items": [
+        {
+          "n": "2",
+          "title": "Several founders moved along a sequence as data and lenders became available",
+          "text": "Early-stage companies in the sample leave risk with partners, one plausible reason being that they lack the data to price it: fintech partners hold Feegor’s BNPL credit, microfinance banks carry Earthbond’s loans and owners carry Autogirl’s fleet. The scaled lenders, once they had repayment data, carried assets on their own balance sheets funded with debt or deposits: M-KOPA’s receivables facilities, MNT-Halan’s securitisations, Moniepoint’s banking licence. Omnibiz ($5M equity, $10M debt in 2022) shows a similar mix in B2B commerce, and NALA’s 2026 corridor facility shows a payments company financing its float with debt once volumes were large and predictable. LemFi’s acquisition of Pillar may begin a similar transition, but it is too early to say whether LemFi will carry a material loan book. The sequence is a context-dependent heuristic, not an inevitable progression: some companies will stay with partners because partners finance the asset more cheaply, and moving assets onto the balance sheet makes sense only where lenders will lend on terms the asset’s cash flows can support."
+        },
+        {
+          "n": "3",
+          "title": "Raising from strength was associated with stronger syndicates",
+          "text": "Founders who raised from strength attracted strong investors: NALA pivoted before taking institutional money and raised its Series A while profitable; Moniepoint was revenue-funded for four years; MNT-Halan raised mid-devaluation while debt funded its loan book. Because terms are rarely public, the study cannot show that these founders obtained better terms, only that they raised in conditions where many peers struggled. LemFi shows speed and strength can coexist, moving from a 2021 seed to a $33M Series A in August 2023 and a $53M Series B in January 2025. Sendy shows the reverse. Autogirl raises an open question: seven years without an institutional round protects ownership, but investors must establish whether capital is deferred by choice or necessity."
+        },
+        {
+          "n": "4",
+          "title": "Investor selection followed the stage, the customer and the exit",
+          "text": "Each scaled company’s investor base reflects a specific contribution: M-KOPA used DFIs as lenders and Sumitomo as a strategic equity lead; MNT-Halan moved from foreign private equity to Egyptian banks ahead of its Cairo listing; Moniepoint added DFIs and Visa as it became a regulated bank; NALA and LemFi chose leads in their customers’ sending markets (Acrew Capital, Highland Europe). Public sources cannot always separate deliberate choice from which investors were willing to invest. The logic holds early on: Feegor’s Wema Bank prize may matter more for the banking relationship than for its size, and Autogirl’s trade-sale goal points it toward angels and strategic investors."
+        }
+      ],
+      "figure": {
+        "number": 34,
+        "caption": "Patterns two to four, as set out in the synthesis. Pattern one is on page 41."
+      }
+    },
+    {
+      "type": "figure",
+      "number": 35,
+      "title": "Disclosed capital by instrument, nine cases (US$M, log scale)",
+      "html": "<svg aria-label=\"Log-scale dot plot of disclosed capital by instrument. M-KOPA: equity about $245M, debt facilities above $300M. MNT-Halan: equity at least $537.7M, securitisation above $400M in 2023 alone. Moniepoint: equity above $280M. LemFi: about $86M equity. NALA: about $50M equity; facility up to $50M. Sendy: about $26.5M disclosed. Earthbond: $0.3M of cheques and a €100,000 grant. Feegor: about $0.03M prize. Autogirl: at least $2,000 in grants plus ₦10M.\" height=\"336\" role=\"img\" viewbox=\"0 0 682 336\" width=\"682\">\n<g stroke=\"#CFC9BC\" stroke-width=\"1\">\n<path d=\"M120 10 L120 286 M210 10 L210 286 M300 10 L300 286 M390 10 L390 286 M480 10 L480 286 M570 10 L570 286 M660 10 L660 286\"></path>\n</g>\n<g stroke=\"#ECE7DC\" stroke-width=\"1\"><path d=\"M110 45 L660 45 M110 75 L660 75 M110 105 L660 105 M110 135 L660 135 M110 165 L660 165 M110 195 L660 195 M110 225 L660 225 M110 255 L660 255\"></path></g>\n<path d=\"M120 286 L660 286\" stroke=\"#16132B\" stroke-width=\"2\"></path>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\">\n<text x=\"120\" y=\"302\">$1k</text><text x=\"210\" y=\"302\">$10k</text><text x=\"300\" y=\"302\">$100k</text><text x=\"390\" y=\"302\">$1M</text><text x=\"480\" y=\"302\">$10M</text><text x=\"570\" y=\"302\">$100M</text><text x=\"660\" y=\"302\">$1B</text>\n</g>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"11.5\" font-weight=\"700\">\n<text x=\"0\" y=\"34\">M-KOPA</text><text x=\"0\" y=\"64\">MNT-Halan</text><text x=\"0\" y=\"94\">Moniepoint</text><text x=\"0\" y=\"124\">LemFi</text><text x=\"0\" y=\"154\">NALA</text><text x=\"0\" y=\"184\">Sendy</text><text x=\"0\" y=\"214\">Earthbond</text><text x=\"0\" y=\"244\">Feegor</text><text x=\"0\" y=\"274\">Autogirl</text>\n</g>\n<circle cx=\"605.0\" cy=\"25\" fill=\"#5B21E6\" r=\"6\" stroke=\"#16132B\" stroke-width=\"1.2\"></circle>\n<circle cx=\"612.9\" cy=\"36\" fill=\"#FFFFFF\" r=\"6\" stroke=\"#D4503F\" stroke-width=\"2.2\"></circle>\n<circle cx=\"635.8\" cy=\"55\" fill=\"#FFFFFF\" r=\"6\" stroke=\"#5B21E6\" stroke-width=\"2.2\"></circle>\n<circle cx=\"624.2\" cy=\"66\" fill=\"#FFFFFF\" r=\"6\" stroke=\"#D4503F\" stroke-width=\"2.2\"></circle>\n<circle cx=\"610.2\" cy=\"90\" fill=\"#FFFFFF\" r=\"6\" stroke=\"#5B21E6\" stroke-width=\"2.2\"></circle>\n<circle cx=\"564.1\" cy=\"120\" fill=\"#5B21E6\" r=\"6\" stroke=\"#16132B\" stroke-width=\"1.2\"></circle>\n<circle cx=\"543\" cy=\"144\" fill=\"#5B21E6\" r=\"6\" stroke=\"#16132B\" stroke-width=\"1.2\"></circle>\n<circle cx=\"543\" cy=\"157\" fill=\"#FFFFFF\" r=\"6\" stroke=\"#D4503F\" stroke-width=\"2.2\"></circle>\n<circle cx=\"518.1\" cy=\"180\" fill=\"#5B21E6\" r=\"6\" stroke=\"#16132B\" stroke-width=\"1.2\"></circle>\n<circle cx=\"342.9\" cy=\"210\" fill=\"#5B21E6\" r=\"6\" stroke=\"#16132B\" stroke-width=\"1.2\"></circle>\n<circle cx=\"301.9\" cy=\"210\" fill=\"#8C8898\" r=\"6\" stroke=\"#16132B\" stroke-width=\"1.2\"></circle>\n<circle cx=\"252.9\" cy=\"240\" fill=\"#8C8898\" r=\"6\" stroke=\"#16132B\" stroke-width=\"1.2\"></circle>\n<circle cx=\"147.4\" cy=\"270\" fill=\"#FFFFFF\" r=\"6\" stroke=\"#8C8898\" stroke-width=\"2.2\"></circle>\n<g fill=\"#2A2640\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"9.5\" font-weight=\"600\" text-anchor=\"end\">\n<text x=\"596\" y=\"28\">equity ~$245M</text>\n<text x=\"603\" y=\"40\">debt facilities &gt;$300M</text>\n<text x=\"626\" y=\"58\">equity ≥$537.7M</text>\n<text x=\"614\" y=\"70\">securitisation &gt;$400M (2023 alone)</text>\n<text x=\"601\" y=\"93\">equity &gt;$280M</text>\n<text x=\"555\" y=\"123\">equity ~$86M</text>\n<text x=\"534\" y=\"147\">equity ~$50M</text>\n<text x=\"534\" y=\"161\">facility up to $50M ($25M first tranche)</text>\n<text x=\"508\" y=\"183\">~$26.5M disclosed</text>\n<text x=\"292\" y=\"213\">grant €0.1M (~$0.105M)</text>\n<text x=\"244\" y=\"243\">prize ~$0.03M</text>\n</g>\n<g fill=\"#2A2640\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"9.5\" font-weight=\"600\">\n<text x=\"352\" y=\"213\">cheques $0.3M</text>\n<text x=\"158\" y=\"273\">grants ≥$2,000 + ₦10M</text>\n</g>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"10\" font-weight=\"700\">\n<circle cx=\"126\" cy=\"324\" fill=\"#5B21E6\" r=\"5\"></circle><text x=\"136\" y=\"328\">Equity / pre-equity</text>\n<circle cx=\"256\" cy=\"324\" fill=\"#F2766B\" r=\"5\"></circle><text x=\"266\" y=\"328\">Debt / securitisation</text>\n<circle cx=\"396\" cy=\"324\" fill=\"#8C8898\" r=\"5\"></circle><text x=\"406\" y=\"328\">Grants and prizes</text>\n<circle cx=\"516\" cy=\"324\" fill=\"#FFFFFF\" r=\"5\" stroke=\"#16132B\" stroke-width=\"1.8\"></circle><text x=\"526\" y=\"328\">Hollow: lower bound / undrawn</text>\n</g>\n</svg>",
+      "board": "P38",
+      "caption": "Each marker is a disclosed figure from the case text; MNT-Halan equity sums its three disclosed rounds. Sources: case profiles and timelines, Sections 04–05.",
+      "alt": "Log-scale dot plot of disclosed capital by instrument. M-KOPA: equity about $245M, debt facilities above $300M. MNT-Halan: equity at least $537.7M, securitisation above $400M in 2023 alone. Moniepoint: equity above $280M. LemFi: about $86M equity. NALA: about $50M equity; facility up to $50M. Sendy: about $26.5M disclosed. Earthbond: $0.3M of cheques and a €100,000 grant. Feegor: about $0.03M prize. Autogirl: at least $2,000 in grants plus ₦10M."
+    },
+    {
+      "type": "h",
+      "id": "patterns-that-differ-across-regions",
+      "title": "Patterns that differ across regions",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Currency shapes capital structure most sharply in Egypt and Nigeria, where founders match liabilities to revenue currency by different routes. MNT-Halan borrows in pounds through securitisation and is listing in Cairo; Moniepoint can fund lending from naira deposits. The Nigerian early-stage companies avoid the mismatch by carrying no debt: Autogirl, Feegor and Earthbond earn and spend in naira with no dollar liabilities, at the cost of a hard-currency buffer for expansion, which matters as Autogirl operates in Ghana and Earthbond plans to. NALA and LemFi stand apart, as much of their revenue originates in sterling, euros and dollars."
+    },
+    {
+      "type": "p",
+      "text": "Early-stage funding routes also differ. The three Nigerian early-stage companies relied heavily on non-dilutive money: GET Accelerated and Grey’s UpGreyed Her grant (Autogirl), Wema Bank’s Hackaholics prize (Feegor), and develoPPP alongside Catalyst Fund and Madica (Earthbond). With no early-stage case in the East and North Africa set, the study cannot say whether this reliance is specific to Nigeria. Exit routes differ too: MNT-Halan’s EGX listing is the only public-market liquidity event in the set, and Autogirl the only founder with a stated trade-sale goal."
+    },
+    {
+      "type": "h",
+      "id": "patterns-by-sector",
+      "title": "Patterns by sector",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "In fintech, the balance sheet shapes the instrument. Payments companies funded their core platforms with equity (NALA, LemFi), although NALA has since financed corridor float with debt and LemFi has added credit products. Lenders (M-KOPA, MNT-Halan) raise far more debt than equity. Moniepoint, a licensed bank, sits apart: equity for technology and expansion, with deposits available to fund lending. Early-stage embedded-finance marketplaces (Earthbond) keep lending entirely on partners’ books."
+    },
+    {
+      "type": "h",
+      "id": "patterns-by-sector-continued",
+      "title": "Patterns by sector, continued",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "In logistics, the asset is the hardest part to finance: vehicles, warehouses and inventory tend to yield thinner margins and weaker collateral than a performing loan book. Owning assets has gone badly in this sample: Sendy funded fulfilment and supply lines with equity, Moove’s Nigerian fleet finance was linked to one platform, and Nigerian B2B distributor Alerzo closed 14 warehouses and cut 400 jobs in 2023. In each case other factors (pricing, demand, the funding downturn, a partner’s market exit) also contributed. Autogirl and Feegor own no vehicles or stock and reached thousands of customers on revenue, grants and a small pre-seed; MNT-Halan turned its delivery fleet into a loan-origination channel. Partner models are no guarantee, however: asset-light Sabi still cut staff and pivoted in 2025, so investors should judge logistics platforms on repeat orders and take rate, not asset-lightness alone."
+    },
+    {
+      "type": "figure",
+      "number": 36,
+      "title": "Patterns by stage",
+      "html": "<div style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px\">\n<div class=\"sg\" style=\"border-top:6px solid #0E8577\"><div class=\"h\">Early stage</div><div class=\"b\">The leanest founders layered revenue, grants, prizes and accelerator money and left assets with partners, but none yet has a clear lead for a first priced round.</div></div>\n<div class=\"sg\" style=\"border-top:6px solid #F2766B\"><div class=\"h\">Growth stage</div><div class=\"b\">Scaled founders separated platform from asset capital and built debt relationships early, or raised equity only where the core business had no financeable asset.</div></div>\n<div class=\"sg\" style=\"border-top:6px solid #5B21E6\"><div class=\"h\">Scale</div><div class=\"b\">Founders shifted toward investors who can support an exit, as <span style=\"white-space:nowrap\">MNT-Halan</span> did with domestic banks ahead of its listing. Sendy reversed this order, expanding before proving one line.</div></div>\n</div>",
+      "board": "P39",
+      "caption": "Region, sector and stage in brief: regions differ on currency and early-stage funding routes (page 45); sectors on what the asset is; stages on how it is funded. Source: Section 06.",
+      "alt": null
+    },
+    {
+      "type": "h",
+      "id": "cautionary-cases-as-a-mirror",
+      "title": "Cautionary cases as a mirror",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Sendy and Moove contrast with the successful patterns, though neither outcome has a single cause. Sendy funded asset-intensive lines with equity, built costs ahead of capital and relied on investor support that did not materialise; the valuation it sought fell from above $80M to $40–60M when it raised to survive. Moove used an instrument suited to vehicles, but its Nigerian repayments were linked to ride-hailing earnings, and it left Nigeria a month after Uber did; it gave no reason, and its business elsewhere continues to raise capital. Autogirl’s ₦20M uninsured crash adds a third warning: moving an asset off the balance sheet moves the risk without removing it, so partner models work only when risk transfer is contractual and enforced."
+    },
+    {
+      "type": "quote",
+      "text": "The lesson running through the study is clearest here: available capital is not necessarily suitable capital, and suitable capital is not always available. Asking what each asset is, whose balance sheet should carry it and which instrument its cash flows can support, before asking how much can be raised, is the clearest difference in this sample between the structures that held up under stress and those that did not, although the sample is too small to show that it caused the difference."
+    }
+  ],
+  "title": "Cross-case synthesis and pattern analysis",
+  "pill": "Section 06",
+  "number": "06",
+  "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 220 170\">\n<defs><pattern height=\"6\" id=\"P36art-h36v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern><pattern height=\"6\" id=\"P36art-h36o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern><pattern height=\"6\" id=\"P36art-h36t\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<circle cx=\"80\" cy=\"70\" fill=\"rgba(255,255,255,.3)\" fill-opacity=\".8\" r=\"46\" stroke=\"#FFFFFF\" stroke-width=\"2\"></circle>\n<circle cx=\"140\" cy=\"70\" fill=\"rgba(255,255,255,.3)\" fill-opacity=\".8\" r=\"46\" stroke=\"#FFFFFF\" stroke-width=\"2\"></circle>\n<circle cx=\"110\" cy=\"118\" fill=\"rgba(255,255,255,.3)\" fill-opacity=\".8\" r=\"46\" stroke=\"#FFFFFF\" stroke-width=\"2\"></circle>\n<circle cx=\"110\" cy=\"86\" fill=\"#FFFFFF\" r=\"6\"></circle>\n</svg>"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "introduction",
+  "pdfPages": [
+    3,
+    4
+  ],
+  "blocks": [
+    {
+      "type": "h",
+      "id": "background-and-research-motivation",
+      "title": "Background and research motivation",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Africa’s venture ecosystem has grown rapidly: Partech Africa reports annual startup funding rising from under $300M in 2015 to $6.5B in 2022, of which $4.9B was equity and $1.55B debt (Partech Africa, January 2023), drawing global institutions, development finance institutions and sovereign funds alongside local managers. Research from the Africa Private Capital Association (AVCA), Partech, Africa: The Big Deal, FSD Africa and FinDev Canada has followed, much of it from the investor’s perspective: who deployed capital, where, at what valuations and with what returns."
+    },
+    {
+      "type": "p",
+      "text": "The founder’s side is less systematically documented: not how much capital was raised, but how it was used strategically. When did founders raise, and when did they refuse? Which instruments did they choose, and why? Was the investor mix built around the best term sheet or long-term strategic relationships? Why stay lean through a devaluation rather than dilute to build a war chest?"
+    },
+    {
+      "type": "p",
+      "text": "This capstone examines how founders in nine companies made those choices. Because capital strategy is contextual, the aim is not a formula but a sharper shared vocabulary for financing decisions, and a set of documented examples, for founders and investors alike."
+    },
+    {
+      "type": "quote",
+      "text": "The founder’s side is less systematically documented: not how much capital was raised, but how it was used strategically."
+    },
+    {
+      "type": "flow",
+      "html": "<div style=\"margin-top:14px;background:#ECE6FD;border-radius:4px;padding:14px 20px 14px\">\n<div class=\"lb\" style=\"margin-bottom:8px\">Research question</div>\n<div style=\"font:700 17px/1.4 'Plus Jakarta Sans',Arial,sans-serif;color:#16132B\">How have some of Africa’s most successful founders used capital as a strategic tool throughout their growth journey, and what can founders and investors learn from their financing decisions?</div>\n<div style=\"margin-top:10px;font:500 13px/1.5 'Plus Jakarta Sans',Arial,sans-serif;color:#2A2640\">Two sub-questions follow: how did each company’s financing choices relate to its business model and operating context; and which patterns recur across the cases, where do they break down, and what conditions explain the difference?</div>\n</div>",
+      "board": "P03"
+    },
+    {
+      "type": "h",
+      "id": "defining-success",
+      "title": "Defining “success”",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Success is defined by observable indicators. A company is treated as a scaled case if it meets at least two of the following:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "demonstrable scale (a consistent, disclosed revenue base);",
+        "geographic expansion beyond the home market;",
+        "meaningful follow-on institutional funding; or",
+        "a documented exit or partial liquidity event."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Five companies meet this test: M-KOPA, MNT-Halan, NALA, Moniepoint and LemFi. Autogirl, Feegor and Earthbond do not yet meet it on disclosed evidence (Autogirl has expanded into Ghana, but its revenue scale is not public); they are included as early-stage cases for the way they designed their capital needs, not as proven successes. Sendy, which closed in 2023, is the cautionary case: a company that attracted institutional capital and expanded across markets before failing. Moove’s 2026 exit from Nigeria is used as a comparator rather than a full case, because the seven dimensions were not applied to it."
+    },
+    {
+      "type": "h",
+      "id": "scope-and-structure",
+      "title": "Scope and structure",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "The capstone profiles nine fintech and logistics companies across West, East and North Africa against a common framework. Section 2 sets out the method and its limits; Section 3 reviews the literature; Sections 4 and 5 present the cases; Section 6 compares them; Section 7 presents a capital-strategy framework for founders and investors; Section 8 sets out implications for investors; and Section 9 concludes."
+    },
+    {
+      "type": "figure",
+      "number": 1,
+      "title": "Platform capital and asset capital: two jobs, two kinds of money",
+      "html": "<svg aria-label=\"T-account. Left side, what the money pays for: platform capital and asset capital. Right side, who funds it: equity funds the platform; for the asset, the founder leaves it with a partner, owns it and funds it with debt, or owns it and funds it with equity.\" height=\"356\" role=\"img\" viewbox=\"0 0 682 356\" width=\"682\">\n<defs>\n<pattern height=\"7\" id=\"P04-f1v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#ECE6FD\" height=\"7\" width=\"7\"></rect><line stroke=\"#5B21E6\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<pattern height=\"7\" id=\"P04-f1o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#FDE6E3\" height=\"7\" width=\"7\"></rect><line stroke=\"#D4503F\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<pattern height=\"7\" id=\"P04-f1t\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#DDF1EE\" height=\"7\" width=\"7\"></rect><line stroke=\"#0E8577\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<pattern height=\"7\" id=\"P04-f1r\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"7\"><rect fill=\"#F6DDE4\" height=\"7\" width=\"7\"></rect><line stroke=\"#A3123A\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"7\"></line></pattern>\n<marker id=\"P04-f1a\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"5\" refy=\"4\"><path d=\"M0 0 L8 4 L0 8\" fill=\"none\" stroke=\"#16132B\" stroke-width=\"1.5\"></path></marker>\n</defs>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\">\n<text font-size=\"10\" font-weight=\"700\" letter-spacing=\"2\" text-anchor=\"middle\" x=\"165\" y=\"16\">WHAT THE MONEY PAYS FOR</text>\n<text font-size=\"10\" font-weight=\"700\" letter-spacing=\"2\" text-anchor=\"middle\" x=\"517\" y=\"16\">WHO FUNDS IT</text>\n</g>\n<rect fill=\"#E2D8FF\" height=\"118\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"300\" x=\"14\" y=\"44\"></rect>\n<rect fill=\"#FDDDD7\" height=\"168\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"300\" x=\"14\" y=\"176\"></rect>\n<rect fill=\"#E2D8FF\" height=\"118\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"300\" x=\"368\" y=\"44\"></rect>\n<rect fill=\"#D3EFEA\" height=\"50\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"300\" x=\"368\" y=\"176\"></rect>\n<rect fill=\"#FDDDD7\" height=\"50\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"300\" x=\"368\" y=\"235\"></rect>\n<rect fill=\"#F6DDE4\" height=\"50\" rx=\"3\" stroke=\"#16132B\" stroke-width=\"1.8\" width=\"300\" x=\"368\" y=\"294\"></rect>\n<path d=\"M4 31 C 120 28, 260 34, 341 31 S 560 28, 678 32\" fill=\"none\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"4\"></path>\n<path d=\"M341 30 C 343 130, 339 250, 342 352\" fill=\"none\" stroke=\"#16132B\" stroke-linecap=\"round\" stroke-width=\"4\"></path>\n<g fill=\"#16132B\" font-family=\"Plus Jakarta Sans, Arial\">\n<rect fill=\"#FAF7F0\" height=\"94\" opacity=\".92\" width=\"276\" x=\"26\" y=\"56\"></rect>\n<text font-size=\"17\" font-weight=\"800\" x=\"38\" y=\"80\">Platform capital</text>\n<text font-size=\"12\" font-weight=\"500\" x=\"38\" y=\"102\">technology, people, licences, market entry</text>\n<text font-size=\"12\" font-weight=\"500\" x=\"38\" y=\"122\">carries venture risk</text>\n<rect fill=\"#FAF7F0\" height=\"76\" opacity=\".92\" width=\"276\" x=\"26\" y=\"188\"></rect>\n<text font-size=\"17\" font-weight=\"800\" x=\"38\" y=\"212\">Asset capital</text>\n<text font-size=\"12\" font-weight=\"500\" x=\"38\" y=\"234\">loan books, devices, float, inventory,</text>\n<text font-size=\"12\" font-weight=\"500\" x=\"38\" y=\"252\">vehicles, warehouses</text>\n<rect fill=\"#FAF7F0\" height=\"62\" opacity=\".92\" width=\"276\" x=\"380\" y=\"56\"></rect>\n<text font-size=\"17\" font-weight=\"800\" x=\"392\" y=\"80\">Equity</text>\n<text font-size=\"12\" font-weight=\"500\" x=\"392\" y=\"102\">suits the platform</text>\n<rect fill=\"#FAF7F0\" height=\"26\" opacity=\".92\" width=\"270\" x=\"378\" y=\"188\"></rect>\n<text font-size=\"13\" font-weight=\"700\" x=\"388\" y=\"206\">Leave it with a partner</text>\n<rect fill=\"#FAF7F0\" height=\"26\" opacity=\".92\" width=\"270\" x=\"378\" y=\"247\"></rect>\n<text font-size=\"13\" font-weight=\"700\" x=\"388\" y=\"265\">Own it, fund it with debt</text>\n<rect fill=\"#FAF7F0\" height=\"26\" opacity=\".92\" width=\"270\" x=\"378\" y=\"306\"></rect>\n<text font-size=\"13\" font-weight=\"700\" x=\"388\" y=\"324\">Own it, fund it with equity</text>\n</g>\n<path d=\"M250 132 C 300 124, 340 120, 380 130\" fill=\"none\" marker-end=\"url(#P04-f1a)\" stroke=\"#16132B\" stroke-dasharray=\"5 4\" stroke-width=\"1.6\"></path>\n<path d=\"M240 300 C 290 290, 320 268, 366 250\" fill=\"none\" marker-end=\"url(#P04-f1a)\" stroke=\"#16132B\" stroke-dasharray=\"5 4\" stroke-width=\"1.6\"></path>\n<text fill=\"#5B21E6\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"15.2\" font-style=\"italic\" font-weight=\"600\" x=\"40\" y=\"318\">for each asset, pick one route</text>\n<text fill=\"#5B21E6\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"13.6\" font-style=\"italic\" font-weight=\"600\" x=\"570\" y=\"140\"></text>\n</svg>",
+      "board": "P04",
+      "caption": "The study’s central distinction. Platform capital funds technology, people, licences and market entry, carries venture risk and suits equity; asset capital funds loan books, devices, float, inventory, vehicles and warehouses. Source: Section 07, Step 1.",
+      "alt": "T-account. Left side, what the money pays for: platform capital and asset capital. Right side, who funds it: equity funds the platform; for the asset, the founder leaves it with a partner, owns it and funds it with debt, or owns it and funds it with equity."
+    }
+  ],
+  "title": "Introduction",
+  "pill": "Opening",
+  "number": "00",
+  "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 230 160\">\n<defs><pattern height=\"6\" id=\"P03art-h3v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern><pattern height=\"6\" id=\"P03art-h3o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<rect fill=\"rgba(255,255,255,.3)\" height=\"44\" stroke=\"#FFFFFF\" stroke-width=\"1.6\" width=\"80\" x=\"22\" y=\"40\"></rect>\n<rect fill=\"rgba(255,255,255,.3)\" height=\"56\" stroke=\"#FFFFFF\" stroke-width=\"1.6\" width=\"80\" x=\"22\" y=\"92\"></rect>\n<rect fill=\"rgba(255,255,255,.3)\" height=\"44\" stroke=\"#FFFFFF\" stroke-width=\"1.6\" width=\"80\" x=\"128\" y=\"40\"></rect>\n<rect fill=\"rgba(255,255,255,.3)\" height=\"56\" stroke=\"#FFFFFF\" stroke-width=\"1.6\" width=\"80\" x=\"128\" y=\"92\"></rect>\n<path d=\"M8 30 C 60 27, 150 33, 222 29\" fill=\"none\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path>\n<path d=\"M115 29 C 116 70, 113 110, 115 156\" fill=\"none\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"3.5\"></path>\n<text fill=\"rgba(255,255,255,.3)\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"13.6\" font-style=\"italic\" font-weight=\"600\" text-anchor=\"middle\" x=\"62\" y=\"18\">pays for</text>\n<text fill=\"rgba(255,255,255,.3)\" font-family=\"Source Serif 4, Georgia, serif\" font-size=\"13.6\" font-style=\"italic\" font-weight=\"600\" text-anchor=\"middle\" x=\"168\" y=\"18\">funds it</text>\n</svg>"
+}

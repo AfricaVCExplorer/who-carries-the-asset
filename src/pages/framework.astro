@@ -1,0 +1,277 @@
+---
+// Section 07: The African Founder Framework (PDF pages 47–49), made interactive:
+// a stepper for the six questions, route tabs, the title-and-return-risk test and
+// stage tabs. Without JavaScript every part is shown in full.
+import Base from '../layouts/Base.astro';
+import SectionHero from '../components/SectionHero.astro';
+import DocShell from '../components/DocShell.astro';
+import RawFigure from '../components/RawFigure.astro';
+import d from '../content/sections/framework.json';
+import fw from '../content/framework-data.json';
+import { makeGloss } from '../lib/gloss.js';
+import { u } from '../lib/url.js';
+
+const g = makeGloss();
+const B = d.blocks as any[];
+const para = (startsWith: string) => B.find((b) => b.type === 'p' && b.text.startsWith(startsWith))?.text ?? '';
+const heads = B.filter((b) => b.type === 'h');
+const intro = g.html(B[0].text);
+const steps = B.find((b) => b.type === 'items');
+const stepItems = steps.items.map((it: any) => ({ ...it, out: g.html(it.text) }));
+const fig37 = g.html(steps.figure.caption);
+const step2p = g.html(para('Before deciding'));
+const testp = g.html(para('One test determines'));
+const step3p = g.html(para('The stage bands'));
+const figs = Object.fromEntries(B.filter((b) => b.type === 'figure').map((b) => [b.number, { ...b, out: g.html(b.caption) }]));
+
+const CASES: Record<string, string> = { 'M-KOPA': 'm-kopa', 'MNT-Halan': 'mnt-halan', NALA: 'nala', Sendy: 'sendy', Moniepoint: 'moniepoint', Autogirl: 'autogirl', Moove: 'moove', Feegor: 'feegor', Earthbond: 'earthbond', LemFi: 'lemfi' };
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const linkCases = (s: string) => esc(s).replace(/M-KOPA|MNT-Halan|NALA|Sendy|Moniepoint|Autogirl|Moove|Feegor|Earthbond|LemFi/g, (m) => `<a href="${u(`cases/${CASES[m]}/`)}">${m}</a>`);
+const toc = [
+  { id: heads[0].id, label: 'Step 1: Six diagnostic questions' },
+  { id: heads[1].id, label: 'Step 2: Who carries the asset' },
+  { id: heads[2].id, label: 'The title-and-return-risk test', sub: true },
+  { id: heads[3].id, label: 'Step 3: Stage guidance' },
+];
+---
+<Base title={d.title} description="Section 07: six diagnostic questions, four routes for carrying the asset, the title-and-return-risk test, and stage guidance for founders and investors." current="framework/">
+  <SectionHero number={d.number} pill={d.pill} title={d.title} art={d.art} />
+  <DocShell toc={toc} pdfPages={d.pdfPages} here="framework/">
+    <p class="lead-in" set:html={intro} />
+
+    <!-- Step 1 -->
+    <h2 id={heads[0].id} class="sec-h">{heads[0].title}<a class="anchor" href={`#${heads[0].id}`} aria-label="Link to this section">#</a></h2>
+    <div class="stepper" data-stepper>
+      <div class="st-bar" hidden>
+        <ol class="st-dots" role="list">
+          {stepItems.map((it: any, i: number) => <li><button type="button" class="st-dot" data-go={i} aria-label={`Question ${it.n}: ${it.title}`} style={`--acc:${it.accent}`}>{it.n}</button></li>)}
+        </ol>
+        <button type="button" class="st-all" aria-pressed="false">Show all six</button>
+      </div>
+      <ol class="st-list" role="list">
+        {stepItems.map((it: any) => (
+          <li class="st-card" style={`--acc:${it.accent}`} tabindex="-1">
+            <span class="st-n" aria-hidden="true">{it.n}</span>
+            <div>
+              <p class="st-of" aria-hidden="true">Question {it.n} of 6</p>
+              <h3>{it.title}</h3>
+              <p set:html={it.out} />
+            </div>
+          </li>
+        ))}
+      </ol>
+      <div class="st-nav" hidden>
+        <button type="button" class="btn btn-ghost btn-sm" data-prev>← Previous</button>
+        <span class="st-status" role="status" aria-live="polite"></span>
+        <button type="button" class="btn btn-violet btn-sm" data-next>Next question →</button>
+      </div>
+      <p class="cap"><b>Figure 37</b><span set:html={fig37} /></p>
+    </div>
+
+    <!-- Step 2 -->
+    <h2 id={heads[1].id} class="sec-h">{heads[1].title}<a class="anchor" href={`#${heads[1].id}`} aria-label="Link to this section">#</a></h2>
+    <p set:html={step2p} />
+    <div class="tabs routes" data-tabs>
+      <div class="tablist" role="tablist" aria-label="Four routes" hidden>
+        {fw.routes.map((r, i) => (
+          <button type="button" role="tab" id={`rt-${r.key}`} aria-controls={`rp-${r.key}`} aria-selected={i === 0 ? 'true' : 'false'} tabindex={i === 0 ? 0 : -1} data-route={r.key}>
+            <span class="sw" aria-hidden="true"></span>{r.name}
+          </button>
+        ))}
+      </div>
+      {fw.routes.map((r) => (
+        <section class="tabpanel route-panel" role="tabpanel" id={`rp-${r.key}`} aria-labelledby={`rt-${r.key}`} data-route={r.key}>
+          <h3 class="panel-h">{r.name}</h3>
+          <dl>
+            <div><dt>When it fits</dt><dd>{r.fits}</dd></div>
+            <div><dt>Evidence</dt><dd set:html={linkCases(r.evidence)} /></div>
+            <div><dt>Condition</dt><dd>{r.condition}</dd></div>
+          </dl>
+        </section>
+      ))}
+      <details class="as-table">
+        <summary>View as the table in the report</summary>
+        <RawFigure number={38} html={figs[38].html} board={figs[38].board} captionHtml={figs[38].out} />
+      </details>
+      <p class="cap only-js"><b>Figure 38</b><span set:html={figs[38].out} /></p>
+    </div>
+
+    <!-- The test -->
+    <h2 id={heads[2].id} class="sec-h">{heads[2].title}<a class="anchor" href={`#${heads[2].id}`} aria-label="Link to this section">#</a></h2>
+    <p set:html={testp} />
+    <fieldset class="tst" data-test>
+      <legend>Pick a structure to see what it is in substance</legend>
+      <div class="tst-opts">
+        {fw.test.map((t, i) => (
+          <label class="tst-opt" data-i={i}>
+            <input type="radio" name="tst" value={i} />
+            <span class="tst-s">{t.structure}</span>
+            <span class="tst-r"><span aria-hidden="true">→ </span>{t.result}</span>
+          </label>
+        ))}
+      </div>
+      <p class="tst-out" role="status" aria-live="polite"></p>
+    </fieldset>
+    <p class="cap"><b>Figure 39</b><span set:html={figs[39].out} /></p>
+
+    <!-- Step 3 -->
+    <h2 id={heads[3].id} class="sec-h">{heads[3].title}<a class="anchor" href={`#${heads[3].id}`} aria-label="Link to this section">#</a></h2>
+    <p set:html={step3p} />
+    <div class="tabs stages" data-tabs>
+      <div class="tablist" role="tablist" aria-label="Stages" hidden>
+        {fw.stages.map((s, i) => (
+          <button type="button" role="tab" id={`stt-${i}`} aria-controls={`stp-${i}`} aria-selected={i === 0 ? 'true' : 'false'} tabindex={i === 0 ? 0 : -1} data-stage={i}>
+            <b>{s.name}</b><span>{s.band}</span>
+          </button>
+        ))}
+      </div>
+      {fw.stages.map((s, i) => (
+        <section class="tabpanel stage-panel" role="tabpanel" id={`stp-${i}`} aria-labelledby={`stt-${i}`} data-stage={i}>
+          <h3 class="panel-h">{s.name} <span>{s.band}</span></h3>
+          <dl>
+            {s.rows.map((r) => <div><dt>{r.dimension}</dt><dd set:html={linkCases(r.text)} /></div>)}
+          </dl>
+        </section>
+      ))}
+      <details class="as-table">
+        <summary>Compare all three stages side by side</summary>
+        <RawFigure number={40} html={figs[40].html} board={figs[40].board} captionHtml={figs[40].out} />
+      </details>
+      <p class="cap only-js"><b>Figure 40</b><span set:html={figs[40].out} /></p>
+    </div>
+  </DocShell>
+</Base>
+
+<script>
+  // Stepper
+  document.querySelectorAll<HTMLElement>('[data-stepper]').forEach((root) => {
+    const cards = [...root.querySelectorAll<HTMLElement>('.st-card')];
+    const dots = [...root.querySelectorAll<HTMLButtonElement>('.st-dot')];
+    const bar = root.querySelector<HTMLElement>('.st-bar')!, nav = root.querySelector<HTMLElement>('.st-nav')!;
+    const prev = root.querySelector<HTMLButtonElement>('[data-prev]')!, next = root.querySelector<HTMLButtonElement>('[data-next]')!;
+    const all = root.querySelector<HTMLButtonElement>('.st-all')!, status = root.querySelector<HTMLElement>('.st-status')!;
+    let i = 0, showAll = false;
+    bar.hidden = false; nav.hidden = false; root.classList.add('on');
+    const render = (focus = false) => {
+      cards.forEach((c, k) => { c.hidden = !showAll && k !== i; });
+      dots.forEach((d, k) => { d.toggleAttribute('aria-current', k === i && !showAll); d.classList.toggle('done', k < i); });
+      prev.disabled = i === 0; next.disabled = i === cards.length - 1;
+      nav.hidden = showAll; all.setAttribute('aria-pressed', String(showAll)); all.textContent = showAll ? 'One at a time' : 'Show all six';
+      status.textContent = showAll ? '' : `Question ${i + 1} of ${cards.length}`;
+      if (focus) cards[i].focus({ preventScroll: true });
+    };
+    prev.addEventListener('click', () => { i = Math.max(0, i - 1); render(true); });
+    next.addEventListener('click', () => { i = Math.min(cards.length - 1, i + 1); render(true); });
+    dots.forEach((d) => d.addEventListener('click', () => { i = Number(d.dataset.go); showAll = false; render(true); }));
+    all.addEventListener('click', () => { showAll = !showAll; render(); });
+    render();
+  });
+
+  // Tabs (ARIA tabs pattern, arrow keys move between tabs)
+  document.querySelectorAll<HTMLElement>('[data-tabs]').forEach((root) => {
+    const list = root.querySelector<HTMLElement>('[role="tablist"]')!;
+    const tabs = [...list.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+    const panels = tabs.map((t) => document.getElementById(t.getAttribute('aria-controls')!)!);
+    list.hidden = false; root.classList.add('on');
+    const select = (k: number, focus = false) => {
+      tabs.forEach((t, j) => { t.setAttribute('aria-selected', String(j === k)); t.tabIndex = j === k ? 0 : -1; });
+      panels.forEach((p, j) => { p.hidden = j !== k; });
+      if (focus) tabs[k].focus();
+    };
+    tabs.forEach((t, k) => {
+      t.addEventListener('click', () => select(k));
+      t.addEventListener('keydown', (e) => {
+        const n = tabs.length;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); select((k + 1) % n, true); }
+        if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); select((k - 1 + n) % n, true); }
+        if (e.key === 'Home') { e.preventDefault(); select(0, true); }
+        if (e.key === 'End') { e.preventDefault(); select(n - 1, true); }
+      });
+    });
+    select(0);
+  });
+
+  // Title-and-return-risk test
+  document.querySelectorAll<HTMLElement>('[data-test]').forEach((root) => {
+    root.classList.add('on');
+    const out = root.querySelector<HTMLElement>('.tst-out')!;
+    root.querySelectorAll<HTMLInputElement>('input').forEach((inp) => inp.addEventListener('change', () => {
+      root.querySelectorAll('.tst-opt').forEach((o) => o.classList.toggle('sel', o.contains(inp)));
+      const opt = inp.closest('.tst-opt')!;
+      out.textContent = `${opt.querySelector('.tst-s')!.textContent} → ${opt.querySelector('.tst-r')!.textContent!.replace(/^→\s*/, '')}`;
+    }));
+  });
+</script>
+
+<style>
+  /* Stepper */
+  .stepper { margin: 20px 0 40px; }
+  .st-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+  .st-dots { display: flex; gap: 8px; list-style: none; margin: 0; padding: 0; }
+  .st-dot { width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--ink); background: var(--paper); color: var(--ink); font: 800 1rem/1 var(--sans); cursor: pointer; }
+  .st-dot.done { background: var(--line-soft); }
+  .st-dot[aria-current] { background: var(--ink); color: #fff; box-shadow: 0 0 0 3px var(--paper), 0 0 0 5px var(--acc); }
+  .st-all { all: unset; cursor: pointer; font: 700 .875rem/1 var(--sans); color: var(--violet); text-decoration: underline; text-underline-offset: .2em; padding: 6px 0; }
+  .st-all:focus-visible { outline: 3px solid var(--violet); outline-offset: 3px; }
+  .st-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .st-card { position: relative; display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 16px; padding: 22px 24px; background: var(--surface); border: 1.5px solid var(--ink); border-left: 8px solid var(--acc); border-radius: var(--radius); }
+  .st-card:focus { outline: none; }
+  .st-card:focus-visible { outline: 3px solid var(--violet); outline-offset: 3px; }
+  .stepper.on .st-card { min-height: 220px; }
+  .st-n { width: 48px; height: 48px; border-radius: 50%; background: var(--ink); color: var(--paper); font: 800 1.25rem/48px var(--sans); text-align: center; }
+  .st-of { margin: 0 0 4px; font: 700 .6875rem/1.3 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .st-card h3 { margin: 0 0 10px; font-size: clamp(1.25rem, 1.1rem + .6vw, 1.5rem); }
+  .st-card p:last-child { margin: 0; }
+  .st-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
+  .st-nav .btn:disabled { opacity: .4; cursor: default; transform: none; }
+  .st-status { font: 600 .875rem/1 var(--sans); color: var(--muted); }
+  .stepper .cap, .routes .cap, .stages .cap { margin-top: 14px; }
+
+  /* Tabs */
+  .tabs { margin: 20px 0 40px; }
+  .tablist { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 0; }
+  .tablist [role='tab'] { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 10px 16px; border: 1.5px solid var(--line); border-bottom: 0; border-radius: var(--radius) var(--radius) 0 0; background: var(--paper); color: var(--ink); font: 700 .875rem/1.2 var(--sans); cursor: pointer; }
+  .tablist [role='tab'][aria-selected='true'] { background: var(--surface); border-color: var(--ink); box-shadow: inset 0 4px 0 var(--tc, var(--violet)); }
+  .tablist [role='tab']:focus-visible { outline: 3px solid var(--violet); outline-offset: 2px; }
+  .tabpanel { padding: 22px 24px; background: var(--surface); border: 1.5px solid var(--ink); border-radius: 0 var(--radius) var(--radius) var(--radius); }
+  .tabs:not(.on) .tabpanel + .tabpanel { margin-top: 12px; }
+  .tabs:not(.on) .tabpanel { border-radius: var(--radius); }
+  .tabs:not(.on) .only-js { display: none; }
+  .tabs.on .as-table { margin-top: 14px; }
+  .panel-h { margin: 0 0 14px; font-size: 1.375rem; }
+  .panel-h span { font-weight: 600; font-size: .9375rem; color: var(--muted); margin-left: 6px; }
+  .tabpanel dl { margin: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+  .tabpanel dl > div { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line-soft); }
+  .tabpanel dt { font: 800 .9375rem/1.4 var(--sans); }
+  .tabpanel dd { margin: 0; }
+  @media (max-width: 560px) { .tabpanel dl > div { grid-template-columns: 1fr; gap: 4px; } .tabpanel { padding: 18px 16px; } }
+  .routes [data-route='partner'] { --tc: var(--r-partner); } .routes [data-route='debt'] { --tc: var(--r-debt); }
+  .routes [data-route='deposits'] { --tc: var(--r-deposits); } .routes [data-route='assetequity'] { --tc: var(--r-assetequity); }
+  .routes [role='tab'] .sw { width: 12px; height: 12px; border-radius: 50%; background: var(--tc); }
+  .route-panel { box-shadow: inset 6px 0 0 var(--tc); padding-left: 30px; }
+  .stages [data-stage='0'] { --tc: var(--r-partner); } .stages [data-stage='1'] { --tc: var(--coral); } .stages [data-stage='2'] { --tc: var(--violet); }
+  .stages [role='tab'] { flex-direction: column; align-items: flex-start; gap: 2px; }
+  .stages [role='tab'] span { font-weight: 500; font-size: .75rem; color: var(--muted); }
+  .stage-panel { box-shadow: inset 0 6px 0 var(--tc); }
+  .as-table summary { cursor: pointer; font: 700 .875rem/1.4 var(--sans); color: var(--violet); padding: 8px 0; }
+  .as-table summary:focus-visible { outline: 3px solid var(--violet); outline-offset: 2px; }
+
+  /* Test */
+  .tst { margin: 20px 0 10px; padding: 20px 22px; border: 1.5px solid var(--ink); border-radius: var(--radius); background: var(--surface); }
+  .tst legend { padding: 0 6px; font: 800 1rem/1.3 var(--sans); }
+  .tst-opts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 8px; }
+  .tst-opt { position: relative; display: flex; flex-direction: column; gap: 8px; padding: 14px 16px 16px; border: 1.5px solid var(--line); border-radius: var(--radius); background: var(--paper); cursor: pointer; }
+  .tst-opt[data-i='0'] { --tc: var(--violet); --tb: var(--violet-tint); } .tst-opt[data-i='1'] { --tc: var(--r-partner); --tb: var(--teal-tint); } .tst-opt[data-i='2'] { --tc: #D4503F; --tb: var(--coral-tint); }
+  .tst-opt input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+  .tst-opt:has(input:focus-visible) { outline: 3px solid var(--violet); outline-offset: 2px; }
+  .tst-s { font: 800 1rem/1.3 var(--sans); }
+  .tst-r { font: 600 .9375rem/1.4 var(--sans); color: var(--ink-soft); }
+  .tst.on .tst-r { visibility: hidden; }
+  .tst.on .tst-opt.sel { background: var(--tb); border-color: var(--tc); }
+  .tst.on .tst-opt.sel .tst-r { visibility: visible; }
+  .tst-out { margin: 12px 0 0; min-height: 1.4em; font: 700 .9375rem/1.4 var(--sans); }
+  .tst:not(.on) .tst-out { display: none; }
+  @media (max-width: 640px) { .tst-opts { grid-template-columns: 1fr; } }
+
+  @media print { .st-bar, .st-nav, .tablist, .as-table, .tst-out { display: none !important; } .st-card, .tabpanel { display: grid !important; } .tabpanel[hidden], .st-card[hidden] { display: block !important; } .tst-r { visibility: visible !important; } }
+</style>

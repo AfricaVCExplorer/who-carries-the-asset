@@ -1,0 +1,174 @@
+{
+  "routes": [
+    {
+      "key": "partner",
+      "name": "Leave it with a partner",
+      "fits": "Before the company has the data to price the asset’s risk, or where a partner can own or finance the asset more cheaply",
+      "evidence": "Autogirl, Feegor, Earthbond",
+      "condition": "Enforce the risk transfer in contracts (insurance, guarantors, escrow, title); accept the partner’s share of margin and control; avoid dependence on one partner"
+    },
+    {
+      "key": "debt",
+      "name": "Own it and fund it with debt",
+      "fits": "Once repayment or utilisation data supports a lender’s credit decision and cash flows are predictable enough to service debt",
+      "evidence": "M-KOPA, MNT-Halan, Omnibiz; NALA (payment float)",
+      "condition": "Diversify lenders and repayment channels; match debt currency and tenor to the asset; size debt to downside cash flows and covenants (Moove shows the cost of a single repayment channel)"
+    },
+    {
+      "key": "deposits",
+      "name": "Fund it from deposits under a banking licence",
+      "fits": "Where the company can obtain a deposit-taking licence and meet its capital requirements",
+      "evidence": "Moniepoint",
+      "condition": "Accept supervision and capital requirements; deposits fund lending only within prudential limits"
+    },
+    {
+      "key": "assetequity",
+      "name": "Own it and fund it with equity",
+      "fits": "For small or short-lived needs with no suitable lender, or where cash flows are too uncertain to service debt",
+      "evidence": "Sendy (cautionary)",
+      "condition": "Equity is usually the most expensive capital for an asset; keep the exposure small and time-limited"
+    }
+  ],
+  "test": [
+    {
+      "structure": "Shares",
+      "result": "equity"
+    },
+    {
+      "structure": "Investor-owned, company-managed assets",
+      "result": "off-balance-sheet asset capital"
+    },
+    {
+      "structure": "A guaranteed return",
+      "result": "debt in substance, whatever the label"
+    }
+  ],
+  "stages": [
+    {
+      "name": "Early",
+      "band": "pre-$1M ARR",
+      "rows": [
+        {
+          "dimension": "Timing",
+          "text": "Raise to validate, not to scale. Pivot before institutionalising (NALA)."
+        },
+        {
+          "dimension": "Instrument",
+          "text": "Revenue, grants, prizes and accelerator money layered for minimal dilution (Autogirl, Feegor, Earthbond)."
+        },
+        {
+          "dimension": "Asset route",
+          "text": "Partners carry vehicles, stock and credit."
+        },
+        {
+          "dimension": "Investor selection",
+          "text": "Investors and sponsors who become partners (Wema Bank for Feegor). Identify the lead for the first priced round before grants run out."
+        },
+        {
+          "dimension": "Dilution",
+          "text": "Keep the cap table small enough to allow a pivot."
+        },
+        {
+          "dimension": "Decline / delay",
+          "text": "Delay institutional capital until the model is proven, and be able to show investors the delay is a choice."
+        },
+        {
+          "dimension": "Dependency risk",
+          "text": "Map every partner the model relies on for supply, credit or demand."
+        },
+        {
+          "dimension": "Currency",
+          "text": "Keep costs and liabilities in the currency of revenue; avoid dollar liabilities against local-currency income."
+        },
+        {
+          "dimension": "Liquidity",
+          "text": "State the likely exit early (Autogirl: trade sale)."
+        }
+      ]
+    },
+    {
+      "name": "Growth",
+      "band": "$1–10M ARR",
+      "rows": [
+        {
+          "dimension": "Timing",
+          "text": "Raise from strength, after proof of unit economics or profitability where possible. Do not size costs to an unraised round (Sendy)."
+        },
+        {
+          "dimension": "Instrument",
+          "text": "Equity for the platform; receivables, asset-finance or working-capital facilities for the book or float once lenders will price it (NALA’s 2026 facility)."
+        },
+        {
+          "dimension": "Asset route",
+          "text": "Bring assets onto the balance sheet, funded with debt, once data supports pricing and lenders are available (Omnibiz); otherwise stay with partners."
+        },
+        {
+          "dimension": "Investor selection",
+          "text": "Lead investors based in the customer’s market (Highland Europe for LemFi); DFIs as lenders where their mandate is strongest (M-KOPA)."
+        },
+        {
+          "dimension": "Dilution",
+          "text": "Protect ownership through instrument choice, not only through valuation."
+        },
+        {
+          "dimension": "Decline / delay",
+          "text": "Decline capital that funds expansion before one market is profitable."
+        },
+        {
+          "dimension": "Dependency risk",
+          "text": "Avoid repayments that depend on a single outside platform (Moove)."
+        },
+        {
+          "dimension": "Currency",
+          "text": "Borrow in the asset’s currency where local lenders exist; price hedging into any dollar facility."
+        },
+        {
+          "dimension": "Liquidity",
+          "text": "Build an investor base whose return expectations fit that exit."
+        }
+      ]
+    },
+    {
+      "name": "Scale",
+      "band": "$10M+ ARR",
+      "rows": [
+        {
+          "dimension": "Timing",
+          "text": "Raise counter-cyclically where the structure allows it (MNT-Halan, M-KOPA in 2023)."
+        },
+        {
+          "dimension": "Instrument",
+          "text": "Debt at scale: securitisation, syndicated and sustainability-linked facilities. Equity for M&A and new markets."
+        },
+        {
+          "dimension": "Asset route",
+          "text": "Own the book where it is cheaper than partner funding; diversify funding sources, currencies and repayment channels."
+        },
+        {
+          "dimension": "Investor selection",
+          "text": "Domestic institutions ahead of a local listing (MNT-Halan); strategic buyers ahead of a trade sale."
+        },
+        {
+          "dimension": "Dilution",
+          "text": "Measure dilution against assets financed, not equity raised."
+        },
+        {
+          "dimension": "Decline / delay",
+          "text": "Decline capital whose return expectations conflict with the likely exit."
+        },
+        {
+          "dimension": "Dependency risk",
+          "text": "Diversify lenders, partners and markets so no single exit or failure halts the business."
+        },
+        {
+          "dimension": "Currency",
+          "text": "Use local debt markets and listings where available (MNT-Halan)."
+        },
+        {
+          "dimension": "Liquidity",
+          "text": "Plan the listing or secondary route; a domestic exchange works for local-asset businesses (MNT-Halan)."
+        }
+      ]
+    }
+  ]
+}

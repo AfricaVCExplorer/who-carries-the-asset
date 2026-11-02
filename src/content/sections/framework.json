@@ -1,0 +1,122 @@
+{
+  "slug": "framework",
+  "pdfPages": [
+    47,
+    49
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "This section presents the capstone’s main practical output: a sequence of diagnostic questions and stage-by-stage guidance drawn from the cases, so founders can test financing decisions against the evidence and investors can test whether their capital suits the business. It is a decision aid, not a prescription: each recommendation depends on the conditions noted alongside it, and an instrument that suits a business in principle may be unavailable or uneconomic in a given market."
+    },
+    {
+      "type": "h",
+      "id": "step-1-ask-six-diagnostic-questions",
+      "title": "Step 1: Ask six diagnostic questions",
+      "level": 3
+    },
+    {
+      "type": "items",
+      "items": [
+        {
+          "n": "1",
+          "title": "What is being financed?",
+          "text": "Platform capabilities and operating expenses, or an identifiable asset or receivable such as a loan book, devices, payment float, inventory or vehicles? Usually only the latter can support debt.",
+          "accent": "#F2766B"
+        },
+        {
+          "n": "2",
+          "title": "Who is best placed to own and operate the asset?",
+          "text": "The company, a partner that already owns it (car owners, logistics firms), or a lender that can hold it more cheaply?",
+          "accent": "#0E8577"
+        },
+        {
+          "n": "3",
+          "title": "Who should bear the risks?",
+          "text": "Credit, commercial, currency, operational, insurance and asset-loss risks can sit with different parties; each allocation should be written into contracts and enforced.",
+          "accent": "#A3123A"
+        },
+        {
+          "n": "4",
+          "title": "What instrument fits?",
+          "text": "Weigh cash-flow predictability and seasonality, asset life, utilisation and residual value, repayment duration, debt-service capacity and the consequences of a missed payment, interest cost, collateral, guarantees and covenants, and the currency of revenues against that of liabilities.",
+          "accent": "#5B21E6"
+        },
+        {
+          "n": "5",
+          "title": "What conditions must hold first?",
+          "text": "A repayment record lenders can underwrite; lenders willing to lend in the right currency, at a price and tenor the asset can bear; and a regulatory route, such as a lending or banking licence or approval to securitise.",
+          "accent": "#2C64C7"
+        },
+        {
+          "n": "6",
+          "title": "What happens if a relationship changes?",
+          "text": "Test the structure against the loss of a lender, a dominant customer or platform, or a risk-carrying partner, and against a devaluation or a round that fails to close. Weigh, too, the margin and control given up to any partner that finances or operates the asset.",
+          "accent": "#16132B"
+        }
+      ],
+      "figure": {
+        "number": 37,
+        "caption": "The six diagnostic questions, asked in order before sizing a raise. Steps 2 and 3 follow on pages 48–49. Source: Section 07."
+      }
+    },
+    {
+      "type": "h",
+      "id": "step-2-decide-who-carries-the-asset-and-its-risks",
+      "title": "Step 2: Decide who carries the asset and its risks",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Before deciding how much to raise, founders should split the capital need in two. Platform capital funds technology, people, licences and market entry, carries venture risk and suits equity. Asset capital funds loan books, devices, float, inventory, vehicles and warehouses. For each asset, the founder chooses among broad routes, which in practice are often combined:"
+    },
+    {
+      "type": "figure",
+      "number": 38,
+      "title": null,
+      "html": "<div class=\"rt\" style=\"margin-top:8px\">\n<div class=\"hh\">Route</div><div class=\"hh\">When it fits</div><div class=\"hh\">Evidence</div><div class=\"hh\">Condition</div>\n<div class=\"rn\" style=\"background:#DDF1EE;border-left:6px solid #0E8577\">Leave it with a partner</div><div>Before the company has the data to price the asset’s risk, or where a partner can own or finance the asset more cheaply</div><div>Autogirl, Feegor, Earthbond</div><div>Enforce the risk transfer in contracts (insurance, guarantors, escrow, title); accept the partner’s share of margin and control; avoid dependence on one partner</div>\n<div class=\"rn\" style=\"background:#FDE6E3;border-left:6px solid #F2766B\">Own it and fund it with debt</div><div>Once repayment or utilisation data supports a lender’s credit decision and cash flows are predictable enough to service debt</div><div><span style=\"white-space:nowrap\">M-KOPA</span>, <span style=\"white-space:nowrap\">MNT-Halan</span>, Omnibiz; NALA (payment float)</div><div>Diversify lenders and repayment channels; match debt currency and tenor to the asset; size debt to downside cash flows and covenants (Moove shows the cost of a single repayment channel)</div>\n<div class=\"rn\" style=\"background:#E1EBFA;border-left:6px solid #2C64C7\">Fund it from deposits under a banking licence</div><div>Where the company can obtain a deposit-taking licence and meet its capital requirements</div><div>Moniepoint</div><div>Accept supervision and capital requirements; deposits fund lending only within prudential limits</div>\n<div class=\"rn\" style=\"background:#F6DDE4;border-left:6px solid #A3123A;border-bottom:0\">Own it and fund it with equity</div><div style=\"border-bottom:0\">For small or short-lived needs with no suitable lender, or where cash flows are too uncertain to service debt</div><div style=\"border-bottom:0\">Sendy (cautionary)</div><div style=\"border-bottom:0\">Equity is usually the most expensive capital for an asset; keep the exposure small and time-limited</div>\n</div>",
+      "board": "P41",
+      "caption": "The four routes, with the cases that evidence each. Source: Section 07, Step 2."
+    },
+    {
+      "type": "h",
+      "id": "one-test-decides-the-route",
+      "title": "One test decides the route",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "One test determines which route a structure follows: who holds title to the asset, and who carries the return risk. In Autogirl’s Prado offer, shares would make it equity; investor-owned, Autogirl-managed vehicles would make it off-balance-sheet asset capital; a guaranteed return would make it debt in substance, whatever the label. The same test separates NALA’s corridor facility (a working-capital line against payment flows, not a loan book) from lending, and will decide how LemFi’s credit products should be financed, depending on whether LemFi or its lending partner carries the loans."
+    },
+    {
+      "type": "figure",
+      "number": 39,
+      "title": null,
+      "html": "<div style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:10px\">\n<div class=\"ts\" style=\"background:#ECE6FD;border:1.5px solid #5B21E6\"><b>Shares</b>→ equity</div>\n<div class=\"ts\" style=\"background:#DDF1EE;border:1.5px solid #0E8577\"><b>Investor-owned, company-managed assets</b>→ off-balance-sheet asset capital</div>\n<div class=\"ts\" style=\"background:#FDE6E3;border:1.5px solid #D4503F\"><b>A guaranteed return</b>→ debt in substance, whatever the label</div>\n</div>",
+      "board": "P41",
+      "caption": "The title-and-return-risk test, applied to Autogirl’s Prado offer (see Figure 22). Source: Section 07, Step 2."
+    },
+    {
+      "type": "h",
+      "id": "step-3-apply-the-stage-guidance",
+      "title": "Step 3: Apply the stage guidance",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "The stage bands below are indicative. Revenue thresholds are rough markers; a company’s lender access, regulatory status and track record matter more than its revenue band."
+    },
+    {
+      "type": "figure",
+      "number": 40,
+      "title": null,
+      "html": "<table class=\"m\">\n<tr><th>Dimension</th><th style=\"border-top:6px solid #0E8577\">Early<span>pre-$1M ARR</span></th><th style=\"border-top:6px solid #F2766B\">Growth<span>$1–10M ARR</span></th><th style=\"border-top:6px solid #5B21E6\">Scale<span>$10M+ ARR</span></th></tr>\n<tr><td class=\"d\">Timing</td><td>Raise to validate, not to scale. Pivot before institutionalising (NALA).</td><td>Raise from strength, after proof of unit economics or profitability where possible. Do not size costs to an unraised round (Sendy).</td><td>Raise counter-cyclically where the structure allows it (<span style=\"white-space:nowrap\">MNT-Halan</span>, <span style=\"white-space:nowrap\">M-KOPA</span> in 2023).</td></tr>\n<tr><td class=\"d\">Instrument</td><td>Revenue, grants, prizes and accelerator money layered for minimal dilution (Autogirl, Feegor, Earthbond).</td><td>Equity for the platform; receivables, asset-finance or working-capital facilities for the book or float once lenders will price it (NALA’s 2026 facility).</td><td>Debt at scale: securitisation, syndicated and sustainability-linked facilities. Equity for M&amp;A and new markets.</td></tr>\n<tr><td class=\"d\">Asset route</td><td>Partners carry vehicles, stock and credit.</td><td>Bring assets onto the balance sheet, funded with debt, once data supports pricing and lenders are available (Omnibiz); otherwise stay with partners.</td><td>Own the book where it is cheaper than partner funding; diversify funding sources, currencies and repayment channels.</td></tr>\n<tr><td class=\"d\">Investor selection</td><td>Investors and sponsors who become partners (Wema Bank for Feegor). Identify the lead for the first priced round before grants run out.</td><td>Lead investors based in the customer’s market (Highland Europe for LemFi); DFIs as lenders where their mandate is strongest (<span style=\"white-space:nowrap\">M-KOPA</span>).</td><td>Domestic institutions ahead of a local listing (<span style=\"white-space:nowrap\">MNT-Halan</span>); strategic buyers ahead of a trade sale.</td></tr>\n<tr><td class=\"d\">Dilution</td><td>Keep the cap table small enough to allow a pivot.</td><td>Protect ownership through instrument choice, not only through valuation.</td><td>Measure dilution against assets financed, not equity raised.</td></tr>\n<tr><td class=\"d\">Decline / delay</td><td>Delay institutional capital until the model is proven, and be able to show investors the delay is a choice.</td><td>Decline capital that funds expansion before one market is profitable.</td><td>Decline capital whose return expectations conflict with the likely exit.</td></tr>\n<tr><td class=\"d\">Dependency risk</td><td>Map every partner the model relies on for supply, credit or demand.</td><td>Avoid repayments that depend on a single outside platform (Moove).</td><td>Diversify lenders, partners and markets so no single exit or failure halts the business.</td></tr>\n<tr><td class=\"d\">Currency</td><td>Keep costs and liabilities in the currency of revenue; avoid dollar liabilities against local-currency income.</td><td>Borrow in the asset’s currency where local lenders exist; price hedging into any dollar facility.</td><td>Use local debt markets and listings where available (<span style=\"white-space:nowrap\">MNT-Halan</span>).</td></tr>\n<tr><td class=\"d\">Liquidity</td><td>State the likely exit early (Autogirl: trade sale).</td><td>Build an investor base whose return expectations fit that exit.</td><td>Plan the listing or secondary route; a domestic exchange works for local-asset businesses (<span style=\"white-space:nowrap\">MNT-Halan</span>).</td></tr>\n</table>",
+      "board": "P42",
+      "caption": "Indicative stage guidance across nine dimensions, with the case that evidences each cell. Source: Section 07, Step 3."
+    }
+  ],
+  "title": "The African Founder Framework",
+  "pill": "Section 07",
+  "number": "07",
+  "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 230 170\">\n<defs><pattern height=\"6\" id=\"P40art-h40v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern><pattern height=\"6\" id=\"P40art-h40o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<rect fill=\"rgba(255,255,255,.14)\" height=\"130\" stroke=\"#FFFFFF\" stroke-width=\"1.6\" width=\"200\" x=\"14\" y=\"20\"></rect>\n<path d=\"M14 40 L214 40 M14 60 L214 60 M14 80 L214 80 M14 100 L214 100 M14 120 L214 120 M54 20 L54 150 M94 20 L94 150 M134 20 L134 150 M174 20 L174 150\" stroke=\"#FFFFFF\" stroke-width=\"1\"></path>\n<rect fill=\"rgba(255,255,255,.3)\" height=\"36\" stroke=\"#FFFFFF\" stroke-width=\"1.6\" width=\"60\" x=\"44\" y=\"52\"></rect>\n<rect fill=\"rgba(255,255,255,.3)\" height=\"44\" stroke=\"#FFFFFF\" stroke-width=\"1.6\" width=\"60\" x=\"44\" y=\"94\"></rect>\n<rect fill=\"rgba(255,255,255,.3)\" height=\"36\" stroke=\"#FFFFFF\" stroke-width=\"1.6\" width=\"60\" x=\"124\" y=\"52\"></rect>\n<rect fill=\"rgba(255,255,255,.3)\" height=\"44\" stroke=\"#FFFFFF\" stroke-width=\"1.6\" width=\"60\" x=\"124\" y=\"94\"></rect>\n<path d=\"M36 44 L192 42 M114 42 L115 144\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"3\"></path>\n<path d=\"M150 160 L222 92\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"5\"></path>\n<path d=\"M150 160 L144 166\" stroke=\"#FFFFFF\" stroke-linecap=\"round\" stroke-width=\"5\"></path>\n</svg>"
+}

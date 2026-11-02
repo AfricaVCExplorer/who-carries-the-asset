@@ -1,0 +1,66 @@
+{
+  "slug": "literature-review",
+  "pdfPages": [
+    12,
+    13
+  ],
+  "blocks": [
+    {
+      "type": "h",
+      "id": "capital-strategy-in-venture-backed-companies-global",
+      "title": "Capital strategy in venture-backed companies (global)",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Since Sahlman (1990) and Gompers (1995), venture finance research has treated staged capital as a response to information asymmetry: investors release tranches as milestones are met, limiting downside while keeping the option to back winners. Hellmann and Puri (2000) showed that venture backing reshapes product-market strategy, and Kaplan and Strömberg (2003) showed how preferred-equity control rights preserve investor leverage. The resulting model (equity rounds, tranched disbursements, board seats, liquidation preferences) became Silicon Valley’s template and has been widely adopted in emerging markets with few adaptations."
+    },
+    {
+      "type": "p",
+      "text": "Much of this literature models the founder as a recipient of investor-designed contracts rather than as a strategic actor choosing among instruments. Wasserman’s (2012) “rich versus king” trade-off between financial return and control remains largely descriptive, while Ewens, Nanda and Rhodes-Kropf (2018) showed cheaper experimentation shifting venture investing toward smaller, staged bets, and SAFEs and revenue-based financing have widened founders’ options in mature markets. The corporate-finance literature on capital structure, notably the pecking-order view that firms prefer internal funds, then debt, then equity (Myers and Majluf, 1984), bears directly on the debt-versus-equity choices examined here, although it was developed for established firms rather than startups. The normative question for founders remains less developed: given the available instruments, what does good capital strategy look like? Practitioner writing, including investor blogs and founder memoirs such as Horowitz (2014) and Hastings and Meyer (2020), offers insight but rarely compares cases systematically. This capstone applies one framework across nine cases to produce comparative, if exploratory, findings rather than isolated anecdotes."
+    },
+    {
+      "type": "quote",
+      "text": "The normative question for founders remains less developed: given the available instruments, what does good capital strategy look like?"
+    },
+    {
+      "type": "h",
+      "id": "the-african-vc-context-what-makes-it-different",
+      "title": "The African VC context: what makes it different",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Three structural features set Africa apart."
+    },
+    {
+      "type": "flow",
+      "html": "<div class=\"fx\"><div class=\"n\">1</div><div><p>The first, and most consequential, is <b>currency risk</b>. In Egypt, Nigeria and Kenya, three of the continent’s four largest venture markets alongside South Africa, and in Ghana, many founders earn in local currency while raising or borrowing in dollars. Devaluation then raises the local cost of dollar liabilities and lowers the dollar value of revenue and equity. The Egyptian pound (EGP) lost more than 80% of its value against the US dollar (USD) between 2016 and 2024; the Nigerian naira (NGN) lost roughly <span style=\"white-space:nowrap\">two-thirds</span> in <span style=\"white-space:nowrap\">2023–2024</span> alone. Dollar equity carries no repayment obligation, so the mismatch bites hardest where dollar debt funds <span style=\"white-space:nowrap\">local-currency</span> assets; heavy dollar equity still exposes a company to valuation losses after a devaluation, while too little capital leaves a <span style=\"white-space:nowrap\">capital-intensive</span> business <span style=\"white-space:nowrap\">under-resourced</span>.</p></div></div>",
+      "board": "P11"
+    },
+    {
+      "type": "flow",
+      "html": "<div class=\"fx\"><div class=\"n\">2</div><div><p>The second is <b>the weight of development finance institutions (DFIs)</b>, both as direct investors and lenders and as limited partners (LPs) in African VC funds. The IFC, BII, EBRD, EIB, FMO, KfW and Proparco play a larger role in African venture and growth finance than in most developed markets, with return expectations, governance requirements and mandates that differ from commercial VC. For founders, DFI capital can signal development credibility, unlock blended finance and fund <span style=\"white-space:nowrap\">thin-margin</span> or <span style=\"white-space:nowrap\">long-payback</span> models, at the cost of slower processes, impact reporting and governance requirements.</p></div></div>",
+      "board": "P11"
+    },
+    {
+      "type": "flow",
+      "html": "<div class=\"fx\"><div class=\"n\">3</div><div><p>The third is <b>thin exit infrastructure</b>. Public markets for African tech remain shallow, and global strategic acquisitions, such as Stripe’s purchase of Paystack and Network International’s of DPO Group (both 2020), are exceptions. Founders should plan for longer times to exit, so capital efficiency and profitability carry more weight than in the “grow fast, exit in seven to ten years” model associated with Silicon Valley: raising too much, too fast can strand a company if the expected exit does not materialise.</p></div></div>",
+      "board": "P11"
+    },
+    {
+      "type": "h",
+      "id": "gaps-in-the-existing-literature",
+      "title": "Gaps in the existing literature",
+      "level": 3
+    },
+    {
+      "type": "p",
+      "text": "Ecosystem research from Africa: The Big Deal, AVCA, Partech and Briter tracks funding volumes, instruments, sectors and geographies, while journalist-led profiles by TechCabal, Rest of World and Sifted document individual capital stories. Practitioner commentary from investors and founders adds lessons, usually from a single company’s experience. We found few published studies that compare founder financing decisions across African companies using a consistent framework, though our search was not systematic and relevant work may exist in sources we did not review. The contribution of this capstone is therefore incremental: it applies one seven-dimension framework to nine companies, separates documented facts from interpretation, and derives a decision framework (Section 7) that can be tested on further cases."
+    }
+  ],
+  "title": "Literature review",
+  "pill": "Section 03",
+  "number": "03",
+  "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 220 170\">\n<defs><pattern height=\"6\" id=\"P10art-h10v\" patterntransform=\"rotate(45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern><pattern height=\"6\" id=\"P10art-h10o\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M30 150 L196 148 L196 126 L30 128 Z\" fill=\"rgba(255,255,255,.3)\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M44 126 L182 124 L182 104 L44 106 Z\" fill=\"rgba(255,255,255,.14)\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M36 104 L188 98 L190 78 L38 84 Z\" fill=\"rgba(255,255,255,.3)\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M60 116 L160 115\" stroke=\"#FFFFFF\" stroke-width=\"1.2\"></path>\n<path d=\"M120 76 L132 18 L170 26 L158 82\" fill=\"rgba(255,255,255,.14)\" stroke=\"#FFFFFF\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path>\n<path d=\"M134 34 L160 40 M131 46 L158 52 M129 58 L150 62\" stroke=\"#FFFFFF\" stroke-width=\"1.2\"></path>\n</svg>"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "cases-west",
+  "pdfPages": [
+    27,
+    27
+  ],
+  "blocks": [
+    {
+      "type": "flow",
+      "html": "<div style=\"margin-top:0;font:700 11px/1.5 'Plus Jakarta Sans',Arial,sans-serif;color:#2A2640\"><span class=\"lb\">Geographies covered</span>  Nigeria and Ghana</div>",
+      "board": "P22"
+    },
+    {
+      "type": "p",
+      "text": "The five case studies below examine founders in West African markets, with Nigeria as the primary anchor. Two are scaled companies (Moniepoint and LemFi) and three are early-stage (Autogirl, Feegor and Earthbond). They apply the same analytical framework as the East and North Africa cases, enabling cross-regional comparison in the synthesis that follows."
+    },
+    {
+      "type": "flow",
+      "html": "<div style=\"margin-top:14px;border-top:2px solid #16132B\">\n<div class=\"cs\"><div class=\"n\">5</div><div><div class=\"t\">Moniepoint</div><div class=\"s\">Nigeria · Business payments and banking; licensed microfinance bank</div></div><div class=\"r\" style=\"background:#2C64C7;color:#FFFFFF\">Deposits, banking licence</div><div class=\"pn\">28</div></div>\n<div class=\"cs\"><div class=\"n\">6</div><div><div class=\"t\">Autogirl (Muvment by Autogirl)</div><div class=\"s\">Nigeria and Ghana · Peer-to-peer vehicle rental marketplace</div></div><div class=\"r\" style=\"background:#0E8577;color:#FFFFFF\">Partner-held asset</div><div class=\"pn\">30</div></div>\n<div class=\"cs\" style=\"background:#FFFFFF\"><div class=\"n\" style=\"-webkit-text-stroke:1.4px #A3123A\">+</div><div><div class=\"t\">Moove <span style=\"font:700 9px/1 'Plus Jakarta Sans',Arial,sans-serif;letter-spacing:.14em;color:#A3123A;vertical-align:4px\">COMPARATOR</span></div><div class=\"s\">Nigeria · Vehicle financing for ride-hailing drivers</div></div><div class=\"r\" style=\"border:1.5px dashed #A3123A;color:#A3123A\">Debt linked to one platform</div><div class=\"pn\">33</div></div>\n<div class=\"cs\"><div class=\"n\">7</div><div><div class=\"t\">Feegor</div><div class=\"s\">Nigeria · B2B wholesale sourcing marketplace</div></div><div class=\"r\" style=\"background:#0E8577;color:#FFFFFF\">Partner-held asset</div><div class=\"pn\">34</div></div>\n<div class=\"cs\"><div class=\"n\">8</div><div><div class=\"t\">Earthbond</div><div class=\"s\">Nigeria · Solar-asset credit marketplace</div></div><div class=\"r\" style=\"background:#0E8577;color:#FFFFFF\">Partner-held asset</div><div class=\"pn\">37</div></div>\n<div class=\"cs\"><div class=\"n\">9</div><div><div class=\"t\">LemFi</div><div class=\"s\">Nigeria · Cross-border payments for the diaspora</div></div><div class=\"r\" style=\"background:#5B21E6;color:#FFFFFF\">No asset in core</div><div class=\"pn\">39</div></div>\n</div>",
+      "board": "P22"
+    }
+  ],
+  "title": "Case studies: West Africa",
+  "pill": "Section 05",
+  "number": "05",
+  "art": "<svg aria-hidden=\"true\" class=\"sec-art\" focusable=\"false\" viewbox=\"0 0 220 170\">\n<defs><pattern height=\"6\" id=\"P22art-h22t\" patterntransform=\"rotate(-45)\" patternunits=\"userSpaceOnUse\" width=\"6\"><rect fill=\"rgba(255,255,255,.3)\" height=\"6\" width=\"6\"></rect><line stroke=\"#FFFFFF\" stroke-width=\"1.5\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"6\"></line></pattern></defs>\n<path d=\"M20 140 C 60 120, 70 70, 110 76 S 170 40, 196 30\" fill=\"none\" stroke=\"#FFFFFF\" stroke-dasharray=\"5 4\" stroke-width=\"1.8\"></path>\n<path d=\"M28 108 C 16 108, 8 118, 8 130 C 8 146, 28 160, 28 160 C 28 160, 48 146, 48 130 C 48 118, 40 108, 28 108 Z\" fill=\"rgba(255,255,255,.3)\" stroke=\"#FFFFFF\" stroke-width=\"1.8\"></path>\n<circle cx=\"28\" cy=\"130\" fill=\"rgba(255,255,255,.3)\" r=\"6\" stroke=\"#FFFFFF\" stroke-width=\"1.5\"></circle>\n<path d=\"M192 8 C 180 8, 172 18, 172 30 C 172 46, 192 60, 192 60 C 192 60, 212 46, 212 30 C 212 18, 204 8, 192 8 Z\" fill=\"rgba(255,255,255,.3)\" stroke=\"#FFFFFF\" stroke-width=\"1.8\"></path>\n<circle cx=\"192\" cy=\"30\" fill=\"rgba(255,255,255,.3)\" r=\"6\" stroke=\"#FFFFFF\" stroke-width=\"1.5\"></circle>\n<rect fill=\"rgba(255,255,255,.14)\" height=\"40\" rx=\"3\" stroke=\"#FFFFFF\" stroke-width=\"1.8\" width=\"54\" x=\"96\" y=\"96\"></rect>\n<path d=\"M96 108 L150 108\" stroke=\"#FFFFFF\" stroke-width=\"1.4\"></path>\n<text fill=\"#FFFFFF\" font-family=\"Plus Jakarta Sans, Arial\" font-size=\"11\" font-weight=\"800\" text-anchor=\"middle\" x=\"123\" y=\"128\">₦</text>\n</svg>"
+}

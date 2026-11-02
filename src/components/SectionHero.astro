@@ -1,0 +1,19 @@
+---
+// Section opener: the PDF's gradient band with the section number and title.
+import { u } from '../lib/url.js';
+interface Props { number?: string | null; pill?: string | null; title: string; art?: string | null; crumb?: string }
+const { number, pill, title, art } = Astro.props;
+---
+<header class="sec-hero">
+  <div class="wrap">
+    <nav class="crumbs crumbs-light" aria-label="Breadcrumb"><a href={u()}>Home</a><span aria-hidden="true">/</span><span>{title}</span></nav>
+    <div class="sec-hero-grid">
+      <div>
+        {pill && <span class="pill">{pill}</span>}
+        {number && <p class="sec-num" aria-hidden="true">{number}</p>}
+        <h1>{title}</h1>
+      </div>
+      {art && <div class="sec-art-wrap" set:html={art} />}
+    </div>
+  </div>
+</header>
