@@ -62,32 +62,32 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
 
   <header class="case-hero">
     <div class="wrap">
-      <nav class="crumbs" aria-label="Breadcrumb">
+      <nav class="crumbs crumbs-light" aria-label="Breadcrumb">
         <a href={u()}>Home</a><span aria-hidden="true">/</span>
         <a href={u('cases/')}>{c.section} · {c.sectionTitle}</a>
       </nav>
       <div class="case-hero-grid">
-        <div>
-          <span class="pill pill-violet">{c.pill ?? `Case ${c.number} · ${c.country}`}</span>
+        <div class="case-hero-copy">
+          <span class="pill">{c.pill ?? `Case ${c.number} · ${c.country}`}</span>
           <h1><span class="nowrap">{c.name}</span></h1>
           <p class="founders">{c.founders}</p>
-          <ul class="hero-stats" role="list">
-            {c.heroStats.map((s: any) => (
-              <li><b>{s.value}</b><span>{s.label}</span>{s.source && <cite>({s.source})</cite>}</li>
-            ))}
-          </ul>
         </div>
-        {c.art ? <Fragment set:html={c.art} /> : <CaseArt name={c.illustration} />}
+        <div class="art-disc" aria-hidden="true">{c.art ? <Fragment set:html={c.art} /> : <CaseArt name={c.illustration} />}</div>
       </div>
+      <ul class="hero-stats" role="list">
+        {c.heroStats.map((s: any) => (
+          <li><b>{s.value}</b><span>{s.label}</span>{s.source && <cite>({s.source})</cite>}</li>
+        ))}
+      </ul>
     </div>
   </header>
 
   <div class="wrap">
     <dl class="facts">
-      <div><dt>Business</dt><dd set:html={facts.business} /></div>
-      <div><dt>Main investors</dt><dd set:html={facts.investors} /></div>
-      <div><dt>Who carries the asset</dt><dd><span class="chip" data-route={c.facts.route}><span class="sw" aria-hidden="true"></span>{routeLabel}</span><span class="route-long">{c.facts.routeText}</span></dd></div>
-      <div><dt>Status</dt><dd class:list={['status', `tone-${c.facts.statusTone}`]}>
+      <div class="fact"><dt>Business</dt><dd set:html={facts.business} /></div>
+      <div class="fact"><dt>Main investors</dt><dd set:html={facts.investors} /></div>
+      <div class="fact fact-route" data-route={c.facts.route}><dt>Who carries the asset</dt><dd><span class="chip" data-route={c.facts.route}><span class="sw" aria-hidden="true"></span>{routeLabel}</span><span class="route-long">{c.facts.routeText}</span></dd></div>
+      <div class="fact"><dt>Status</dt><dd class:list={['status', `tone-${c.facts.statusTone}`]}>
         {c.statusIcon ? <Fragment set:html={c.statusIcon.replace(/width="12" height="12"/, 'width="14" height="14"').replace(/ style="[^"]*"/, '')} /> : <svg width="14" height="14" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5.5" fill="#0E8577" /><path d="M3.2 6.2 L5.2 8 L8.8 4.2" stroke="#FFFFFF" stroke-width="1.6" fill="none" /></svg>}
         <span set:html={facts.status} />
       </dd></div>

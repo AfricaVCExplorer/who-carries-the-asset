@@ -20,30 +20,30 @@ const pdfAt = `${u(site.pdf)}#page=33`;
 <Base title="Moove: comparator" description="Moove, the comparator: a Lagos-founded vehicle financier whose Nigerian repayments were linked to ride-hailing earnings, read alongside the nine cases." current="cases/">
   <header class="case-hero moove-hero">
     <div class="wrap">
-      <nav class="crumbs" aria-label="Breadcrumb">
+      <nav class="crumbs crumbs-light" aria-label="Breadcrumb">
         <a href={u()}>Home</a><span aria-hidden="true">/</span>
         <a href={u('cases/')}>05 · Comparator: Moove</a>
       </nav>
       <div class="case-hero-grid">
-        <div>
+        <div class="case-hero-copy">
           <span class="pill pill-comparator">Comparator · Nigeria</span>
           <h1>Moove</h1>
           <p class="founders">The Lagos-founded vehicle financier, read alongside the nine cases</p>
-          <ul class="hero-stats" role="list">
-            {c.stats.map((s) => <li><b>{s.value}</b><span>{s.label}</span><cite>({s.source})</cite></li>)}
-          </ul>
         </div>
-        <Fragment set:html={art} />
+        <div class="art-disc" aria-hidden="true"><Fragment set:html={art} /></div>
       </div>
+      <ul class="hero-stats" role="list">
+        {c.stats.map((s) => <li><b>{s.value}</b><span>{s.label}</span><cite>({s.source})</cite></li>)}
+      </ul>
     </div>
   </header>
 
   <div class="wrap">
     <dl class="facts">
-      <div><dt>Business</dt><dd>Financed ride-hailing drivers’ cars</dd></div>
-      <div><dt>Repayment</dt><dd>Linked to drivers’ ride-hailing earnings</dd></div>
-      <div><dt>Who carries the asset</dt><dd><span class="chip" data-route="comparator"><span class="sw" aria-hidden="true"></span>{index.routes.comparator.label}</span><span class="route-long">Own the asset, fund it with debt, repayment linked to one outside platform</span></dd></div>
-      <div><dt>Status</dt><dd class="status">
+      <div class="fact"><dt>Business</dt><dd>Financed ride-hailing drivers’ cars</dd></div>
+      <div class="fact"><dt>Repayment</dt><dd>Linked to drivers’ ride-hailing earnings</dd></div>
+      <div class="fact fact-route" data-route="comparator"><dt>Who carries the asset</dt><dd><span class="chip" data-route="comparator"><span class="sw" aria-hidden="true"></span>{index.routes.comparator.label}</span><span class="route-long">Own the asset, fund it with debt, repayment linked to one outside platform</span></dd></div>
+      <div class="fact"><dt>Status</dt><dd class="status">
         <svg width="14" height="14" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5.5" fill="#A3123A" /><path d="M3.8 3.8 L8.2 8.2 M8.2 3.8 L3.8 8.2" stroke="#FFFFFF" stroke-width="1.6" /></svg>
         Announced the end of Nigerian operations, Oct 2026
       </dd></div>
@@ -77,8 +77,7 @@ const pdfAt = `${u(site.pdf)}#page=33`;
 </Base>
 
 <style>
-  .moove-hero { background: var(--crimson-tint); }
-  .pill-comparator { border: 1.5px dashed var(--r-comparator); color: var(--r-comparator); background: #fff; }
+  .pill-comparator { border: 1.5px dashed #fff; color: #fff; background: rgba(255,255,255,.12); }
   .doc-single { grid-template-columns: minmax(0, 1fr); }
   .doc-single .doc-body { margin: 0 auto; width: 100%; }
   .mq { display: grid; gap: 14px; margin: 8px 0 28px; }
