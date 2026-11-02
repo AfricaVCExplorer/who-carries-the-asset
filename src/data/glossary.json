@@ -1,0 +1,229 @@
+{
+ "intro": "The abbreviations and terms below are used throughout this capstone. Currency amounts are in US dollars unless stated otherwise; dollar equivalents of naira, shilling, pound and euro figures are approximate and use the rates given in the cited reports.",
+ "terms": [
+  {
+   "term": "3PL",
+   "definition": "Third-party logistics: an outside provider that handles delivery and fulfilment on a company’s behalf"
+  },
+  {
+   "term": "ARR",
+   "definition": "Annual recurring revenue"
+  },
+  {
+   "term": "Asset capital",
+   "definition": "Financing for an identifiable asset or receivable (a loan book, devices, payment float, inventory, vehicles or warehouses), as distinct from platform capital"
+  },
+  {
+   "term": "AVCA",
+   "definition": "Africa Private Capital Association (formerly the African Private Equity and Venture Capital Association)"
+  },
+  {
+   "term": "B / bn",
+   "definition": "Billion (e.g. $1.5B)"
+  },
+  {
+   "term": "B2B",
+   "definition": "Business-to-business"
+  },
+  {
+   "term": "BII",
+   "definition": "British International Investment, the UK’s development finance institution (formerly CDC Group)"
+  },
+  {
+   "term": "BMZ",
+   "definition": "German Federal Ministry for Economic Cooperation and Development (Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung)"
+  },
+  {
+   "term": "BNPL",
+   "definition": "Buy-now-pay-later: short-term credit that lets a buyer pay for goods in instalments"
+  },
+  {
+   "term": "CDC",
+   "definition": "CDC Group, former name of British International Investment (BII)"
+  },
+  {
+   "term": "CEO",
+   "definition": "Chief executive officer"
+  },
+  {
+   "term": "CIB",
+   "definition": "Commercial International Bank (Egypt)"
+  },
+  {
+   "term": "COO",
+   "definition": "Chief operating officer"
+  },
+  {
+   "term": "COVID-19",
+   "definition": "Coronavirus disease of 2019"
+  },
+  {
+   "term": "Credit facility",
+   "definition": "A committed borrowing limit from a lender that a company can draw on. A facility is not a loan book, and the amount drawn may be less than the amount available"
+  },
+  {
+   "term": "DFI",
+   "definition": "Development finance institution: a government-backed lender or investor with a development mandate"
+  },
+  {
+   "term": "DPI",
+   "definition": "Development Partners International, an Africa-focused private equity firm"
+  },
+  {
+   "term": "EBRD",
+   "definition": "European Bank for Reconstruction and Development"
+  },
+  {
+   "term": "EGP",
+   "definition": "Egyptian pound"
+  },
+  {
+   "term": "EGX",
+   "definition": "Egyptian Exchange, Egypt’s stock exchange"
+  },
+  {
+   "term": "EIB",
+   "definition": "European Investment Bank"
+  },
+  {
+   "term": "EU",
+   "definition": "European Union"
+  },
+  {
+   "term": "FMO",
+   "definition": "Dutch Entrepreneurial Development Bank (Nederlandse Financierings-Maatschappij voor Ontwikkelingslanden)"
+  },
+  {
+   "term": "FSD Africa",
+   "definition": "Financial Sector Deepening Africa"
+  },
+  {
+   "term": "FX",
+   "definition": "Foreign exchange"
+  },
+  {
+   "term": "GET",
+   "definition": "Grooming Endowment Trust (GET Accelerated programme)"
+  },
+  {
+   "term": "GIZ",
+   "definition": "Deutsche Gesellschaft für Internationale Zusammenarbeit, Germany’s development cooperation agency"
+  },
+  {
+   "term": "GMV",
+   "definition": "Gross merchandise value: the total value of goods sold through a marketplace"
+  },
+  {
+   "term": "HBS",
+   "definition": "Harvard Business School"
+  },
+  {
+   "term": "IFC",
+   "definition": "International Finance Corporation, the private-sector arm of the World Bank Group"
+  },
+  {
+   "term": "IPO",
+   "definition": "Initial public offering"
+  },
+  {
+   "term": "k",
+   "definition": "Thousand (e.g. $405.1k)"
+  },
+  {
+   "term": "KES",
+   "definition": "Kenyan shilling"
+  },
+  {
+   "term": "KfW",
+   "definition": "German state-owned development bank (Kreditanstalt für Wiederaufbau)"
+  },
+  {
+   "term": "KYC",
+   "definition": "Know your customer: identity and risk checks on customers"
+  },
+  {
+   "term": "Loan book",
+   "definition": "The portfolio of loans or receivables a company has extended to customers and carries on its own balance sheet"
+  },
+  {
+   "term": "LP",
+   "definition": "Limited partner: an investor in a venture capital or private equity fund"
+  },
+  {
+   "term": "M",
+   "definition": "Million (e.g. $55M)"
+  },
+  {
+   "term": "M&A",
+   "definition": "Mergers and acquisitions"
+  },
+  {
+   "term": "MBA",
+   "definition": "Master of Business Administration"
+  },
+  {
+   "term": "MUFG",
+   "definition": "Mitsubishi UFJ Financial Group (MUFG Bank)"
+  },
+  {
+   "term": "MWh",
+   "definition": "Megawatt-hour"
+  },
+  {
+   "term": "₦",
+   "definition": "Nigerian naira"
+  },
+  {
+   "term": "PE",
+   "definition": "Private equity"
+  },
+  {
+   "term": "Platform capital",
+   "definition": "Financing for technology, people, licences, compliance and market entry, which create no separable asset a lender can underwrite"
+  },
+  {
+   "term": "POS",
+   "definition": "Point of sale (card and payment terminals)"
+  },
+  {
+   "term": "SAFE",
+   "definition": "Simple agreement for future equity: a convertible instrument that becomes equity at a later priced round"
+  },
+  {
+   "term": "SaaS",
+   "definition": "Software as a service"
+  },
+  {
+   "term": "Securitisation",
+   "definition": "Pooling loans or receivables in a separate vehicle that issues bonds to investors, repaid from the pooled collections"
+  },
+  {
+   "term": "SKU",
+   "definition": "Stock-keeping unit: a distinct product listed for sale"
+  },
+  {
+   "term": "SME",
+   "definition": "Small and medium-sized enterprise"
+  },
+  {
+   "term": "SUV",
+   "definition": "Sport utility vehicle"
+  },
+  {
+   "term": "UAE",
+   "definition": "United Arab Emirates"
+  },
+  {
+   "term": "UK",
+   "definition": "United Kingdom"
+  },
+  {
+   "term": "US / USD",
+   "definition": "United States / United States dollar"
+  },
+  {
+   "term": "VC",
+   "definition": "Venture capital (or venture capitalist)"
+  }
+ ]
+}

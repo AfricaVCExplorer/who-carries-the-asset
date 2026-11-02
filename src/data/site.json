@@ -1,0 +1,36 @@
+{
+  "title": "Who carries the asset?",
+  "subtitle": "How African founders use capital as a strategic tool: nine cases, one framework",
+  "shortSubtitle": "How African founders use capital as a strategic tool",
+  "eyebrow": "A Dream VC capstone project · Investor Accelerator 2026",
+  "period": "July – October 2026",
+  "authors": ["Princess Oti", "Abdullahi Lawal", "Nate Cheruiyot"],
+  "acknowledgements": "We thank our families for their support and encouragement; the Dream VC team, led by Mark and Cindy, for their guidance as the study progressed; and our cohort mates for their camaraderie and peer reviews.",
+  "pdf": "report/who-carries-the-asset-dream-vc-2026.pdf",
+  "pdfLabel": "Download the full report (PDF, 58 pages)",
+  "siteUrl": "https://cheruiyotnate.github.io/who-carries-the-asset/",
+  "citation": "Oti, P., Lawal, A. and Cheruiyot, N. (2026) Who carries the asset? How African founders use capital as a strategic tool: nine cases, one framework. Dream VC Investor Accelerator capstone. Available at: https://cheruiyotnate.github.io/who-carries-the-asset/",
+  "citationTitle": "Who carries the asset? How African founders use capital as a strategic tool: nine cases, one framework",
+  "nav": [
+    { "label": "Summary", "href": "executive-summary/" },
+    { "label": "Method", "href": "methodology/" },
+    { "label": "Cases", "href": "cases/" },
+    { "label": "Synthesis", "href": "synthesis/" },
+    { "label": "Framework", "href": "framework/" },
+    { "label": "Conclusion", "href": "conclusion/" }
+  ],
+  "footerNav": [
+    { "label": "00 Introduction", "href": "introduction/" },
+    { "label": "01 Executive summary", "href": "executive-summary/" },
+    { "label": "02 Methodology", "href": "methodology/" },
+    { "label": "03 Literature review", "href": "literature-review/" },
+    { "label": "04–05 Case studies", "href": "cases/" },
+    { "label": "06 Cross-case synthesis", "href": "synthesis/" },
+    { "label": "07 The framework", "href": "framework/" },
+    { "label": "08 Implications for investors", "href": "implications/" },
+    { "label": "09 Conclusion", "href": "conclusion/" },
+    { "label": "Notes on sources", "href": "notes-on-sources/" },
+    { "label": "References", "href": "references/" },
+    { "label": "Glossary", "href": "glossary/" }
+  ]
+}

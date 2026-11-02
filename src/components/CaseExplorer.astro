@@ -1,0 +1,83 @@
+---
+import CaseCard from './CaseCard.astro';
+import data from '../data/cases.json';
+
+const routes = data.routes as Record<string, { label: string; color: string }>;
+const uniq = (k: 'region' | 'stage' | 'sector' | 'route') => [...new Set(data.cases.map((c) => c[k]))];
+const groups = [
+  { key: 'route', name: 'Route', options: ['debt','deposits','noasset','partner','assetequity'].map((r) => ({ value: r, label: routes[r].label, color: `var(--r-${r})` })) },
+  { key: 'region', name: 'Region', options: uniq('region').map((v) => ({ value: v, label: v })) },
+  { key: 'stage', name: 'Stage', options: ['Scaled', 'Early stage', 'Cautionary'].map((v) => ({ value: v, label: v })) },
+  { key: 'sector', name: 'Sector', options: uniq('sector').map((v) => ({ value: v, label: v })) },
+];
+---
+<div class="explorer" data-explorer>
+  <div class="filters" role="group" aria-label="Filter the nine cases">
+    {groups.map((g) => (
+      <fieldset class="fgroup" data-group={g.key}>
+        <legend>{g.name}</legend>
+        <div class="fopts">
+          {g.options.map((o: any) => (
+            <button type="button" class="fbtn" aria-pressed="false" data-value={o.value}>
+              {o.color && <span class="sw" style={`background:${o.color}`} aria-hidden="true"></span>}
+              {o.label}
+            </button>
+          ))}
+        </div>
+      </fieldset>
+    ))}
+  </div>
+  <div class="fbar">
+    <span role="status" aria-live="polite" data-count>Showing all {data.cases.length} cases</span>
+    <button type="button" class="fclear" data-clear hidden>Clear filters</button>
+  </div>
+
+  <ul class="cards" data-cards>
+    {data.cases.map((c) => <CaseCard c={c} routeLabel={routes[c.route].label} />)}
+  </ul>
+  <p class="empty" data-empty hidden>No case matches every filter. Try removing one.</p>
+
+  <div class="cmp-head">
+    <h3>Read alongside the nine</h3>
+    <p>Moove is a comparator: the seven dimensions were not applied to it, so it sits outside the filters.</p>
+  </div>
+  <ul class="cards">
+    <CaseCard c={data.comparator} routeLabel={routes.comparator.label} comparator />
+  </ul>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-explorer]').forEach((root) => {
+    const cards = [...root.querySelectorAll<HTMLElement>('[data-cards] > .card')];
+    const btns = [...root.querySelectorAll<HTMLButtonElement>('.fbtn')];
+    const count = root.querySelector<HTMLElement>('[data-count]');
+    const clear = root.querySelector<HTMLButtonElement>('[data-clear]');
+    const empty = root.querySelector<HTMLElement>('[data-empty]');
+    const total = cards.length;
+
+    const apply = () => {
+      // OR within a group, AND across groups
+      const active: Record<string, string[]> = {};
+      root.querySelectorAll<HTMLElement>('[data-group]').forEach((g) => {
+        const on = [...g.querySelectorAll<HTMLButtonElement>('.fbtn[aria-pressed="true"]')].map((b) => b.dataset.value!);
+        if (on.length) active[g.dataset.group!] = on;
+      });
+      let shown = 0;
+      cards.forEach((c) => {
+        const ok = Object.entries(active).every(([k, vals]) => vals.includes(c.dataset[k] || ''));
+        c.hidden = !ok;
+        if (ok) shown++;
+      });
+      const any = Object.keys(active).length > 0;
+      if (count) count.textContent = any ? `Showing ${shown} of ${total} cases` : `Showing all ${total} cases`;
+      if (clear) clear.hidden = !any;
+      if (empty) empty.hidden = shown > 0;
+    };
+
+    btns.forEach((b) => b.addEventListener('click', () => {
+      b.setAttribute('aria-pressed', String(b.getAttribute('aria-pressed') !== 'true'));
+      apply();
+    }));
+    clear?.addEventListener('click', () => { btns.forEach((b) => b.setAttribute('aria-pressed', 'false')); apply(); btns[0]?.focus(); });
+  });
+</script>

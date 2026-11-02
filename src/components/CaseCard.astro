@@ -1,0 +1,43 @@
+---
+import { u } from '../lib/url.js';
+interface Stat { value: string; label: string; source: string }
+interface Props {
+  c: { slug: string; number: string; name: string; country: string; region: string; stage: string; sector: string; route: string; business: string; stats: Stat[]; note?: string };
+  routeLabel: string;
+  comparator?: boolean;
+}
+const { c, routeLabel, comparator = false } = Astro.props;
+const href = u(`cases/${c.slug}/`);
+---
+<li
+  class:list={['card', { comparator }]}
+  data-route={c.route}
+  data-region={c.region}
+  data-stage={c.stage}
+  data-sector={c.sector}
+>
+  <div class="body">
+    <div class="meta">
+      <span class="no">{comparator ? 'Comparator' : `Case ${c.number}`}</span>
+      <span>{c.country}</span>
+    </div>
+    <h3><a href={href}>{c.name}</a></h3>
+    <p class="biz">{c.business}</p>
+    <div class="chips">
+      <span class="chip" data-route={c.route}><span class="sw" aria-hidden="true"></span><span class="sr-only">Funding route: </span>{routeLabel}</span>
+      {!comparator && <span class="chip">{c.stage}</span>}
+      {!comparator && <span class="chip">{c.sector}</span>}
+      {comparator && c.note && <span class="chip">{c.note}</span>}
+    </div>
+    <div class="stats">
+      {c.stats.map((s) => (
+        <p class="stat">
+          <span class="v">{s.value}</span>
+          <span class="l">{s.label}</span>
+          <span class="src">({s.source})</span>
+        </p>
+      ))}
+    </div>
+    <span class="go" aria-hidden="true">Read the case</span>
+  </div>
+</li>

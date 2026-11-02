@@ -1,0 +1,163 @@
+---
+import Base from '../layouts/Base.astro';
+import Figure1 from '../components/Figure1.astro';
+import CaseExplorer from '../components/CaseExplorer.astro';
+import site from '../data/site.json';
+import home from '../data/home.json';
+import { makeGloss } from '../lib/gloss.js';
+import { u } from '../lib/url.js';
+
+// Glossary terms are marked on first occurrence, in reading order.
+const g = makeGloss();
+const rq = g.html(home.researchQuestion);
+const subq = g.html(home.subQuestions);
+const f1cap = g.html(home.figure1.caption);
+const findings = home.findings.map((f) => ({ ...f, html: g.html(f.text) }));
+const fwLead = g.html(home.framework.lead);
+const pdf = u(site.pdf);
+---
+<Base description={home.description}>
+
+  <!-- Hero -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="pill">{site.eyebrow}</span>
+        <h1 id="hero-title">{site.title}</h1>
+        <p class="sub">{site.subtitle}</p>
+        <p class="by">{site.authors.join(', ')} <span>· {site.period}</span></p>
+        <div class="ctas">
+          <a class="btn btn-white" href={u('executive-summary/')}>Read the executive summary</a>
+          <a class="btn btn-ghost-white" href={pdf} download>
+            <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 2v10m0 0-4-4m4 4 4-4M3 15h12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download the PDF
+          </a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 320 300">
+          <defs>
+            <pattern id="hh" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="rgba(255,255,255,.18)"/><line x1="0" y1="0" x2="0" y2="7" stroke="#fff" stroke-width="1.6"/></pattern>
+          </defs>
+          <path d="M12 46 C 90 42, 190 50, 308 44" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/>
+          <path d="M160 44 C 162 120, 157 210, 161 292" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/>
+          <rect x="26" y="76" width="112" height="92" rx="4" fill="url(#hh)" stroke="#fff" stroke-width="2.2"/>
+          <rect x="26" y="182" width="112" height="98" rx="4" fill="rgba(255,255,255,.12)" stroke="#fff" stroke-width="2.2"/>
+          <rect x="184" y="76" width="112" height="92" rx="4" fill="url(#hh)" stroke="#fff" stroke-width="2.2"/>
+          <rect x="184" y="182" width="112" height="28" rx="4" fill="rgba(255,255,255,.28)" stroke="#fff" stroke-width="2.2"/>
+          <rect x="184" y="217" width="112" height="28" rx="4" fill="rgba(255,255,255,.12)" stroke="#fff" stroke-width="2.2"/>
+          <rect x="184" y="252" width="112" height="28" rx="4" fill="rgba(255,255,255,.28)" stroke="#fff" stroke-width="2.2"/>
+          <path d="M112 236 C 140 230, 160 214, 182 200" stroke="#fff" stroke-width="2" fill="none" stroke-dasharray="5 4"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research question -->
+  <section class="section" aria-labelledby="rq-title">
+    <div class="wrap rq">
+      <div class="reveal">
+        <span class="lb">The research question</span>
+        <h2 id="rq-title" class="sr-only">The research question</h2>
+        <p class="q" set:html={rq} />
+        <p class="subq" set:html={subq} />
+        <a class="link-arrow" href={u('introduction/')}>Read the introduction</a>
+      </div>
+      <figure class="pq reveal">
+        <blockquote><p>{home.openingQuote}</p></blockquote>
+        <footer>Section 00, Introduction</footer>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Figure 1 -->
+  <section class="section" aria-labelledby="f-title">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="lb">The central distinction</span>
+        <h2 id="f-title">Who carries the asset?<a class="anchor" href="#f-title" aria-label="Link to this section">#</a></h2>
+      </div>
+      <Figure1 number={home.figure1.number} title={home.figure1.title} captionHtml={f1cap} />
+    </div>
+  </section>
+
+  <!-- Findings -->
+  <section class="section" aria-labelledby="findings-title" id="findings">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="lb">Executive summary</span>
+        <h2 id="findings-title">{home.findingsLead}<a class="anchor" href="#findings-title" aria-label="Link to this section">#</a></h2>
+      </div>
+      <ol class="findings" role="list">
+        {findings.map((f, i) => (
+          <li class="finding reveal" data-accent={f.accent}>
+            <span class="n" aria-hidden="true">{i + 1}</span>
+            <div>
+              <h3><span class="sr-only">Finding {i + 1}: </span>{f.title}</h3>
+              <p set:html={f.html} />
+            </div>
+          </li>
+        ))}
+      </ol>
+      <div class="findings-foot">
+        <p class="caveat">{home.findingsNote}</p>
+        <a class="link-arrow" href={u('synthesis/')}>Read the cross-case synthesis</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case explorer -->
+  <section class="section" aria-labelledby="cases-title" id="cases">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="lb">Nine cases</span>
+        <h2 id="cases-title">Explore the cases<a class="anchor" href="#cases-title" aria-label="Link to this section">#</a></h2>
+        <p class="intro">Filter by funding route, region, stage and sector. Five scaled companies, three early-stage companies and one cautionary case, read alongside Moove’s 2026 exit from Nigeria.</p>
+      </div>
+      <CaseExplorer />
+    </div>
+  </section>
+
+  <!-- Framework teaser -->
+  <section class="section on-dark" aria-labelledby="fw-title">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="lb"><span class="num" style="color:#fff">07</span>The framework</span>
+        <h2 id="fw-title">Six questions before choosing capital<a class="anchor" href="#fw-title" aria-label="Link to this section">#</a></h2>
+        <p class="intro" set:html={fwLead} />
+      </div>
+      <ol class="fw-qs reveal" role="list">
+        {home.framework.questions.map((q) => <li>{q}</li>)}
+      </ol>
+      <a class="btn btn-white" href={u('framework/')}>Work through the framework</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" aria-labelledby="about-title" id="about">
+    <div class="wrap about">
+      <div class="reveal">
+        <span class="lb">Authors</span>
+        <h2 id="about-title" class="sr-only">Authors and acknowledgements</h2>
+        <ul class="authors">
+          {site.authors.map((a) => <li>{a}</li>)}
+        </ul>
+        <p class="by" style="font:600 .9375rem/1.5 var(--sans);color:var(--muted)">{site.eyebrow}<br />{site.period}</p>
+      </div>
+      <div class="reveal">
+        <span class="lb">Acknowledgements</span>
+        <p class="ack">{site.acknowledgements}</p>
+        <div class="cite" style="margin-top:28px">
+          <span class="lb" style="margin-bottom:8px">How to cite</span>
+          <p>Oti, P., Lawal, A. and Cheruiyot, N. (2026) <i>{site.citationTitle}</i>. Dream VC Investor Accelerator capstone. Available at: <a href={site.siteUrl}>{site.siteUrl}</a></p>
+          <div class="actions">
+            <button class="btn btn-violet btn-sm" type="button" data-copy={site.citation}>Copy citation</button>
+            <a class="btn btn-ghost btn-sm" href={pdf} download>{site.pdfLabel}</a>
+            <span class="status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</Base>

@@ -1,0 +1,68 @@
+---
+// Figure 1 (PDF page 4): the T-account. SVG redrawn from the report source;
+// below 640px a stacked HTML version with the same content is shown instead.
+interface Props { title: string; captionHtml: string; number: number }
+const { title, captionHtml, number } = Astro.props;
+const label = 'T-account. Left side, what the money pays for: platform capital and asset capital. Right side, who funds it: equity funds the platform; for the asset, the founder leaves it with a partner, owns it and funds it with debt, or owns it and funds it with equity.';
+---
+<figure class="figure reveal" aria-labelledby="f1-title">
+  <p class="ft" id="f1-title">{title}</p>
+  <div class="canvas">
+    <svg class="f1-svg" viewBox="0 0 682 356" role="img" aria-label={label}>
+      <defs>
+        <marker id="f1a" orient="auto" markerWidth="8" markerHeight="8" refX="5" refY="4"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#16132B" stroke-width="1.5" /></marker>
+      </defs>
+      <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="#16132B">
+        <text x="165" y="16" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2">WHAT THE MONEY PAYS FOR</text>
+        <text x="517" y="16" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2">WHO FUNDS IT</text>
+      </g>
+      <rect x="14" y="44" width="300" height="118" rx="3" fill="#E2D8FF" stroke="#16132B" stroke-width="1.8" />
+      <rect x="14" y="176" width="300" height="168" rx="3" fill="#FDDDD7" stroke="#16132B" stroke-width="1.8" />
+      <rect x="368" y="44" width="300" height="118" rx="3" fill="#E2D8FF" stroke="#16132B" stroke-width="1.8" />
+      <rect x="368" y="176" width="300" height="50" rx="3" fill="#D3EFEA" stroke="#16132B" stroke-width="1.8" />
+      <rect x="368" y="235" width="300" height="50" rx="3" fill="#FDDDD7" stroke="#16132B" stroke-width="1.8" />
+      <rect x="368" y="294" width="300" height="50" rx="3" fill="#F6DDE4" stroke="#16132B" stroke-width="1.8" />
+      <path d="M4 31 C 120 28, 260 34, 341 31 S 560 28, 678 32" stroke="#16132B" stroke-width="4" fill="none" stroke-linecap="round" />
+      <path d="M341 30 C 343 130, 339 250, 342 352" stroke="#16132B" stroke-width="4" fill="none" stroke-linecap="round" />
+      <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="#16132B">
+        <rect x="26" y="56" width="276" height="94" fill="#FAF7F0" opacity=".92" />
+        <text x="38" y="80" font-size="17" font-weight="800">Platform capital</text>
+        <text x="38" y="102" font-size="12" font-weight="500">technology, people, licences, market entry</text>
+        <text x="38" y="122" font-size="12" font-weight="500">carries venture risk</text>
+        <rect x="26" y="188" width="276" height="76" fill="#FAF7F0" opacity=".92" />
+        <text x="38" y="212" font-size="17" font-weight="800">Asset capital</text>
+        <text x="38" y="234" font-size="12" font-weight="500">loan books, devices, float, inventory,</text>
+        <text x="38" y="252" font-size="12" font-weight="500">vehicles, warehouses</text>
+        <rect x="380" y="56" width="276" height="62" fill="#FAF7F0" opacity=".92" />
+        <text x="392" y="80" font-size="17" font-weight="800">Equity</text>
+        <text x="392" y="102" font-size="12" font-weight="500">suits the platform</text>
+        <rect x="378" y="188" width="270" height="26" fill="#FAF7F0" opacity=".92" />
+        <text x="388" y="206" font-size="13" font-weight="700">Leave it with a partner</text>
+        <rect x="378" y="247" width="270" height="26" fill="#FAF7F0" opacity=".92" />
+        <text x="388" y="265" font-size="13" font-weight="700">Own it, fund it with debt</text>
+        <rect x="378" y="306" width="270" height="26" fill="#FAF7F0" opacity=".92" />
+        <text x="388" y="324" font-size="13" font-weight="700">Own it, fund it with equity</text>
+      </g>
+      <path d="M250 132 C 300 124, 340 120, 380 130" stroke="#16132B" stroke-width="1.6" fill="none" stroke-dasharray="5 4" marker-end="url(#f1a)" />
+      <path d="M240 300 C 290 290, 320 268, 366 250" stroke="#16132B" stroke-width="1.6" fill="none" stroke-dasharray="5 4" marker-end="url(#f1a)" />
+      <text x="40" y="318" font-family="Source Serif 4, Georgia, serif" font-style="italic" font-weight="600" font-size="15.2" fill="#5B21E6">for each asset, pick one route</text>
+    </svg>
+
+    <div class="f1-html" role="group" aria-label={label}>
+      <div class="col">
+        <p class="col-h">What the money pays for</p>
+        <div class="f1-box f1-v"><div><strong>Platform capital</strong><span>technology, people, licences, market entry</span><span>carries venture risk</span></div></div>
+        <div class="f1-box f1-o"><div><strong>Asset capital</strong><span>loan books, devices, float, inventory, vehicles, warehouses</span></div></div>
+      </div>
+      <div class="col">
+        <p class="col-h">Who funds it</p>
+        <div class="f1-box f1-v"><div><strong>Equity</strong><span>suits the platform</span></div></div>
+        <p class="f1-note">for each asset, pick one route</p>
+        <div class="f1-box f1-t"><div><strong>Leave it with a partner</strong></div></div>
+        <div class="f1-box f1-o"><div><strong>Own it, fund it with debt</strong></div></div>
+        <div class="f1-box f1-r"><div><strong>Own it, fund it with equity</strong></div></div>
+      </div>
+    </div>
+  </div>
+  <figcaption class="cap"><b>Figure {number}</b><span set:html={captionHtml} /></figcaption>
+</figure>

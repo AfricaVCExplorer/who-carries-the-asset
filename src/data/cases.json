@@ -1,0 +1,262 @@
+{
+  "routes": {
+    "debt": {
+      "label": "Own + diversified debt",
+      "long": "Own the asset, fund it with diversified debt",
+      "color": "debt"
+    },
+    "deposits": {
+      "label": "Deposits, banking licence",
+      "long": "Fund it from deposits under a banking licence",
+      "color": "deposits"
+    },
+    "noasset": {
+      "label": "No asset in core",
+      "long": "No financeable asset in the core business",
+      "color": "noasset"
+    },
+    "partner": {
+      "label": "Partner-held asset",
+      "long": "Leave the asset with a partner",
+      "color": "partner"
+    },
+    "assetequity": {
+      "label": "Asset lines + equity",
+      "long": "Own the asset, fund it with equity",
+      "color": "assetequity"
+    },
+    "comparator": {
+      "label": "Debt linked to one platform",
+      "long": "Own the asset, fund it with debt, repayment linked to one outside platform",
+      "color": "comparator"
+    }
+  },
+  "cases": [
+    {
+      "slug": "m-kopa",
+      "number": "1",
+      "name": "M-KOPA",
+      "country": "Kenya",
+      "region": "East & North Africa",
+      "stage": "Scaled",
+      "sector": "Fintech",
+      "route": "debt",
+      "business": "Pay-as-you-go smartphones, solar equipment, loans, insurance",
+      "stats": [
+        {
+          "value": ">$200M",
+          "label": "sustainability-linked debt, May 2023",
+          "source": "TechCrunch, May 2023"
+        },
+        {
+          "value": "$55M",
+          "label": "equity led by Sumitomo Corporation, May 2023",
+          "source": "TechCrunch, May 2023"
+        }
+      ]
+    },
+    {
+      "slug": "mnt-halan",
+      "number": "2",
+      "name": "MNT-Halan",
+      "country": "Egypt",
+      "region": "East & North Africa",
+      "stage": "Scaled",
+      "sector": "Fintech",
+      "route": "debt",
+      "business": "Fintech with logistics roots: digital lending, payments, e-commerce and delivery",
+      "stats": [
+        {
+          "value": "$400M+",
+          "label": "securitised in 2023, in five tranches",
+          "source": "Daba Finance, November 2023"
+        },
+        {
+          "value": "$1.4B",
+          "label": "valuation, June 2026",
+          "source": "Wamda, June 2026"
+        }
+      ]
+    },
+    {
+      "slug": "nala",
+      "number": "3",
+      "name": "NALA",
+      "country": "Tanzania",
+      "region": "East & North Africa",
+      "stage": "Scaled",
+      "sector": "Fintech",
+      "route": "noasset",
+      "business": "Cross-border payments: consumer remittances and Rafiki B2B rails",
+      "stats": [
+        {
+          "value": "$40M",
+          "label": "Series A, July 2024, raised while profitable",
+          "source": "Tech.eu, July 2024"
+        },
+        {
+          "value": "Up to $50M",
+          "label": "credit facility to pre-fund payment corridors, 2026",
+          "source": "TechCabal, May 2026"
+        }
+      ]
+    },
+    {
+      "slug": "sendy",
+      "number": "4",
+      "name": "Sendy",
+      "country": "Kenya",
+      "region": "East & North Africa",
+      "stage": "Cautionary",
+      "sector": "Logistics",
+      "route": "assetequity",
+      "business": "On-demand delivery, then B2B transport, fulfilment and supply",
+      "stats": [
+        {
+          "value": "$20M",
+          "label": "Series B led by Atlantica Ventures, January 2020",
+          "source": "Today Africa, n.d."
+        },
+        {
+          "value": "$100M",
+          "label": "round planned for 2022; it did not close",
+          "source": "The Star, August 2023"
+        }
+      ]
+    },
+    {
+      "slug": "moniepoint",
+      "number": "5",
+      "name": "Moniepoint",
+      "country": "Nigeria",
+      "region": "West Africa",
+      "stage": "Scaled",
+      "sector": "Fintech",
+      "route": "deposits",
+      "business": "Business payments, agency banking and banking services through a licensed microfinance bank",
+      "stats": [
+        {
+          "value": "About $50M",
+          "label": "round led by QED Investors, August 2022",
+          "source": "FT Partners, August 2022"
+        },
+        {
+          "value": "$110M",
+          "label": "Series C, October 2024; valued above $1B",
+          "source": "Pulse 2.0, October 2024"
+        }
+      ]
+    },
+    {
+      "slug": "autogirl",
+      "number": "6",
+      "name": "Autogirl",
+      "country": "Nigeria & Ghana",
+      "region": "West Africa",
+      "stage": "Early stage",
+      "sector": "Logistics",
+      "route": "partner",
+      "business": "Peer-to-peer vehicle rentals: chauffeured and self-drive cars, with boat and jet rentals on request",
+      "stats": [
+        {
+          "value": "12,000+",
+          "label": "rides by 2024",
+          "source": "TechCabal, January 2026"
+        },
+        {
+          "value": "$530,000+",
+          "label": "paid to car owners by 2024",
+          "source": "TechCabal, January 2026"
+        }
+      ]
+    },
+    {
+      "slug": "feegor",
+      "number": "7",
+      "name": "Feegor",
+      "country": "Nigeria",
+      "region": "West Africa",
+      "stage": "Early stage",
+      "sector": "Logistics",
+      "route": "partner",
+      "business": "Wholesale sourcing marketplace and SaaS linking SMEs to manufacturers and major suppliers",
+      "stats": [
+        {
+          "value": "$500,000",
+          "label": "pre-seed sought, February 2024; no close reported",
+          "source": "Disrupt Africa, February 2024"
+        },
+        {
+          "value": "₦50M",
+          "label": "Wema Bank Hackaholics 5.0 prize, late 2024",
+          "source": "Techparley Africa, January 2025"
+        }
+      ]
+    },
+    {
+      "slug": "earthbond",
+      "number": "8",
+      "name": "Earthbond",
+      "country": "Nigeria",
+      "region": "West Africa",
+      "stage": "Early stage",
+      "sector": "Fintech",
+      "route": "partner",
+      "business": "Solar-asset credit marketplace: audits, prequalification, installers, lenders",
+      "stats": [
+        {
+          "value": "~$405k",
+          "label": "three cheques in nine months, March–December 2024; instruments not disclosed",
+          "source": "Launchbase Africa, March 2024; TechCabal, October 2024; VC4A, December 2024"
+        }
+      ]
+    },
+    {
+      "slug": "lemfi",
+      "number": "9",
+      "name": "LemFi",
+      "country": "Nigeria",
+      "region": "West Africa",
+      "stage": "Scaled",
+      "sector": "Fintech",
+      "route": "noasset",
+      "business": "Cross-border payments, accounts and, from 2025, credit products for immigrant communities in Europe and North America",
+      "stats": [
+        {
+          "value": "$33M",
+          "label": "Series A led by Left Lane Capital, August 2023",
+          "source": "FinTech Futures, August 2023"
+        },
+        {
+          "value": "$53M",
+          "label": "Series B led by Highland Europe, January 2025",
+          "source": "LemFi, n.d."
+        }
+      ]
+    }
+  ],
+  "comparator": {
+    "slug": "moove",
+    "number": "Comparator",
+    "name": "Moove",
+    "country": "Nigeria",
+    "region": "West Africa",
+    "stage": "Comparator",
+    "sector": "Vehicle finance",
+    "route": "comparator",
+    "business": "Financed ride-hailing drivers’ cars",
+    "note": "Comparator, not assessed on the seven dimensions",
+    "stats": [
+      {
+        "value": "Oct 2026",
+        "label": "announced the end of its Nigerian operations, a month after Uber left",
+        "source": "Nairametrics, October 2026"
+      },
+      {
+        "value": "~₦35bn",
+        "label": "vehicles transferred to customers at no further cost",
+        "source": "Nairametrics, October 2026; Nation Africa, 2026"
+      }
+    ]
+  }
+}

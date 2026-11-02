@@ -1,0 +1,10 @@
+---
+// The T-account mark from the PDF running head: a T with a violet and a coral leg.
+interface Props { size?: number; stroke?: string; left?: string; right?: string }
+const { size = 18, stroke = '#16132B', left = '#5B21E6', right = '#E8614F' } = Astro.props;
+---
+<svg class="mark-t" width={size} height={Math.round(size * 12 / 14)} viewBox="0 0 14 12" aria-hidden="true" focusable="false">
+  <path d="M1 2.5 H13 M7 2.5 V11" stroke={stroke} stroke-width="1.6" fill="none" stroke-linecap="round" />
+  <rect x="2" y="5" width="3" height="5" fill={left} />
+  <rect x="9" y="5" width="3" height="5" fill={right} />
+</svg>

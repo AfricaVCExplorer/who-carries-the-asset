@@ -1,0 +1,46 @@
+{
+  "description": "A Dream VC 2026 capstone: how nine African fintech and logistics founders used capital as a strategic tool, and a framework for deciding who should carry the asset and its risk.",
+  "researchQuestion": "How have some of Africa’s most successful founders used capital as a strategic tool throughout their growth journey, and what can founders and investors learn from their financing decisions?",
+  "subQuestions": "Two sub-questions follow: how did each company’s financing choices relate to its business model and operating context; and which patterns recur across the cases, where do they break down, and what conditions explain the difference?",
+  "openingQuote": "The founder’s side is less systematically documented: not how much capital was raised, but how it was used strategically.",
+  "figure1": {
+    "number": 1,
+    "title": "Platform capital and asset capital: two jobs, two kinds of money",
+    "caption": "The study’s central distinction. Platform capital funds technology, people, licences and market entry, carries venture risk and suits equity; asset capital funds loan books, devices, float, inventory, vehicles and warehouses. Source: Section 07, Step 1."
+  },
+  "findingsLead": "Four findings stand out",
+  "findings": [
+    {
+      "title": "Who owns and finances the asset shapes the capital strategy",
+      "text": "Its effect depends on cash-flow predictability, lender availability, currency, the contractual allocation of risk and dependence on any single platform or partner. Sendy, which added fulfilment and supply lines funded largely with equity before closing in 2023, and Moove, whose Nigerian vehicle finance was linked to ride-hailing earnings, illustrate the downside; neither outcome has a single cause.",
+      "accent": "violet"
+    },
+    {
+      "title": "Partners first, then the balance sheet",
+      "text": "Several founders left risk with partners until they could price it, then financed assets directly once data and lenders were available; this is a context-dependent heuristic, not a universal progression.",
+      "accent": "teal"
+    },
+    {
+      "title": "Raising from strength",
+      "text": "Founders who raised from strength, such as NALA after reaching profitability, attracted strong syndicates in weak markets, although the terms they obtained are rarely public.",
+      "accent": "coral"
+    },
+    {
+      "title": "Investor selection tracked the stage",
+      "text": "Investor selection tracked each stage’s capital need, the customers’ market and the intended exit.",
+      "accent": "blue"
+    }
+  ],
+  "findingsNote": "The sample is purposive, not representative, and the findings are patterns to test rather than causal laws.",
+  "framework": {
+    "lead": "This section presents the capstone’s main practical output: a sequence of diagnostic questions and stage-by-stage guidance drawn from the cases, so founders can test financing decisions against the evidence and investors can test whether their capital suits the business. It is a decision aid, not a prescription.",
+    "questions": [
+      "What is being financed?",
+      "Who is best placed to own and operate the asset?",
+      "Who should bear the risks?",
+      "What instrument fits?",
+      "What conditions must hold first?",
+      "What happens if a relationship changes?"
+    ]
+  }
+}
