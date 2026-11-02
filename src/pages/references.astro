@@ -27,7 +27,7 @@ const total = groups.reduce((n, g) => n + g.entries.length, 0);
     </div>
     {groups.map((g) => (
       <section class="ref-group" aria-labelledby={g.id}>
-        <h2 id={g.id} class="sec-h">{g.group}<a class="anchor" href={`#${g.id}`} aria-label="Link to this section">#</a></h2>
+        <h2 id={g.id} class="sec-h">{g.group}</h2>
         <ul class="refs">{g.entries.map((e) => <li set:html={e} />)}</ul>
       </section>
     ))}

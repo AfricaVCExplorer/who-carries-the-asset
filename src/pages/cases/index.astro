@@ -31,7 +31,7 @@ const toc = [...regions.map((r) => ({ id: r.id, label: `${r.number} · ${r.title
     {regions.map((r) => (
       <section aria-labelledby={r.id} class="region">
         <p class="lb">Section {r.number} · Geographies covered: {r.geographies}</p>
-        <h2 id={r.id} class="sec-h">{r.title}<a class="anchor" href={`#${r.id}`} aria-label="Link to this section">#</a></h2>
+        <h2 id={r.id} class="sec-h">{r.title}</h2>
         {r.introHtml.map((p) => <p set:html={p} />)}
         <ol class="case-rows" role="list">
           {r.rows.map((row: any) => (
@@ -47,7 +47,7 @@ const toc = [...regions.map((r) => ({ id: r.id, label: `${r.number} · ${r.title
       </section>
     ))}
     <section aria-labelledby="explore" class="region">
-      <h2 id="explore" class="sec-h">Filter all cases<a class="anchor" href="#explore" aria-label="Link to this section">#</a></h2>
+      <h2 id="explore" class="sec-h">Filter all cases</h2>
       <CaseExplorer />
     </section>
   </DocShell>

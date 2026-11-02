@@ -6,7 +6,7 @@ const { blocks } = Astro.props;
 ---
 {blocks.map((b: any) => {
   if (b.type === 'label') return <p class="lb sec-lb">{b.text}</p>;
-  if (b.type === 'h') return <h2 id={b.id} class:list={['sec-h', { 'sec-h3': b.level === 3 && b.minor }]}>{b.title}<a class="anchor" href={`#${b.id}`} aria-label="Link to this section">#</a></h2>;
+  if (b.type === 'h') return <h2 id={b.id} class:list={['sec-h', { 'sec-h3': b.level === 3 && b.minor }]}>{b.title}</h2>;
   if (b.type === 'p') return <p class:list={{ 'lead-in': b.lead }} set:html={b.out} />;
   if (b.type === 'list') return <ul class="sec-list">{b.out.map((li: string) => <li set:html={li} />)}</ul>;
   if (b.type === 'quote') return <figure class="pq reveal"><blockquote><p>{b.text}</p></blockquote></figure>;

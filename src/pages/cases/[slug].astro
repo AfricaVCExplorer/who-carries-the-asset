@@ -103,12 +103,12 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
 
       <article class="doc-body">
         <section aria-labelledby="why">
-          <h2 id="why">{c.whyTitle ?? 'Why this founder'}<a class="anchor" href="#why" aria-label="Link to this section">#</a></h2>
+          <h2 id="why">{c.whyTitle ?? 'Why this founder'}</h2>
           {why.map((p: string) => <p set:html={p} />)}
         </section>
 
         <section aria-labelledby="journey">
-          <h2 id="journey">{c.journey.title}<a class="anchor" href="#journey" aria-label="Link to Funding journey">#</a></h2>
+          <h2 id="journey">{c.journey.title}</h2>
           {journeyRaw ? (
             <RawFigure number={journeyRaw.number} html={journeyRaw.html} board={journeyRaw.board} captionHtml={journeyCap} alt={journeyRaw.alt} />
           ) : (
@@ -139,7 +139,7 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
         <section aria-labelledby="analysis-label">
           <p class="lb" id="analysis-label">{c.analysisLabel}</p>
           {blocks.map((b: any, i: number) => {
-            if (b.type === 'h') return <h2 id={b.id} class="h-analysis">{b.title}{b.sub && <span>: {b.sub}</span>}<a class="anchor" href={`#${b.id}`} aria-label={`Link to ${b.title}`}>#</a></h2>;
+            if (b.type === 'h') return <h2 id={b.id} class="h-analysis">{b.title}{b.sub && <span>: {b.sub}</span>}</h2>;
             if (b.type === 'p' && b.lead) return <p class="lead-p"><strong id={b.id}>{b.lead}</strong> <Fragment set:html={b.html} /></p>;
             if (b.type === 'p') return <p set:html={b.html} />;
             if (b.type === 'dims') return (
@@ -156,7 +156,7 @@ const routeLabel = (index.routes as any)[c.facts.route]?.label;
         </section>
 
         <section class="lessons" aria-labelledby="lessons">
-          <h2 id="lessons" class="lb-h">Key lessons for founders &amp; investors<a class="anchor" href="#lessons" aria-label="Link to Key lessons">#</a></h2>
+          <h2 id="lessons" class="lb-h">Key lessons for founders &amp; investors</h2>
           <ol role="list">
             {lessons.map((l: string, i: number) => <li><span class="n" aria-hidden="true">{i + 1}</span><p set:html={l} /></li>)}
           </ol>
