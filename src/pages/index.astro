@@ -25,7 +25,7 @@ const pdf = u(site.pdf);
         <span class="pill">{site.eyebrow}</span>
         <h1 id="hero-title">{site.title}</h1>
         <p class="sub">{site.subtitle}</p>
-        <p class="by">{site.authors.join(', ')} <span>· {site.period}</span></p>
+        <p class="by">{site.authors.join(', ')}<br /><span>{site.period}</span></p>
         <div class="ctas">
           <a class="btn btn-white" href={u('executive-summary/')}>Read the executive summary</a>
           <a class="btn btn-ghost-white" href={pdf} download>
